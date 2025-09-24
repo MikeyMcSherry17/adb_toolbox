@@ -1,0 +1,1818 @@
+Wi-Fi is enabled
+Verbose logging is off
+Stay-awake conditions: 0
+mInIdleMode false
+mScanPending false
+WifiController:
+ total records=4
+ rec[0]: time=04-10 11:34:48.040 processed=StaDisabledWithScanState org=StaDisabledWithScanState dest=<null> what=155656(0x26008)
+ rec[1]: time=04-10 11:34:48.546 processed=StaDisabledWithScanState org=StaDisabledWithScanState dest=<null> what=155659(0x2600b)
+ rec[2]: time=04-10 11:34:48.546 processed=StaDisabledWithScanState org=StaDisabledWithScanState dest=StaEnabledState what=155656(0x26008)
+ rec[3]: time=04-10 11:34:50.469 processed=DefaultState org=StaEnabledState dest=<null> what=155655(0x26007)
+curState=StaEnabledState
+mPersistWifiState 1
+mAirplaneModeOn false
+mTxPkts 204
+mRxPkts 528
+mDataActivity 1
+mRegisteredCallbacks 1
+
+Locks held:
+Locks acquired: 0 full high perf, 0 full low latency
+Locks released: 0 full high perf, 0 full low latency
+
+Locks held:
+
+mMulticastEnabled 0
+mMulticastDisabled 0
+Multicast Locks held:
+
+Dump of WifiActiveModeWarden
+Current wifi mode: ClientModeActiveState
+NumActiveModeManagers: 1
+--Dump of ClientModeManager--
+current StateMachine mode: StartedState
+mClientInterfaceName: wlan0
+mIfaceIsUp: true
+
+WifiClientModeImpl:
+ total records=469
+ rec[0]: time=04-10 11:42:09.914 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[1]: time=04-10 11:42:09.914 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[2]: time=04-10 11:42:09.915 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[3]: time=04-10 11:42:09.917 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[4]: time=04-10 11:42:09.923 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[5]: time=04-10 11:42:09.926 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[6]: time=04-10 11:42:09.927 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[7]: time=04-10 11:42:10.252 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[8]: time=04-10 11:42:10.254 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[9]: time=04-10 11:42:19.952 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[10]: time=04-10 11:42:19.953 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[11]: time=04-10 11:42:19.953 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[12]: time=04-10 11:42:19.955 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[13]: time=04-10 11:42:19.961 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[14]: time=04-10 11:42:19.964 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[15]: time=04-10 11:42:19.964 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[16]: time=04-10 11:42:20.291 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[17]: time=04-10 11:42:20.292 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[18]: time=04-10 11:42:29.944 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[19]: time=04-10 11:42:29.945 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[20]: time=04-10 11:42:29.946 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[21]: time=04-10 11:42:29.947 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[22]: time=04-10 11:42:29.955 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[23]: time=04-10 11:42:29.958 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[24]: time=04-10 11:42:29.959 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[25]: time=04-10 11:42:30.283 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[26]: time=04-10 11:42:30.286 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[27]: time=04-10 11:42:39.866 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[28]: time=04-10 11:42:39.867 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[29]: time=04-10 11:42:39.868 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[30]: time=04-10 11:42:39.870 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[31]: time=04-10 11:42:39.877 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[32]: time=04-10 11:42:39.882 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[33]: time=04-10 11:42:39.883 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[34]: time=04-10 11:42:40.207 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[35]: time=04-10 11:42:40.209 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[36]: time=04-10 11:42:49.954 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[37]: time=04-10 11:42:49.955 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[38]: time=04-10 11:42:49.955 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[39]: time=04-10 11:42:49.957 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[40]: time=04-10 11:42:49.964 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[41]: time=04-10 11:42:49.967 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[42]: time=04-10 11:42:49.969 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[43]: time=04-10 11:42:50.285 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[44]: time=04-10 11:42:50.287 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[45]: time=04-10 11:42:59.944 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[46]: time=04-10 11:42:59.945 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[47]: time=04-10 11:42:59.945 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[48]: time=04-10 11:42:59.947 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[49]: time=04-10 11:42:59.955 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[50]: time=04-10 11:42:59.958 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[51]: time=04-10 11:42:59.959 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[52]: time=04-10 11:43:00.278 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[53]: time=04-10 11:43:00.281 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[54]: time=04-10 11:43:09.962 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[55]: time=04-10 11:43:09.963 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[56]: time=04-10 11:43:09.964 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[57]: time=04-10 11:43:09.965 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[58]: time=04-10 11:43:09.970 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[59]: time=04-10 11:43:09.973 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[60]: time=04-10 11:43:09.973 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[61]: time=04-10 11:43:10.301 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[62]: time=04-10 11:43:10.303 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[63]: time=04-10 11:43:19.954 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[64]: time=04-10 11:43:19.955 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[65]: time=04-10 11:43:19.955 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[66]: time=04-10 11:43:19.957 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[67]: time=04-10 11:43:19.963 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[68]: time=04-10 11:43:19.966 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[69]: time=04-10 11:43:19.967 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[70]: time=04-10 11:43:20.291 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[71]: time=04-10 11:43:20.293 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[72]: time=04-10 11:43:24.853 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[73]: time=04-10 11:43:24.854 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[74]: time=04-10 11:43:24.855 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[75]: time=04-10 11:43:24.857 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[76]: time=04-10 11:43:24.863 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[77]: time=04-10 11:43:24.866 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[78]: time=04-10 11:43:24.867 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[79]: time=04-10 11:43:25.188 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[80]: time=04-10 11:43:25.189 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[81]: time=04-10 11:43:30.004 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[82]: time=04-10 11:43:30.005 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[83]: time=04-10 11:43:30.005 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[84]: time=04-10 11:43:30.007 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[85]: time=04-10 11:43:30.013 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[86]: time=04-10 11:43:30.017 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[87]: time=04-10 11:43:30.017 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[88]: time=04-10 11:43:30.335 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[89]: time=04-10 11:43:30.337 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[90]: time=04-10 11:43:39.954 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[91]: time=04-10 11:43:39.954 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[92]: time=04-10 11:43:39.955 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[93]: time=04-10 11:43:39.957 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[94]: time=04-10 11:43:39.964 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_ALL_MATCHING_FQDNS_FOR_SCAN_RESULTS screen=on uid=1000 0 0
+ rec[95]: time=04-10 11:43:39.967 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[96]: time=04-10 11:43:39.968 processed=ConnectModeState org=ConnectedState dest=<null> what=CMD_GET_MATCHING_PASSPOINT_CONFIGS_FOR_OSU_PROVIDERS screen=on uid=1000 0 0
+ rec[97]: time=04-10 11:43:40.292 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=1
+ rec[98]: time=04-10 11:43:40.294 processed=DefaultState org=ConnectedState dest=<null> what=CMD_GET_PASSPOINT_CONFIGS screen=on uid=1000 0 0
+ rec[99]: time=04-10 11:43:44.902 processed=L2ConnectedState org=ConnectedState dest=<null> what=CMD_ONESHOT_RSSI_POLL screen=on 0 0 "Michael fast " d8:47:32:eb:e5:9f rssi=-46 f=5240 sc=60 link=433 tx=0.0, 0.0, 0.0  rx=3.7 bcn=1074 [on:58904 tx:0 rx:0 period:137205] from screen [on:95455 period:109716] score=60
+curState=ConnectedState
+SupplicantStateTracker:
+ total records=6
+ rec[0]: time=04-10 11:34:52.973 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+ rec[1]: time=04-10 11:45:48.217 processed=DefaultState org=UninitializedState dest=DisconnectedState what=147462(0x24006)
+ rec[2]: time=04-10 11:45:48.221 processed=DefaultState org=DisconnectedState dest=InactiveState what=147462(0x24006)
+ rec[3]: time=04-10 11:45:48.222 processed=DefaultState org=InactiveState dest=ScanState what=147462(0x24006)
+ rec[4]: time=04-10 11:45:50.929 processed=DefaultState org=ScanState dest=HandshakeState what=147462(0x24006)
+ rec[5]: time=04-10 11:45:51.232 processed=DefaultState org=HandshakeState dest=CompletedState what=147462(0x24006)
+curState=CompletedState
+mAuthFailureInSupplicantBroadcast false
+mAuthFailureReason 0
+mNetworksDisabledDuringConnect false
+
+mLinkProperties {InterfaceName: wlan0 LinkAddresses: [ fe80::b850:74ff:fe94:4217/64,192.168.0.129/24 ] DnsAddresses: [ /194.168.4.100,/194.168.8.100 ] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0,192.168.0.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.0.1 wlan0 ]}
+mWifiInfo SSID: Michael fast , BSSID: d8:47:32:eb:e5:9f, MAC: ba:50:74:94:42:17, Supplicant state: COMPLETED, Wifi Generation: 5, HE Eight Max VHT Spatial Streams Support: false, Eight Max VHT Spatial streams support: false, RSSI: -46, Link speed: 433Mbps, Tx Link speed: 433Mbps, Rx Link speed: -1Mbps, Frequency: 5240MHz, Net ID: 0, Metered hint: false, score: 60
+mDhcpResults android.net.DhcpResults@dc159b1 DHCP server /192.168.0.1 Vendor info null lease 86400 seconds Servername 
+mNetworkInfo [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+mLastSignalLevel 4
+mLastBssid d8:47:32:eb:e5:9f
+mLastNetworkId 0
+mOperationalMode 1
+mUserWantsSuspendOpt true
+mSuspendOptNeedsDisabled 4
+mRevertCountryCodeOnCellularLoss: false
+mDefaultCountryCode: CN
+mDriverCountryCode: GB
+mTelephonyCountryCode: GB
+mTelephonyCountryTimestamp: 04-10 11:34:54.797
+mDriverCountryTimestamp: 04-10 11:34:54.797
+mReadyTimestamp: 04-10 11:45:51.119
+mReady: false
+{WifiNetworkFactory - mSerialNumber=5, ScoreFilter=60, Filter=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <android.net.MatchAllNetworkSpecifier@0>], requests=7, refCount=0}
+  {NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=60, requested=true}
+  {NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=0, requested=false}
+  {NetworkRequest [ REQUEST id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=60, requested=true}
+  {NetworkRequest [ TRACK_DEFAULT id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 1000] ], score=60, requested=true}
+  {NetworkRequest [ TRACK_DEFAULT id=12, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10034] ], score=60, requested=true}
+  {NetworkRequest [ REQUEST id=18, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 1000] ], score=60, requested=true}
+  {NetworkRequest [ REQUEST id=20, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 10059] ], score=60, requested=true}
+WifiNetworkFactory: mGenericConnectionReqCount 6
+WifiNetworkFactory: mActiveSpecificNetworkRequest null
+WifiNetworkFactory: mUserApprovedAccessPointMap {}
+{UntrustedWifiNetworkFactory - mSerialNumber=6, ScoreFilter=2147483647, Filter=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <android.net.MatchAllNetworkSpecifier@0>], requests=7, refCount=0}
+  {NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=60, requested=true}
+  {NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=0, requested=false}
+  {NetworkRequest [ REQUEST id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=60, requested=true}
+  {NetworkRequest [ TRACK_DEFAULT id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 1000] ], score=60, requested=true}
+  {NetworkRequest [ TRACK_DEFAULT id=12, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10034] ], score=60, requested=true}
+  {NetworkRequest [ REQUEST id=18, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 1000] ], score=60, requested=true}
+  {NetworkRequest [ REQUEST id=20, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 10059] ], score=60, requested=true}
+UntrustedWifiNetworkFactory: mConnectionReqCount 0
+Wlan Wake Reasons:null
+
+Dump of WifiConfigManager
+WifiConfigManager - Log Begin ----
+2025-04-10T11:34:53.213 - clearInternalData: Clearing all internal data
+2025-04-10T11:45:47.597 - addOrUpdateNetworkInternal: added/updated config. netId=0 configKey="Michael fast "WPA_PSK uid=1000 name=android.uid.system:1000
+2025-04-10T11:45:47.683 - setNetworkSelectionStatus: configKey="Michael fast "WPA_PSK networkStatus=NETWORK_SELECTION_ENABLED disableReason=NETWORK_SELECTION_ENABLE at=time=04-10 11:45:47.683
+2025-04-10T11:45:47.792 - setNetworkSelectionStatus: configKey="Michael fast "WPA_PSK networkStatus=NETWORK_SELECTION_ENABLED disableReason=NETWORK_SELECTION_ENABLE at=time=04-10 11:45:47.791
+2025-04-10T11:41:03.162 - setNetworkSelectionStatus: configKey="Michael fast "WPA_PSK networkStatus=NETWORK_SELECTION_ENABLED disableReason=NETWORK_SELECTION_ENABLE at=time=04-10 11:41:03.161
+WifiConfigManager - Log End ----
+WifiConfigManager - Configured networks Begin ----
+ID: 0 SSID: "Michael fast " PROVIDER-NAME: null BSSID: null FQDN: null PRIO: 0 HIDDEN: false PMF: false OWE Transition mode Iface: null linked network ID: -1
+ NetworkSelectionStatus NETWORK_SELECTION_ENABLED
+ hasEverConnected: true
+ numAssociation 1
+ update time=04-10 11:45:47.535
+ creation time=04-10 11:45:47.535
+ validatedInternetAccess trusted
+ macRandomizationSetting: 1
+ mRandomizedMacAddress: ba:50:74:94:42:17
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms: OPEN
+ PairwiseCiphers: TKIP CCMP GCMP_256
+ GroupCiphers: WEP40 WEP104 TKIP CCMP GCMP_256
+ GroupMgmtCiphers:
+ SuiteBCiphers: ECDHE_ECDSA
+ PSK/SAE: *
+Enterprise config:
+
+DPP config:
+IP config:
+IP assignment: DHCP
+Proxy settings: NONE
+ cuid=1000 cname=android.uid.system:1000 luid=1000 lname=android.uid.system:1000 lcuid=1000 userApproved=USER_UNSPECIFIED noInternetAccessExpected=false 
+lastConnected: 04-10 11:45:53.308 
+recentFailure: Association Rejection code: 0
+ShareThisAp: false
+wifi id: 0
+
+WifiConfigManager - Configured networks End ----
+WifiConfigManager - Next network ID to be allocated 1
+WifiConfigManager - Last selected network ID 0
+WifiConfigManager - PNO scan frequency culling enabled = true
+WifiConfigManager - PNO scan recency sorting enabled = true
+Dump of WifiConfigStore
+WifiConfigStore - Store Data Begin ----
+StoreData => Name: NetworkList, File Id: 0, File Name: WifiConfigStore.xml
+StoreData => Name: NetworkList, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: DeletedEphemeralSSIDList, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: MacAddressMap, File Id: 0, File Name: WifiConfigStore.xml
+StoreData => Name: NetworkSuggestionMap, File Id: 2, File Name: WifiConfigStoreNetworkSuggestions.xml
+StoreData => Name: PasspointConfigData, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: PasspointConfigData, File Id: 0, File Name: WifiConfigStore.xml
+StoreData => Name: OpenNetworkNotifierBlacklistConfigData, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: CarrierNetworkNotifierBlacklistConfigData, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: NetworkRequestMap, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: WakeupConfigStoreData, File Id: 1, File Name: WifiConfigStore.xml
+WifiConfigStore - Store Data End ----
+
+Dump of PasspointManager
+PasspointManager - Providers Begin ---
+PasspointManager - Providers End ---
+PasspointManager - Next provider ID to be assigned 0
+Last sweep 0:03:01.824 ago.
+
+Chipset information :-----------------------------------------------
+FW Version is: CNSS-PR-4-0-3-0000289
+Driver Version is: 3.0.11.85.9
+Supported Feature set: -1
+--------------------------------------------------------------------
+Bug dump 0
+system time = 04-10 11:42:06.803
+kernel time = 469.273
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of main
+04-10 11:40:43.139  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:40:43.139  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:40:43.139  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:40:43.139  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:40:43.139  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:40:43.158  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:40:59.803  2702  3146 I .dataacqservic: Explicit concurrent copying GC freed 1525(274KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 1007KB/2543KB, paused 139us total 16.232ms
+--------- beginning of system
+04-10 11:40:59.999  1136  1548 V AlarmManager: j7wJ40+mi2AcOeYz8Siywqv4Lu3f7kJrcFxfjFkLFcekPsTdiE7UX+fZIwx2KucJNt8IDjz/7x64Zd/8bIGq9w==
+04-10 11:40:59.999  1136  1548 V AlarmManager: K7OggPjqeERSPCs+77hNgI7AkFASe9nO8YzTff8lF2Avl7dx8NnyM7LOGtvUeQwckbsC7BNKekrDUjgBQsOOpg==
+04-10 11:41:08.338  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:41:08.340  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:08.340  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:41:08.340  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:08.340  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:41:08.340  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:41:08.341  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:41:08.361  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:13.378  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:41:13.379  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:13.379  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:41:13.379  1622  1622 I chatty  : uid=10034(com.android.systemui) expire 1 line
+04-10 11:41:13.379  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:13.379  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:41:13.379  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:41:13.398  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:55.116  1136  1552 I PowerManagerService: vgjl3UtXPoZHfqAcXS0AUW4MbHAOuc3n0eOC5ph3YoL7eZujbRJh4MX82JJecPEpsQxi6R6UslawfXHmcRqBOBezNclz3aqRxwu+8fVIdIN9sg27a1M/q9/LZmdbIDQMC7ag8hm/OjsTt/+h1LXVqA==
+04-10 11:41:55.117  1136  1136 W UsageStatsService: jNfMiVVuqTfm7CTK+cf1dbHs70/vo8Gcv6isU6Yz1NSbjVpkhH/7uWRtiJdpjceJtNNUUVaZ1IQQcHgi3unqHA==
+04-10 11:41:55.120  1136  1286 I DisplayPowerController: Zp8dQ6rOvFQN0uIiKYoxEZuYI04sF4eqrApouOxgkpdec61VNNIBM3T1XKafCNZ+t0wMBWwwb5mQZ1J6ATqH5g==
+04-10 11:41:55.121  1136  1286 D ActivityTaskManager: O0xpT+7NloG4Z/OMOC9jQRcU/CtJjmU65LRY6YNUH4uvv0Zt0+nn8C426YqTM9ue
+04-10 11:41:55.134  1622  2103 D KeyguardViewMediator: notifyScreenOn
+04-10 11:41:55.134  1136  1270 E KernelCpuSpeedReader: eiCF8pX+2u9jXxOtCQPqJlSMRXKLDxbN5emebYuQ/hCpJU5Zc8bJeuJtTnF5J0NKRCuUMlbnjWJVS4bq5GEOneqmkL89qszvv2dJwm3FzTpwt+etVEgR28Y6RkLEfci2vW4fZE3w6X4dhadl+7caedvRrjpfKy9NnlZqVLrC4Qb0p+Z87y1fVEAf2luxfra/
+04-10 11:41:55.134  1622  1622 D KeyguardViewMediator: handleNotifyScreenTurningOn
+04-10 11:41:55.147  1136  1286 V DisplayPowerController: 5e07HcZ/tE6X/MbgC0/2L7AyTa5PzxI5oHM0W07C4EYzhB+N32swIjpGh7gemiI/8ogsLSNWEMV4QnKJTzgr8R5JudSou57f9RUPW6tES3U=
+04-10 11:41:55.149  1622  2103 D KeyguardViewMediator: onStartedWakingUp, seq = 2
+04-10 11:41:55.149  1622  2103 D KeyguardViewMediator: notifyStartedWakingUp
+04-10 11:41:55.150  1622  1622 D KeyguardViewMediator: handleNotifyWakingUp
+04-10 11:41:55.150  1622  1622 V KeyguardStatusView: Schedule setEnableMarquee: Enable
+04-10 11:41:55.151  1136  1136 V AlarmManager: 79xwGzh/Eydgx94mZCecUPsI9fe5jD58ZQqvR549kciI9uwz+JyLBnAyTxHTJGqpvvgb4A+F6YRwzuRpFTI0xA==
+04-10 11:41:55.151  1136  1136 V AlarmManager: uywD0+P5zBgjYwVd+GDDiVf05D5268YjXQ+CPo7LBp9KD5Ybr1JW96O3q/rnR4JgkUXptEffbAStLpUomYN/gYtCUy/+Qyx/QPY5LYxPwbw=
+04-10 11:41:55.151  1136  1136 V AlarmManager: ro5+7qDQABhngNONz/BJ1hEhdwDaiu3d6RvbgtPlKBmVKuyEIegKVZqmhrBG7kGL
+04-10 11:41:55.151  1136  1136 V AlarmManager: uRi4p/nPbA6RNLcaJYp21+xNnMZWUWfK3m43gePE2LWu2NDolHPZ5jTHMutOQnjcrAS7sos1zGFD69ZT/uu/xFSuE21y7pviXom4PIhAaSjFkHpSmxlgC3ez62i1zSkycieJclGH9c2r8ZNTxuhncw==
+04-10 11:41:55.152   614   614 I QTI PowerHAL: Got set_interactive hint
+04-10 11:41:55.152   614   614 I QTI PowerHAL: Got set_interactive hint on= 1, count= 3
+04-10 11:41:55.152   614   614 E QTI PowerHAL: Error opening /sys/kernel/hbtp/display_pwr: No such file or directory
+04-10 11:41:55.153   630   630 D SurfaceFlinger: Setting power mode 2 on display 0
+04-10 11:41:55.153   422   422 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+04-10 11:41:55.154   609   823 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+04-10 11:41:55.154  1136  1652 E ANDR-PERF-JNI: UXEngine Trigger - Returning null
+04-10 11:41:55.161  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD5YJxCU8mbCTeqfxq9hqP90=
+04-10 11:41:55.163  1136  1136 I AlarmManager: saeH6It7rqTJYCgVeHZlaEevG8vHPLARkzNMsS7zt7LVjl/JDY7M3T0V+tTDabuP8+6+FG/guF4o8vgM8c+Tw0K9jmKRTpkFZmP0gIRYzUU=
+04-10 11:41:55.163  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD434MypbpFEpw6AFKdmsXjw=
+04-10 11:41:55.172  2605  2605 D NfcService: MSG_APPLY_SCREEN_STATE 8
+04-10 11:41:55.186  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+04-10 11:41:55.186  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+04-10 11:41:55.191   819  2268 I !MCSER! : TRANSACT | receive transaction code :300
+04-10 11:41:55.191   819  2268 I !MCSER! : ================ON FOREGROUND CHANGED =================
+04-10 11:41:55.192  2831  2854 I MC HELPER: onTransact code:24
+04-10 11:41:55.192  1136  1226 I DisplayManagerService: Y2D0ExhXIHRVjvrhWlw5ZCqO94JNJJ4nW2ThMgPy6ZPVn8YLvHjnrleaGOLk4KQxajR0FjFP28mO+KV21mN7Ig==
+04-10 11:41:55.194   601  1080 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+04-10 11:41:55.194   601  1080 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+04-10 11:41:55.194   601  1080 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+04-10 11:41:55.206  1136  1136 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:55.206  1136  1136 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+Phh+3x2uYjRikIFgLr3sfH2mCZ7jWt8Wvb+c8b78qYa4FOKCPrfaMAb8G/1IoXaa9phIqKPN55p68PIjNYD4mWA==
+04-10 11:41:55.206  1136  1136 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH9Xqw9+HkAxkMO6Q/jPbGMdHeJM6ejN4eH9K/rATPZD7reRbcAdXm73DjqcVYPQo8yRAGvBkORAahH1FEpYuotQ=
+04-10 11:41:55.207  2831  2854 D MC HELPER: pid: 1972 pkgName: com.android.launcher3  Label: Quickstep
+04-10 11:41:55.208  1136  1563 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f0Z30OIDrVT0Fm6PUS6IhgFtxUp71WiNXC6qoGBkAi0m37yFH0mgLRG7fEPPbemQmi/iJFCA9rJCm6+5cMbficAUfGf3gZDbYa20SG1LiYVhQ==
+04-10 11:41:55.231  1622  1622 D KeyguardUpdateMonitor: handleTimeUpdate
+04-10 11:41:55.232  1622  1622 D KeyguardUpdateMonitor: handleTimeUpdate
+04-10 11:41:55.233  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:55.235  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f1xbtRtq+C/osQPBtPGOLKKlwseXW24dc5a7HGiJ8WyA6y+Pcgy0BWVBfwtKj9CECIy/ZomivzSfw29/ZG0ewO/h9NuLCgr/KK90Q0xa0QJmQ==
+04-10 11:41:55.239  1136  1286 I DisplayPowerController: 0/c2/fNnia6XWTm3mli4+nfzWkRJL7L20PDDVEBEnmYmiYYJrMDD+klJKkx/0/1+
+04-10 11:41:55.240  1136  1565 V AlarmManager: WKkvTwufn9e5nebK/w+ibyrJLJdwLTvrpqczzW1aZJVFH5JbzME7XXfKlBLBQqcwO5DNn2Q6QjZXPGF+rtgJLDqLYDr1KMtwILwjmYfh58aSXqy790hsjmTF6d3fseNlOybFEirxOLTy+jHZIul/kA==
+04-10 11:41:55.240  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFHy9ODsLPQIhap41k9f95J57GMgpXifvUEfrJcT69sKYyxvNz1ugIwsLGTLnMYtqHCLwOOk3Xq3ugRyUsvZTYLy4=
+04-10 11:41:55.261  2605  2605 D NfcService: MSG_APPLY_SCREEN_STATE 8
+04-10 11:41:55.681   630   630 D SurfaceFlinger: Finished setting power mode 2 on display 0
+04-10 11:41:55.681  1136  1594 D SurfaceControl: Excessive delay in setPowerMode()
+04-10 11:41:55.682  1136  1286 W PowerManagerService: CPG8xObU/ihBTuCR3idtzft5gCPZCJZgzxXACcPfLTQ=
+04-10 11:41:55.685  1622  3354 D KeyguardViewMediator: notifyScreenTurnedOn
+04-10 11:41:55.686  1622  1622 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+04-10 11:41:57.152  1622  1622 V KeyguardStatusView: Enable transport text marquee
+04-10 11:41:58.068  1136  2578 D WificondControl: Scan result ready event
+04-10 11:41:58.068  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:58.069  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+PtDD1Fv3erGbO4ms8HkUUOHQTp1fzVyVNpz/9se6uDYjsfN+gVi8mxCHUWGb4W5hZtZYpvb5Ffe2s+xGjp8WysA==
+04-10 11:41:58.069  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH3lQqAqHb6oZ0q8ct6xob2nrLcETFS8jKIcAeNY43l3XRmPa9J3D4+i8QTMTrqqJOhjxxUgkn8MAFbwDLPnilw0=
+04-10 11:41:58.083  1136  1563 D WifiNetworkSelector: No configured networks.
+04-10 11:41:58.084  1136  1563 D WifiNetworkSelector: Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 40:32:9d:09:8c:81 / de:47:32:eb:e5:1e / 
+04-10 11:41:58.084  1136  1563 D WifiNetworkSelector: Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-82 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-86 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-90 / 
+04-10 11:41:58.084  1136  1563 D WifiNetworkSelector: About to run SavedNetworkEvaluator :
+04-10 11:41:58.085  1136  1563 D WifiNetworkSelector: About to run NetworkSuggestionEvaluator :
+04-10 11:41:58.085  1136  1563 D WifiNetworkSelector: About to run PasspointNetworkEvaluator :
+04-10 11:41:58.089  1136  1563 D WifiNetworkSelector: About to run CarrierNetworkEvaluator :
+04-10 11:41:58.089  1136  1563 D WifiNetworkSelector: About to run ScoredNetworkEvaluator :
+04-10 11:41:58.089  1136  1563 D WifiNetworkSelector: BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+04-10 11:41:58.089  1136  1563 D WifiNetworkSelector: CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+04-10 11:41:58.090  1136  1563 D WifiNetworkSelector: ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+04-10 11:41:58.738  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:41:58.738  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:41:58.738  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:41:58.740  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:58.740  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:41:58.740  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:58.740  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:41:58.751  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:59.836  2702  3146 I .dataacqservic: Explicit concurrent copying GC freed 1433(272KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 1007KB/2543KB, paused 138us total 19.663ms
+04-10 11:42:00.000  1136  1548 V AlarmManager: j7wJ40+mi2AcOeYz8Siywqv4Lu3f7kJrcFxfjFkLFceAUjDKzqq3X3tNMGN8rKXgzUw8aFQv9ffCtLPtJjSQ+g==
+04-10 11:42:00.001  1136  1548 V AlarmManager: K7OggPjqeERSPCs+77hNgI4vI25g3ugHictmPegT5dMsXtu3LQkWfEYRHm5H4x77iercQBDmQ/xkS7lA2xhkvA==
+04-10 11:42:00.001  1136  1548 V AlarmManager: 79xwGzh/Eydgx94mZCecUKiFlSLoDtJ5hg5xIY98lhRyZw76O9OblVmWVUTzt0exLiKp/zfuJMHa5NuYNZXGWw==
+04-10 11:42:00.001  1136  1548 V AlarmManager: uywD0+P5zBgjYwVd+GDDiVf05D5268YjXQ+CPo7LBp9KD5Ybr1JW96O3q/rnR4JgkUXptEffbAStLpUomYN/gYtCUy/+Qyx/QPY5LYxPwbw=
+04-10 11:42:00.001  1136  1548 V AlarmManager: ro5+7qDQABhngNONz/BJ1hEhdwDaiu3d6RvbgtPlKBmVKuyEIegKVZqmhrBG7kGL
+04-10 11:42:00.001  1136  1548 V AlarmManager: uRi4p/nPbA6RNLcaJYp21+xNnMZWUWfK3m43gePE2LXt1cZmBjFs5g/tFn+HUoD0N96lj1a0Ixeqn0uWdkNoO9B7AiDoC3MLdIh5V8Spr54NftimdtpBxpf2ay/sWUkRRrF28nsboz00Z1YzP1IG+A==
+04-10 11:42:00.001  1136  1548 D AlarmManager: 60A/KKKlBlF/9n5e472fD5YJxCU8mbCTeqfxq9hqP90=
+04-10 11:42:00.003  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+04-10 11:42:00.003  1622  1622 D KeyguardUpdateMonitor: handleTimeUpdate
+04-10 11:42:00.004  1136  1136 I AlarmManager: saeH6It7rqTJYCgVeHZlaEevG8vHPLARkzNMsS7zt7LVjl/JDY7M3T0V+tTDabuP8+6+FG/guF4o8vgM8c+Tw0K9jmKRTpkFZmP0gIRYzUU=
+04-10 11:42:00.004  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD434MypbpFEpw6AFKdmsXjw=
+04-10 11:42:00.022  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:42:03.778  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:42:03.779  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:42:03.780  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:42:03.780  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:42:03.780  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:42:03.780  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:42:03.781  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:42:03.799  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:42:06.801   617   617 E WifiHAL : wifi_get_wake_reason_stats: Wake lock logging feature not supported 0
+04-10 11:42:06.802  1136  2578 E WifiVendorHal: getWlanWakeReasonCount(l.2103) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+04-10 11:42:06.803  1136  2578 W WifiDiags: CaptureBugReport 7
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Bug dump 1
+system time = 04-10 11:41:11.542
+kernel time = 705.19
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of main
+04-10 11:41:02.881  1136  2475 V LocSvc_HIDL_Subscription_jni: time_change_update
+04-10 11:41:02.881  1136  2475 V LocSvc_HIDL_Subscription_jni: [time_change_update][610] [HC] =>> [HS]
+04-10 11:41:02.882   607   607 V LocSvc_HIDL_IzatSubscription: [timeChangeUpdate][661] [HS] <<<<= [HC]
+04-10 11:41:02.882  1136  2475 V LocSvc_HIDL_Subscription_jni: Exit Result 0
+04-10 11:41:02.884  1622  1622 D KeyguardUpdateMonitor: handleTimeUpdate
+04-10 11:41:02.891  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:02.892  1136  1136 I SelftestService: updateApplicationTimer, detect periodic switch = false
+04-10 11:41:02.904  1136  3598 I System.out: ssl_min_rsa_len_bits 1024
+04-10 11:41:02.918  1136  3598 I System.out: ssl_min_rsa_len_bits 1024
+04-10 11:41:03.099   531  3610 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+04-10 11:41:03.129  1136  3598 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 time=460ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Thu, 10 Apr 2025 10:41:03 GMT], X-Android-Received-Millis=[1744281663127], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1744281662936]}
+04-10 11:41:03.130  1136  3597 D NetworkMonitor/100: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=530ms
+--------- beginning of system
+04-10 11:41:03.132  1136  1566 D ConnectivityService: lXVtWpfF0sSuAUsqSHOIcJl2N3VjdZEUjkrDZenJLJJl6kzn0CJwBUJ43HSeQfML+cql9z08njA6vJHa0tQg9A==
+04-10 11:41:03.135  1136  1136 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f0OiQ51m1SPhxgmDRYOdKew4sDlcHHh5Qq5h7PWy6W4qfOnYLKG7zpdfBEVCRI0/KZHo9Oe+S5o2m26hWoGkuDy2Ww6uvzJN37QKELGZNNciRoA+IkgmIn4DAdOoOpIy58=
+04-10 11:41:03.135  1136  1136 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:03.136  1136  1136 V AlarmManager: Iab40jQHuoaE5jqWREeQloIEy0XEWyT4DGMRj6j4ng+vDudxsAIXcgJbJ4bYNJTdKuSwg/eUR9JFpeTZaoOzNfAmHZRYMVZtDKJF/GEl+8GTre2A1/6zPxx60F9dn88+gRWqezs4C8QmQi8+YYHtkQ==
+04-10 11:41:03.136  1136  1136 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH+5qlM5xGKuWg6Dgif+o/ji/OHPD9FJz0UMQVzLDJaOKSseCDnBT2Smj7nmVl4HfeD3BhcCpogeEGfH84vHK7Sk=
+04-10 11:41:03.136  1136  1136 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+P3iTElr7J8WHjDZkqBoUsfJ2Urtb16AgnpmRB9DUXDBXMM2xzslRV8KsubQhTkXcFmueJhKAlB7h/o9LYvarZTA==
+04-10 11:41:03.136  1136  1136 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH3L+McRaMmhxAeHvGe9rQnp2xOvgA/O6wlyhQKjbNQ2M6GE9n/NVkCGjvGjj65fgRZCr5kAwjm+Q9RZ/5OaIquQ=
+04-10 11:41:03.139  1136  1213 I GnssNetworkConnectivityHandler: updateNetworkState, state=CLOSED, connected=true, network=100, capabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -43 SSID: "Michael fast "], apn: null, availableNetworkCount: 1
+04-10 11:41:03.142   896   896 W         : onRequestXtraData:183] On Req XTRA data Xtrastate:0 retry:1 curReqSource:3 newreqSource:0xffff              isCon:1 isNonMetered:1 isGpsEnabled:1
+04-10 11:41:03.145  1136  1566 D ConnectivityService: SX0tRAxR9aou1liSyfitxo9Sy6gtQmtDjhna+ovtGB0LmI8IeT0iDSeiQ97yPHjAsNAZSWji06IXE8l0/zytiEda5vKjw/lV9e7tvV+vZkk=
+04-10 11:41:03.145  1136  1566 D DnsManager: vXeNKHQKTXpt2FpL5E30c2XGBcx36IqvOeFhqurrReWjPDJNHPPRmKZ6R+Mb8Dw/5pyMe4TXhGVRl+gVpkTC7lSk5+jnK7Rji6N/eT4Yy9vWZMqTK7cJ/KZUNavXXBFxR7rS10Rh/B6UTNLf1xEg7CB73CvkQLBMs3nnoYt6pVc=
+04-10 11:41:03.147   531  1018 I netd    : DnsResolverService::setResolverConfiguration(100, [194.168.4.100, 194.168.8.100], [], 1800, 25, 8, 64, 0, 0, [194.168.4.100, 194.168.8.100], []) -> (0) (0.7ms)
+04-10 11:41:03.147   531  1018 I netd    : setResolverConfiguration() <0.91ms>
+04-10 11:41:03.152  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:03.155  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:41:03.161   531  3615 I boringssl: boringssl rand, uid = 0
+04-10 11:41:03.163   531  3616 I boringssl: boringssl rand, uid = 0
+04-10 11:41:03.171  2742  2958 I boringssl: version 0.0.1
+04-10 11:41:03.173   421   421 E SELinux : avc:  denied  { find } for service=com.smartpos.hw_rand_ser pid=2742 uid=1000 scontext=u:r:location_app:s0 tcontext=u:object_r:rng_service:s0 tclass=service_manager permissive=0
+04-10 11:41:03.174  2742  2958 E RngCore : Get HW_RAND_SERVER fail
+04-10 11:41:03.174  2742  2958 E boringssl: RngCore : GetRandom fail : 1
+04-10 11:41:03.174  2742  2958 I boringssl: boringssl rand, uid = 1000
+04-10 11:41:03.174   421   421 E SELinux : avc:  denied  { find } for service=com.smartpos.hw_rand_ser pid=2742 uid=1000 scontext=u:r:location_app:s0 tcontext=u:object_r:rng_service:s0 tclass=service_manager permissive=0
+04-10 11:41:03.175  2742  2958 E RngCore : Get HW_RAND_SERVER fail
+04-10 11:41:03.175  2742  2958 E boringssl: RngCore : GetRandom fail : 1
+04-10 11:41:03.175  2742  2958 I boringssl: boringssl rand, uid = 1000
+04-10 11:41:03.175   421   421 E SELinux : avc:  denied  { find } for service=com.smartpos.hw_rand_ser pid=2742 uid=1000 scontext=u:r:location_app:s0 tcontext=u:object_r:rng_service:s0 tclass=service_manager permissive=0
+04-10 11:41:03.176  2742  2958 E RngCore : Get HW_RAND_SERVER fail
+04-10 11:41:03.176  2742  2958 E boringssl: RngCore : GetRandom fail : 1
+04-10 11:41:03.176  2742  2958 I boringssl: boringssl rand, uid = 1000
+04-10 11:41:03.179  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:03.181   632   671 I RngServer: getRandom(36) size 12,ret 0
+04-10 11:41:03.199   632   671 I RngServer: getRandom(37) size 12,ret 0
+04-10 11:41:03.216   632   671 I RngServer: getRandom(38) size 12,ret 0
+04-10 11:41:03.232   632   671 I RngServer: getRandom(39) size 12,ret 0
+04-10 11:41:03.245  1136  1563 I WifiClientModeImpl: Default Gateway MAC address of d8:47:32:eb:e5:9f from routes is : 48:d3:43:0c:58:30
+04-10 11:41:03.251   632   671 I RngServer: getRandom(40) size 12,ret 0
+04-10 11:41:03.268   632   671 I RngServer: getRandom(41) size 12,ret 0
+04-10 11:41:03.279  1136  1563 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:03.279  1136  1563 V AlarmManager: iIc1a/VTIe+KvpeyzKaEcoQKypbQBRVAUoEa+VCni2bEnDJqfrHlV9wZVQIAXcLoFxKyqk23nwc7pVNO8lzTSsMkn9rfwZdJl0AjBn3T2JUdgnZn7hDa2+37MotUzPQU1pakQFMWMvQCH4AtsOZkwg==
+04-10 11:41:03.279  1136  1563 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH/FDOcPjXT8TFzWXCDLoiIJkPV2I1x0kWus8bNDfZ/jN7PbCUp6mt/KxCEbtQ5iieem7pIydDruGRqd07RcBn0k=
+04-10 11:41:03.280  1136  1563 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+PUVUj/c3h+k+oxAaHwd34fToNVYRijbgK7zYRQJ6JFzX96nEseZN4B24WaUU6kdltSR64CfkuPGy79JbXR1oWpA==
+04-10 11:41:03.280  1136  1563 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH9XWPlJPkfblP3DXQSJrR5hS9yCgXMrACv54k6O0V0CIVcxH2vkzXOYGepLH8LSUP2w8WA1uak77y2MgVPerWco=
+04-10 11:41:03.312  1136  1563 D WifiConfigStore: Writing to stores completed in 32 ms.
+04-10 11:41:03.313  1136  1563 I WifiConnectivityManager: whitelist roaming feature disabled
+04-10 11:41:03.357  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:03.359  1867  1867 I chatty  : uid=1000(system) com.android.settings identical 6 lines
+04-10 11:41:03.359  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:03.376  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:03.378  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:41:03.387  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:03.387  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:03.388  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:41:03.393  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:03.409  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:41:03.451   531  3615 W DnsTlsSocket: SSL_connect error 5, errno=111
+04-10 11:41:03.462   531  3616 W DnsTlsSocket: SSL_connect error 5, errno=111
+04-10 11:41:03.470   531  3614 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+04-10 11:41:03.472  2742  2958 I System.out: TLS customer CA enable
+04-10 11:41:03.508  2742  2958 I System.out: ssl_min_rsa_len_bits 1024
+04-10 11:41:03.510   896   896 W LocTimerMsgTask: type=1400 audit(0.0:175): avc: denied { search } for name="system" dev="mmcblk0p59" ino=671746 scontext=u:r:location:s0 tcontext=u:object_r:epay_data_file:s0 tclass=dir permissive=0
+04-10 11:41:03.520   896   954 I boringssl: version 0.0.1
+04-10 11:41:03.521   896   954 E boringssl: hardrand_init : dlopen libRngCore.so err : dlopen failed: library "libRngCore.so" not found
+04-10 11:41:03.522  2742  2958 I System.out: ssl_min_rsa_len_bits 1024
+04-10 11:41:03.522  2742  2958 I System.out: ssl_min_rsa_len_bits 1024
+04-10 11:41:03.522   896   954 E boringssl: hardrand_init : dlopen /product/lib/libRngCore.so
+04-10 11:41:03.523   896   954 E RngCore : Get HW_RAND_SERVER fail
+04-10 11:41:03.523   896   954 E boringssl: RngCore : GetRandom fail : 1
+04-10 11:41:03.523   896   954 I boringssl: boringssl rand, uid = 1021
+04-10 11:41:03.770   896   896 W LocTimerMsgTask: type=1400 audit(0.0:176): avc: denied { search } for name="system" dev="mmcblk0p59" ino=671746 scontext=u:r:location:s0 tcontext=u:object_r:epay_data_file:s0 tclass=dir permissive=0
+04-10 11:41:03.779   896   954 E RngCore : Get HW_RAND_SERVER fail
+04-10 11:41:03.779   896   954 E boringssl: RngCore : GetRandom fail : 1
+04-10 11:41:03.779   896   954 I boringssl: boringssl rand, uid = 1021
+04-10 11:41:03.824  1770  2472 I System.out: TLS customer CA enable
+04-10 11:41:04.742   896   946 W LocSvc_xtra2: onInjectXtraData:83] injectXtraData
+04-10 11:41:04.750  1136  2028 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:04.751  1136  2028 V AlarmManager: iIc1a/VTIe+KvpeyzKaEcoQKypbQBRVAUoEa+VCni2bEnDJqfrHlV9wZVQIAXcLoZlqnd9HJr15AQo4T9ir+ynE/PE9e2WPu+8KyanP1bbkcSn7hP74znLUYEXvBAt4CSTRV+yoRSprYFpwaUSEMuA==
+04-10 11:41:04.751  1136  2028 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH3ZZiojlxYUxr5gNIFist/vNBiE+snTe0PXVN5hJqsgoG4YQqnvsvpgDtk4zyMTpLgUMqFxxn4Fw/jdM2Y/VC8k=
+04-10 11:41:04.751  1136  2028 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+PT65LoHtItUU3Bp3+E6/vu8nHvCpq8dlBWY3Aj/wynYSaXo+bYJ246tw2nWJN1xQq1nxHf1nBskEPPOu1vxf7Kw==
+04-10 11:41:04.751  1136  2028 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFHy8Af5y89KOprDeCpY3CRigdaxslC/6TNXXG6gPHq7O7RU27OsgUDJL6s/Wz3P0ED3LM0PUkM9Lc0iEdx5c5Z2A=
+04-10 11:41:04.783  1136  1573 V AlarmManager: 4svdre92KOEeSLH0MrvtoOwavLyZ4fUYBDyDRpONhIjDTzIwpLylibPMiSyzqLT/xgudpS79VysrZwR0h7zH8lsccWXKT5Ryw/drSUEnVCkQe5R9u58A7lfWoiz+h8+NRiiC3Wsal2wh8eJsRho1ZB+remziicm7/0ZYeb/2EjcSgMKU9bW1n+G6qteu74PuCIYIIBsOGO7c65yTuKvb+B5VOhaMFuvao5v506aBdoLbZ8L3OTR50Tf8wwYyGiSg
+04-10 11:41:05.142   896   954 W LocSvc_xtra2: onRequestNtpTime:212] NTP download req state:0 reqsource:65535 cursource:0 isGpsEnabled:1
+04-10 11:41:05.998   896  3651 W LocSvc_xtra2: downloadSntpTime:499] Sntp time - utcTime:1744281665714uncertainty:418
+04-10 11:41:05.999   896   947 W LocSvc_IzatApiV02: operator():1299] time: 1744281665715; elapsedTimeMs: 699476; reference: 699475; uncertainty: 418
+04-10 11:41:06.376  1136  1573 D WificondControl: Scan result ready event
+04-10 11:41:06.377  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:06.377  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+Pjr2jnXd2v6igPAEV5AzOOrQ8KpNnMHnpmeqoa3z9bFi48g+AGEBika6+i8NGlhWyw+KWHBmOIRf1XpD4CyfOEg==
+04-10 11:41:06.377  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH3wrbVDKzukordB3URrWhktCvZMtpgNyzyuYYCbKFxxVva7WFmddlVvuyLCTmVmKM0JNSoH/cHqEnq2e8zrN5AI=
+04-10 11:41:06.413  1136  1565 D WificondScannerImpl: Filtering out 10 scan results.
+04-10 11:41:06.419  1136  1563 D WifiNetworkSelector: Current connected network: "Michael fast " , ID: 0
+04-10 11:41:06.419  1136  1563 D WifiNetworkSelector: Current network is recently user-selected.
+04-10 11:41:06.419  1136  1563 D WifiNetworkSelector: Current connected network already sufficient. Skip network selection.
+04-10 11:41:06.427  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:06.429  1867  1867 I chatty  : uid=1000(system) com.android.settings identical 6 lines
+04-10 11:41:06.429  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:06.450  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:41:07.288  1136  2028 I WifiService: startScan uid=1000
+04-10 11:41:07.306  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f1pqNZEAwUoup/luMBHJPQrBPLpESPbSWLTYeGZx+I8+V3uiAI8cyZyOGEqL57pdpTSo5KRm6J1BWIrnr0WeCIX6USfQCDK/WRpVSU5kXpr9Q==
+04-10 11:41:07.306  1136  1565 V AlarmManager: OYjSMU0BFY8mQT/3Iw4oBDe9xHqsofAAfoTkfr++TCvPPD5MLYAeZRNS1jE1t9uIqeMdbV985+azn8tPgpHC7enZFQjZ9AJ6BOdSSLCVwbgj8tfqRUiv9vXN0lgTSM1JnhwmvhdELB2dJlCF/DuSog==
+04-10 11:41:07.307  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH9c3TKDTqXQIQpEfmza6hPfNlD0nw70p755qPat3Q7geLGDyqF05Dd5w6/XTVxS7KkNGnKRBjlwfpc5ZujYi1aA=
+04-10 11:41:07.308  1136  2028 D WificondControl: Scan result ready event
+04-10 11:41:07.309  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:07.309  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+PItUts4WmrRfJCKhlZZLgozXcxHyHP7U5CPfPIl0Xp7Oim987TUGQFZgxfu9Rfv0px30dZ2wW566AKpLkVKLM9Q==
+04-10 11:41:07.309  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH2PpbEujIP+3Qx5BFx2RirD4BJoUaKXT+/JADQnilRrX+fi7jCkkcZAubkJBAeGEHWiaeEyJjtQ+lCvvRBUKcvs=
+04-10 11:41:07.318  1136  1565 D WificondScannerImpl: Filtering out 18 scan results.
+04-10 11:41:07.321  1136  1563 D WifiNetworkSelector: Empty connectivity scan result
+04-10 11:41:07.330  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:07.354  1867  1867 I chatty  : uid=1000(system) com.android.settings identical 6 lines
+04-10 11:41:07.355  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:07.358  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:41:08.991  1136  1548 V AlarmManager: j7wJ40+mi2AcOeYz8Siywqv4Lu3f7kJrcFxfjFkLFccZs0TU775rqrbCyXF+2iwLy5LiHsLI+Cha3phUgca3LQ==
+04-10 11:41:09.011  2702  3146 I .dataacqservic: Explicit concurrent copying GC freed 271(79KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 1003KB/2539KB, paused 138us total 20.047ms
+04-10 11:41:11.537   617   617 E WifiHAL : wifi_get_wake_reason_stats: Wake lock logging feature not supported 0
+04-10 11:41:11.538  1136  1573 E WifiVendorHal: getWlanWakeReasonCount(l.2103) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+04-10 11:41:11.542  1136  1573 W WifiDiags: CaptureBugReport 7
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Bug dump 2
+system time = 04-10 11:41:27.762
+kernel time = 721.239
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of main
+04-10 11:41:12.609  1695  3585 D ComBTService: getConnectedWifiSsid return ture| wifiInfo.getSSID:Michael fast 
+04-10 11:41:12.610  1695  3585 E ComBTService: CheckConnectdSsidIsDockerThread_DX8  Exception e, cnt:0
+04-10 11:41:12.610  1695  3585 W System.err: java.net.ConnectException: Failed to connect to /192.168.0.1:443
+04-10 11:41:12.610   531  1009 D MDnsDS  : Monitor poll got data pollCount = 2, 2
+04-10 11:41:12.610   531  1009 D MDnsDS  : Monitor found [1].revents = 32 - calling ProcessResults
+04-10 11:41:12.610   531  1009 W /system/bin/netd: dnssd_clientstub DNSServiceProcessResult called with NULL DNSServiceRef
+04-10 11:41:12.610  1695  3585 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+04-10 11:41:12.610   531  1009 D MDnsDS  : controlSocket shows revent= 1
+04-10 11:41:12.610   531  1009 D MDnsDS  : MDnsSdListener::Monitor got 1
+04-10 11:41:12.610  1695  3585 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+04-10 11:41:12.610   531  1009 D MDnsDS  : MDnsSdListener::Monitor poll rescanning - size=10, live=0
+04-10 11:41:12.610   531  1009 D MDnsDS  : Going to poll with pollCount 1
+04-10 11:41:12.610  1695  3585 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+04-10 11:41:12.610  1695  3585 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+04-10 11:41:12.611  1695  3585 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+04-10 11:41:12.611  1695  3585 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+04-10 11:41:12.611  1695  3590 D NsdInfoTool: onDiscoveryStopped serviceType:_wifi_base._tcp.
+04-10 11:41:12.611  1695  3585 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+04-10 11:41:12.611  1695  3585 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+04-10 11:41:12.611  1695  3585 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+04-10 11:41:12.611  1695  3585 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+04-10 11:41:12.611  1695  3585 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+04-10 11:41:12.611  1695  3585 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:30)
+04-10 11:41:12.611  1695  3585 W System.err: 	at com.smartpos.wifiDock.HttpServer$CheckConnectdSsidIsDockerThread_DX8.run(HttpServer.java:6992)
+04-10 11:41:12.611  1695  3585 E ComBTService: CheckConnectdSsidIsDockerThread_DX8  sleep 2s ##
+04-10 11:41:14.612  1695  3585 D ComBTService: getConnectedWifiSsid return ture| wifiInfo.getSSID:Michael fast 
+04-10 11:41:14.613  1695  3585 D ComBTService: CheckConnectdSsidIsDockerThread_DX8 UrlName is:https:///wifibase/getParam
+04-10 11:41:14.613  1695  3585 I DpmTcmClient: RegisterTcmMonitor from: $Proxy0
+04-10 11:41:14.651  1695  3585 D ComBTService: getLastConnectDockSsid  ssid:
+04-10 11:41:14.651  1695  3585 D ComBTService: getBridgeModeDockIp  dockIp:
+04-10 11:41:14.652  1695  3585 D ComBTService: getWifiRouteIPAddress return getDhcpInfo:192.168.0.1
+04-10 11:41:14.653  1695  3585 D ComBTService: getConnectedWifiSsid return ture| wifiInfo.getSSID:Michael fast 
+04-10 11:41:14.653  1695  3585 E ComBTService: CheckConnectdSsidIsDockerThread_DX8  Exception e, cnt:1
+04-10 11:41:14.654  1695  3585 W System.err: java.net.UnknownHostException: Unable to resolve host "wifibase": No address associated with hostname
+04-10 11:41:14.654  1695  3585 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+04-10 11:41:14.654  1695  3585 W System.err: 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+04-10 11:41:14.654  1695  3585 W System.err: 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+04-10 11:41:14.654  1695  3585 W System.err: 	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+04-10 11:41:14.654  1695  3585 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+04-10 11:41:14.654  1695  3585 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+04-10 11:41:14.654  1695  3585 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+04-10 11:41:14.654  1695  3585 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+04-10 11:41:14.654  1695  3585 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+04-10 11:41:14.655  1695  3585 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+04-10 11:41:14.655  1695  3585 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+04-10 11:41:14.655  1695  3585 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+04-10 11:41:14.655  1695  3585 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+04-10 11:41:14.655  1695  3585 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+04-10 11:41:14.655  1695  3585 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+04-10 11:41:14.655  1695  3585 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+04-10 11:41:14.655  1695  3585 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:30)
+04-10 11:41:14.655  1695  3585 W System.err: 	at com.smartpos.wifiDock.HttpServer$CheckConnectdSsidIsDockerThread_DX8.run(HttpServer.java:6992)
+04-10 11:41:14.656  1695  3585 W System.err: Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+04-10 11:41:14.656  1695  3585 W System.err: 	at libcore.io.Linux.android_getaddrinfo(Native Method)
+04-10 11:41:14.656  1695  3585 W System.err: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:74)
+04-10 11:41:14.656  1695  3585 W System.err: 	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:200)
+04-10 11:41:14.656  1695  3585 W System.err: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:74)
+04-10 11:41:14.656  1695  3585 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:135)
+04-10 11:41:14.656  1695  3585 W System.err: 	... 17 more
+04-10 11:41:14.656  1695  3585 E ComBTService: CheckConnectdSsidIsDockerThread_DX8  sleep 2s ##
+04-10 11:41:16.657  1695  3585 D ComBTService: getConnectedWifiSsid return ture| wifiInfo.getSSID:Michael fast 
+04-10 11:41:16.657  1695  3585 D ComBTService: CheckConnectdSsidIsDockerThread_DX8 UrlName is:https://192.168.0.1/wifibase/getParam
+04-10 11:41:16.710  1695  3585 I boringssl: version 0.0.1
+04-10 11:41:16.711   632   671 I RngServer: getRandom(42) size 32,ret 0
+04-10 11:41:16.712   632   671 I RngServer: getRandom(43) size 32,ret 0
+04-10 11:41:16.712   632   671 I RngServer: getRandom(44) size 32,ret 0
+04-10 11:41:17.292  1136  1573 I WifiService: startScan uid=1000
+--------- beginning of system
+04-10 11:41:17.309  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f1o/hFBOLAMlBYH6j8P00Hpdn2pcxx+bL+fTndN0cCBIdg+c5U9LcXbV1ZERMqyMlz3mvFBpqrwyi4VapTYQwVvmO+QSquNnECY2NuswtVkKg==
+04-10 11:41:17.309  1136  1565 V AlarmManager: N2NCdpVxTLfAc+vd5HTQ18ZqvUCUtonWqNG93Nw5BmMxXjyL78W3D/TSh8GLj2ZGYwiBd/iOV8DER55qRj2WICQMSXeax8NCOPKMxOO+AtWMgSoFzh32PKfZ1/mUJYxiGo1eQ+9xDFckwjES1NiJYQ==
+04-10 11:41:17.309  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH5XWqlttVhKOxpCuLs2aj0VFLTXx63kpMmDdqVZv7WPL7PiUPuFtnFlcEyqdhbRcpjMjdowSpVyuRaf8HAGRmuA=
+04-10 11:41:18.350  1136  1286 V DisplayPowerController: jzjkiDG36NDKCshYKkXosnZUrlw3gEv74YdCN5rLBlLE7o7pLcK6KK3SjD/mTjmkze7elMU8Y57Fil98HnrPY04Qo389wQUud4kOVUDcu1wV4LslSGFpnfGNunZBvHLy
+04-10 11:41:19.886  1136  1573 D WificondControl: Scan result ready event
+04-10 11:41:19.886  1695  3585 I System.out: TLS customer CA enable
+04-10 11:41:19.887  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:19.887  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+PAHUOIDAcQ/KkZ9I2VEAEyvu5QG6AKcEoI4PbnKMjsFEQ0MRRtA3LkoRQNgZCEYrK2JefGbHffrFSPlFEWdmMvQ==
+04-10 11:41:19.887  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFHwlbFtpNL0EFVIRMq5uth7LzrFO9tJhhHAR73FX5X8HYOY1/WqpvFQ34z7h5KJ1Ko2GCEKweYjB9HWnMuwY5x8U=
+04-10 11:41:19.897  1136  1565 D WificondScannerImpl: Filtering out 6 scan results.
+04-10 11:41:19.905  1136  1563 D WifiNetworkSelector: Current connected network: "Michael fast " , ID: 0
+04-10 11:41:19.906  1136  1563 D WifiNetworkSelector: Current network is recently user-selected.
+04-10 11:41:19.906  1136  1563 D WifiNetworkSelector: Current connected network already sufficient. Skip network selection.
+04-10 11:41:19.915  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:19.917  1867  1867 I chatty  : uid=1000(system) com.android.settings identical 6 lines
+04-10 11:41:19.917  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:19.923  1695  3585 D NsdInfoTool: getNSDHostIp ssid:
+04-10 11:41:19.926  1136  1568 D NsdService: GtZbv96wj0n0n3mm++Cm7tCV0xQ7cKzx6G/5uI1Jnjg=
+04-10 11:41:19.926  1136  1568 D NsdService: QL6LX64QfwNnLghX7aUTwqPwx7isla1yhmtGRZggpj4o/aHsYdw+VsPavzb9Xij9
+04-10 11:41:19.926   531  1010 D MDnsDS  : discover((null), _wifi_base._tcp., (null), 3, 0)
+04-10 11:41:19.926   531  1010 D MDnsDS  : using ref 0xb1300908
+04-10 11:41:19.927   531  1010 D MDnsDS  : startMonitoring 3
+04-10 11:41:19.927   531  1010 D MDnsDS  : triggering rescan
+04-10 11:41:19.927   531  1010 D MDnsDS  : discover successful
+04-10 11:41:19.927   531  1009 D MDnsDS  : Monitor poll got data pollCount = 1, 1
+04-10 11:41:19.927   531  1009 D MDnsDS  : controlSocket shows revent= 1
+04-10 11:41:19.927   531  1009 D MDnsDS  : MDnsSdListener::Monitor got 1
+04-10 11:41:19.927   531  1009 D MDnsDS  : MDnsSdListener::Monitor poll rescanning - size=10, live=1
+04-10 11:41:19.927   531  1009 D MDnsDS  : Going to poll with pollCount 2
+04-10 11:41:19.928  1136  1568 D NsdService: +gBoy5N2/GwBkHIdM+NgOLgqfjzY3dhTHVjmToJED/k=
+04-10 11:41:19.928  1695  3590 D NsdInfoTool: onDiscoveryStarted serviceType:_wifi_base._tcp.
+04-10 11:41:19.934  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:41:22.298  1136  1548 V AlarmManager: j7wJ40+mi2AcOeYz8Siywqv4Lu3f7kJrcFxfjFkLFccdptayAjiqgyl2iCqtQxlfo2m0WzxQy/05eSWwbKkQcg==
+04-10 11:41:22.299  1136  1548 V AlarmManager: K7OggPjqeERSPCs+77hNgIKLTF+kDFbI5k4o8QshXxfqUN8zjgKVxy6T79TUJA1G4ApPi2xsKvO0RxNZ4atazw==
+04-10 11:41:22.299  1136  1548 V AlarmManager: 79xwGzh/Eydgx94mZCecUBB4+LnKbPAZLX0T/ODQNb5XUPT2yI/StlYYg7q2I9XSIP92JTM40jmLI/bycajLIw==
+04-10 11:41:22.299  1136  1548 V AlarmManager: uywD0+P5zBgjYwVd+GDDid9Y88XURcbnNB6Jm3ieJAjLwR80VQKp0FuWUpIkrBYCgFqFyWRQmM6WaRYKPvJA+JTGKMUBbRh8XZQlG+dswh0=
+04-10 11:41:22.299  1136  1548 D AlarmManager: 60A/KKKlBlF/9n5e472fD5YJxCU8mbCTeqfxq9hqP90=
+04-10 11:41:22.301  1136  1563 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f3S9q4lwfihCOhl8Ku34BlzRs/3ElHApTk6BT2alqtg3FwgL0COx7e/h7UTphNb3YorlnhHtaDGuLI/pCG/P7NGU2gPAqnx9DuA44olEwS0lw==
+04-10 11:41:22.302  1136  1563 I AlarmManager: saeH6It7rqTJYCgVeHZlaFj7oKqVGk+tp5aN29R5qYta0M+jcJRe+k+fxHG338rPq/c2wZekCgeXnCwhTLyp7ZUCZlU4OL7HucHBc1n9ro0=
+04-10 11:41:22.302  1136  1563 D AlarmManager: 60A/KKKlBlF/9n5e472fD434MypbpFEpw6AFKdmsXjw=
+04-10 11:41:22.316  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f14exmlGbmKggg1CHgyXLhTV4Pdy1DEIdJrirQl1nx62ZoGg/wWmp8kP8Bid1Dhi66v2SJWoFTfCdml2kdxZKg/nL7Kcx7neI1t47C0dbP1gw==
+04-10 11:41:24.741  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:24.825  1136  2028 D WificondControl: Scan result ready event
+04-10 11:41:24.826  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:24.826  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+Pdzu6eHIh6A/y7YWjFVEf655eL97uMoVZBKjtw5YZTQAKsNtiZbnd6y3tVt+INXOkcb/AvtXRBPZ0r6nYNoGPcw==
+04-10 11:41:24.826  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFHzt/4wQSpwF4+sJLQmazbOyQBJrXO5Ha9fBmA2shZffJcnhCcP3Y/5A5yQTPp0QKD0g8xNUSMih5isqYAw24eBE=
+04-10 11:41:24.835  1136  1565 D WificondScannerImpl: Filtering out 3 scan results.
+04-10 11:41:24.845  1136  1563 D WifiNetworkSelector: Current connected network: "Michael fast " , ID: 0
+04-10 11:41:24.846  1136  1563 D WifiNetworkSelector: Current network is recently user-selected.
+04-10 11:41:24.846  1136  1563 D WifiNetworkSelector: Current connected network already sufficient. Skip network selection.
+04-10 11:41:24.858  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:24.859  1867  1867 I chatty  : uid=1000(system) com.android.settings identical 6 lines
+04-10 11:41:24.859  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:41:24.881  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:41:27.293  1136  1573 I WifiService: startScan uid=1000
+04-10 11:41:27.310  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f32ctYUjJoy+gI/mDsobD98Xh/DWpZ8bVGGoyjJfHeTKlt8b1RxOGZKVSvU6Y24GSHVnyM/5zY49i4CBRShUnkUSdeawFumpG+97BTiLdOfKQ==
+04-10 11:41:27.757   617   617 E WifiHAL : wifi_get_wake_reason_stats: Wake lock logging feature not supported 0
+04-10 11:41:27.758  1136  1573 E WifiVendorHal: getWlanWakeReasonCount(l.2103) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+04-10 11:41:27.762  1136  1573 W WifiDiags: CaptureBugReport 7
+04-10 11:41:27.784  1622  1622 E QSAnimator: tileView is null cast
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Bug dump 3
+system time = 04-10 11:43:44.942
+kernel time = 858.419
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of system
+04-10 11:43:00.000  1136  1548 V AlarmManager: 79xwGzh/Eydgx94mZCecUB/0l4brjBQG4S+ruLWjfGr/+69RorinSIwieLsoeBNmoAgJopW8MMlpmcCXYlerVA==
+04-10 11:43:00.000  1136  1548 V AlarmManager: uywD0+P5zBgjYwVd+GDDiVf05D5268YjXQ+CPo7LBp9KD5Ybr1JW96O3q/rnR4JgkUXptEffbAStLpUomYN/gYtCUy/+Qyx/QPY5LYxPwbw=
+04-10 11:43:00.000  1136  1548 V AlarmManager: ro5+7qDQABhngNONz/BJ1hEhdwDaiu3d6RvbgtPlKBmVKuyEIegKVZqmhrBG7kGL
+04-10 11:43:00.000  1136  1548 V AlarmManager: uRi4p/nPbA6RNLcaJYp21+xNnMZWUWfK3m43gePE2LVOF1ba8rZb5rUX7HyccPRf/vZvcqPVYhsrxwvwdqoJXZCbnyaLUk7vQj9TPaITF+RpDOc8J1KIUqBUcxBx8MiOcy6iVJ0uUiauZ6kJeDtDEA==
+04-10 11:43:00.001  1136  1548 D AlarmManager: 60A/KKKlBlF/9n5e472fD5YJxCU8mbCTeqfxq9hqP90=
+--------- beginning of main
+04-10 11:43:00.002  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+04-10 11:43:00.002  1622  1622 D KeyguardUpdateMonitor: handleTimeUpdate
+04-10 11:43:00.003  1136  1136 I AlarmManager: saeH6It7rqTJYCgVeHZlaEevG8vHPLARkzNMsS7zt7LVjl/JDY7M3T0V+tTDabuP8+6+FG/guF4o8vgM8c+Tw0K9jmKRTpkFZmP0gIRYzUU=
+04-10 11:43:00.003  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD434MypbpFEpw6AFKdmsXjw=
+04-10 11:43:00.017  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:43:02.442  1695  3588 W DpmTcmClient: Couldn't find 'tcm' socket after 120times. quit trying
+04-10 11:43:02.520  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:43:02.758  1136  3602 W DpmTcmClient: Couldn't find 'tcm' socket after 120times. quit trying
+04-10 11:43:05.573  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:43:05.578  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:43:05.580  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:43:05.580  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:43:05.580  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:43:05.581  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:43:05.583  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:43:05.583  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:43:05.593  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:43:06.609  2742  3609 W DpmTcmClient: Couldn't find 'tcm' socket after 120times. quit trying
+04-10 11:43:07.336  1136  1573 I WifiService: startScan uid=1000
+04-10 11:43:07.353  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f0YMZ1NZ/9bsyGW0DN0vFjmYAm858MCOesseH9kpW6TNw703mWlWby2IQMBtyfKLV+S4bnRi1kfo15bMmH4hM01udF9OHNlzXjlftu3HZ3hGg==
+04-10 11:43:07.354  1136  1565 V AlarmManager: FSXjysdU7EzAKz9d3s/+HpyNRcIUvSm6ZMxZVtoorTNurFh4rd5KlDrrjwNSh+/91cFAY6SCTedd20tWzLMJVbAVjoaJ/M3B8kBGHOQ1IIjSq72YqpP0j65Tn6nKG59px28WdQxWxfleU/UVpeT7CQ==
+04-10 11:43:07.354  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH96FhLEe39BqQiEzvy4gMZE8+pnP3wOdPvN3Nsc9VYMIUSW628ca6j5H6QOXSh+tA75muBp9cLIgO5l2OcHvWGQ=
+04-10 11:43:09.124  2702  3146 I .dataacqservic: Explicit concurrent copying GC freed 1638(287KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 1010KB/2546KB, paused 139us total 19.380ms
+04-10 11:43:09.935  1136  1573 D WificondControl: Scan result ready event
+04-10 11:43:09.936  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:43:09.937  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+PE3afYcCzJpfv455T6r6p8lUIelxNo61abYOXDDIBmrGzLgWUZ2N2TB1YTa5XCYXB8sKOboP8AJIZZ4T4BxPitw==
+04-10 11:43:09.937  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH7l3wxxAX7BGQKXN6rZXvl59wvvhGM4UN/ftKo9fLf5PCL2grM+YCti35qcjEXJVFJUCvHP7wuX99NABa6Eg9b8=
+04-10 11:43:09.942  1136  1565 D WificondScannerImpl: Filtering out 1 scan results.
+04-10 11:43:09.949  1136  1563 D WifiNetworkSelector: Current connected network: "Michael fast " , ID: 0
+04-10 11:43:09.949  1136  1563 D WifiNetworkSelector: Current connected network already sufficient. Skip network selection.
+04-10 11:43:09.966  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:43:09.968  1867  1867 I chatty  : uid=1000(system) com.android.settings identical 6 lines
+04-10 11:43:09.968  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:43:09.995  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:43:10.612  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:43:10.612  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:43:10.613  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:43:10.613  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:43:10.614  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:43:10.614  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:43:10.614  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:43:10.624  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:43:11.694  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:43:14.767  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:43:17.339  1136  1573 I WifiService: startScan uid=1000
+04-10 11:43:17.356  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f3WkvHotVIVVyS8eca7fUoX/+2uabdPtgtfuZGafNjbOQk77iCchJeb1j8p0MbWrf7zaJZjnoqFz5cQGz/r7/FjjYTbIzzYemUmJhE1q2gwjA==
+04-10 11:43:17.356  1136  1565 V AlarmManager: 1i89KziETy2qjcTnBtPBN4r+7b3bp1kN0CDSx04Zk9oK4/4uv7XZgux/TxzTwNW3P/CumZFJzcMnOeWQ+xTutuZE3pmypO2HK8cDgRAuoji5IW13mqyyAUbVtbLWWi0gKvX/IA3sGsYDP4LXXBN7Fw==
+04-10 11:43:17.356  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH9sxS5ISHkuOPXmOaUS9eCDhNGakEKQqKcJyMZ6W9LLzGO7ipJu5fYSw9FUfE7OPcxNHeqhN5vY8e9ptNT5ikhs=
+04-10 11:43:19.936  1136  1573 D WificondControl: Scan result ready event
+04-10 11:43:19.937  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:43:19.937  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+P4Ff9/BdRl4MAeVCLN9ieWUFUz7YQ3l7LCYkF2lHuVbnWvFsOoyYhzfgqTycMyXZPykNWk3UIPRPKnXVIl+IGXQ==
+04-10 11:43:19.937  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH1B5z6xbfPzF+bj80kKIkFPJyCg+5xZWR7fcKNITiYoFl5pUUZGnKhCG2rkz757Rr65z1aa6Y5FdjCls70OtGK0=
+04-10 11:43:19.949  1136  1563 D WifiNetworkSelector: Current connected network: "Michael fast " , ID: 0
+04-10 11:43:19.949  1136  1563 D WifiNetworkSelector: Current connected network already sufficient. Skip network selection.
+04-10 11:43:19.958  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:43:19.960  1867  1867 I chatty  : uid=1000(system) com.android.settings identical 6 lines
+04-10 11:43:19.960  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:43:19.985  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:43:22.300  1136  1548 V AlarmManager: j7wJ40+mi2AcOeYz8Siywqv4Lu3f7kJrcFxfjFkLFceBMD/l1eLNgWL4XF2Dqr3Q3FjUg6KftZENss8//GEp2g==
+04-10 11:43:22.301  1136  1548 V AlarmManager: K7OggPjqeERSPCs+77hNgPmewDp0PR+rXYS4XOT6yM0BniZPrQ6x2UOpIiswNk0Jzl95oZFCEB/wAmH3QV3n1w==
+04-10 11:43:22.301  1136  1548 V AlarmManager: 79xwGzh/Eydgx94mZCecUGey4OGt9Th8AtRy8NQ86knwaAUor9fc1ALJl6ikxWyEqHIltEXiRU2CyQoLcKq12g==
+04-10 11:43:22.301  1136  1548 V AlarmManager: uywD0+P5zBgjYwVd+GDDid9Y88XURcbnNB6Jm3ieJAjLwR80VQKp0FuWUpIkrBYCgFqFyWRQmM6WaRYKPvJA+OcYRDh75PRyvqAkgFLHCjY=
+04-10 11:43:22.301  1136  1548 D AlarmManager: 60A/KKKlBlF/9n5e472fD5YJxCU8mbCTeqfxq9hqP90=
+04-10 11:43:22.303  1136  1563 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f2BHXWfpWYto11OQwT1PSYGuGuyGQqStanTckyZcJcJZabO88TMfK3oA4U/x99iuguXl9FLEGpTZwrVAnEoqhCVe1QoApAgAHYnwvTh/zX0SQ==
+04-10 11:43:22.303  1136  1563 I AlarmManager: saeH6It7rqTJYCgVeHZlaFj7oKqVGk+tp5aN29R5qYta0M+jcJRe+k+fxHG338rP5qx0vgXJ/lhZkhzDz0sQgxWC9ll3ygecNzoIYC0ZC9A=
+04-10 11:43:22.304  1136  1563 D AlarmManager: 60A/KKKlBlF/9n5e472fD434MypbpFEpw6AFKdmsXjw=
+04-10 11:43:22.318  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f2rpFKvvIKEKD2F9SXSHPX1ETVF+PeOU0PIJhVv9TQ4UEophUGHQcYoTpmOYpAeCvbxJl4JWieE5pj1cIssRtnq0Xj8tWXuI3mofzOA1gpW4w==
+04-10 11:43:24.835  1136  2028 D WificondControl: Scan result ready event
+04-10 11:43:24.836  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:43:24.836  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+PGl1/IikJh6zKBnH/Lemf6sHW8caUKSU2TgDNIXurwOzlBX+AwrmTOWWdx0uV6vdLIlfICKldb306JWM0LafctQ==
+04-10 11:43:24.836  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH0zG5+JY6SR4brJAvG/yx6gtSgN18uE2mZ3gJIvrAIEjQZemFIPKVlFwm5IQ4t92pm6SBVvCk6X1F4bM/Siv+zE=
+04-10 11:43:24.848  1136  1563 D WifiNetworkSelector: Current connected network: "Michael fast " , ID: 0
+04-10 11:43:24.849  1136  1563 D WifiNetworkSelector: Current connected network already sufficient. Skip network selection.
+04-10 11:43:24.858  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:43:24.860  1867  1867 I chatty  : uid=1000(system) com.android.settings identical 6 lines
+04-10 11:43:24.860  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:43:24.881  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:43:27.340  1136  2028 I WifiService: startScan uid=1000
+04-10 11:43:27.357  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f09c5r8O8INiz2drDksQsKR2XOfKiq1IClCXASD7nTyHF5qCeXHvVGSos2LLHDr7oiMwfWUNKsjy7wwLaHHw0QuYxDwNNM7SODefH219leZRQ==
+04-10 11:43:29.945  1136  2028 D WificondControl: Scan result ready event
+04-10 11:43:29.946  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:43:29.946  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+PyslqKo3+mmxS6uGP9ZDQH5dl1iN3Pj5EbZJuWNHuns5YK4R+deYuJfL+FafjHAuVFQqFKW+Up4Xt7MxMYQtrqg==
+04-10 11:43:29.946  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH0ihaH8jGj23EPk5gIFi189ydUWergBUinohfEb2tW55eyfPaid0uT4VvEa6/h1I77CGKC77fPNT97oRKcBiJXM=
+04-10 11:43:29.999  1136  1563 D WifiNetworkSelector: Current connected network: "Michael fast " , ID: 0
+04-10 11:43:29.999  1136  1563 D WifiNetworkSelector: Current connected network already sufficient. Skip network selection.
+04-10 11:43:30.009  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:43:30.010  1867  1867 I chatty  : uid=1000(system) com.android.settings identical 6 lines
+04-10 11:43:30.010  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:43:30.028  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:43:30.772  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:43:30.773  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:43:30.774  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:43:30.774  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:43:30.775  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:43:30.775  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:43:30.775  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:43:30.794  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:43:33.080  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:43:35.809  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:43:35.811  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:43:35.811  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:43:35.811  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:43:35.811  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:43:35.811  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:43:35.812  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:43:35.822  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:43:36.138  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:43:37.344  1136  1573 I WifiService: startScan uid=1000
+04-10 11:43:37.357  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f0HzYOeO4Tn+G+ix+XewD55USeHcDZJiv8lre5sJ2ZBdPUrCiVTSBtQJHnnOtxM2yfy53QSLpHibDmpqy0Tg7OJSy6VLYaY2+MN7v6SMOqX+g==
+04-10 11:43:39.936  1136  1573 D WificondControl: Scan result ready event
+04-10 11:43:39.936  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:43:39.937  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+PatGxq4j79H9XXS5tT8449pk52Y4h+tVaOEEi55/u9dsVPWrhiyqhrtjVt9JPQCpgfHoJCRArMeJh5214mRf69A==
+04-10 11:43:39.937  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH7o/xZmTReZPT8NGrdwFtx4XLX2EnyXida31JzP+AyTZXp/T+u4VxBBe1lqUXX0Jfp9NEWSkJKbOMK0OhtpEEy0=
+04-10 11:43:39.948  1136  1563 D WifiNetworkSelector: Current connected network: "Michael fast " , ID: 0
+04-10 11:43:39.949  1136  1563 D WifiNetworkSelector: Current connected network already sufficient. Skip network selection.
+04-10 11:43:39.958  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:43:39.960  1867  1867 I chatty  : uid=1000(system) com.android.settings identical 6 lines
+04-10 11:43:39.960  1867  1867 D WifiSettings: onAccessPointChanged (singular) callback initiated
+04-10 11:43:39.986  1867  1867 D WifiSettings: onAccessPointsChanged (WifiTracker) callback initiated
+04-10 11:43:44.939   617   617 E WifiHAL : wifi_get_wake_reason_stats: Wake lock logging feature not supported 0
+04-10 11:43:44.940  1136  2028 E WifiVendorHal: getWlanWakeReasonCount(l.2103) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+04-10 11:43:44.941  1136  2028 W WifiDiags: CaptureBugReport 7
+
+--------------------------------------------------------------------
+Last Flush Time: {}
+--------------------------------------------------------------------
+No fates fetched for "Last failed connection fates"
+HAL provided zero fates for "Latest fates"
+No last mile log for "Last failed last-mile log"
+-------------------------- Latest last-mile log ---------------------------
+# tracer: nop
+#
+# entries-in-buffer/entries-written: 195/195   #P:4
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+           <...>-2356  [001] ....   693.391191: rdev_connect: phy1, netdev:wlan0(28), bssid: 00:00:00:00:00:00, ssid: Michael fast , auth type: 0, privacy: true, wpa versions: 2, flags: 0, previous bssid: 00:00:00:00:00:00
+           <...>-2332  [002] ...1   693.524449: netif_rx: dev=wlan0 skbaddr=00000000 len=99
+           <...>-2332  [002] ..s1   693.524466: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=99
+           <...>-2356  [002] ....   693.530530: net_dev_queue: dev=wlan0 skbaddr=00000000 len=268
+           <...>-2356  [002] .n.1   693.530602: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=268 rc=0
+           <...>-2332  [000] ...1   693.543379: netif_rx: dev=wlan0 skbaddr=00000000 len=307
+           <...>-2332  [000] ..s1   693.543389: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=307
+           <...>-2356  [002] ....   693.544274: net_dev_queue: dev=wlan0 skbaddr=00000000 len=113
+           <...>-2356  [002] ...1   693.544348: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=113 rc=0
+           <...>-2356  [002] ....   693.544707: rdev_add_key: phy1, netdev:wlan0(28), key_index: 0, pairwise: true, mac addr: d8:47:32:eb:e5:9f
+           <...>-2356  [002] ....   693.545224: rdev_set_default_key: phy1, netdev:wlan0(28), key index: 0, unicast: true, multicast: false
+           <...>-2356  [002] ....   693.545794: rdev_add_key: phy1, netdev:wlan0(28), key_index: 1, pairwise: false, mac addr: 00:00:00:00:00:00
+           <...>-2356  [003] ....   693.548722: rdev_set_rekey_data: phy1, netdev:wlan0(28)
+           <...>-574   [000] ....   693.664668: net_dev_queue: dev=wlan0 skbaddr=00000000 len=78
+           <...>-574   [000] ...1   693.664746: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=78 rc=0
+           <...>-2384  [000] ..s.   693.680270: net_dev_queue: dev=wlan0 skbaddr=00000000 len=90
+           <...>-2384  [000] ..s1   693.680311: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=90 rc=0
+           <...>-2384  [002] ....   693.748737: net_dev_queue: dev=wlan0 skbaddr=00000000 len=328
+           <...>-2384  [002] ...1   693.748815: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=328 rc=0
+           <...>-2332  [000] ...1   693.823088: netif_rx: dev=wlan0 skbaddr=00000000 len=46
+           <...>-2332  [000] ..s1   693.823098: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=46
+           <...>-2332  [000] ...1   693.823174: netif_rx: dev=wlan0 skbaddr=00000000 len=32
+           <...>-2332  [000] ..s1   693.823176: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=32
+           <...>-2332  [001] ...1   694.231509: netif_rx: dev=wlan0 skbaddr=00000000 len=198
+           <...>-2332  [001] ..s1   694.231520: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=198
+           <...>-2032  [000] ..s.   694.560177: net_dev_queue: dev=wlan0 skbaddr=00000000 len=90
+           <...>-2032  [000] ..s1   694.560228: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=90 rc=0
+           <...>-573   [000] ....   694.720344: net_dev_queue: dev=wlan0 skbaddr=00000000 len=90
+           <...>-573   [000] ...1   694.720390: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=90 rc=0
+           <...>-573   [000] ....   694.720449: net_dev_queue: dev=wlan0 skbaddr=00000000 len=70
+           <...>-573   [000] ...1   694.720608: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=70 rc=0
+           <...>-2332  [001] ...1   694.845596: netif_rx: dev=wlan0 skbaddr=00000000 len=46
+           <...>-2332  [001] ..s1   694.845607: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=46
+           <...>-2332  [001] ...1   694.846775: netif_rx: dev=wlan0 skbaddr=00000000 len=772
+           <...>-2332  [001] ..s1   694.846783: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=772
+           <...>-2332  [000] ...1   694.948952: netif_rx: dev=wlan0 skbaddr=00000000 len=755
+           <...>-2332  [000] ..s1   694.948963: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=755
+           <...>-2332  [000] ...1   695.050389: netif_rx: dev=wlan0 skbaddr=00000000 len=46
+           <...>-2332  [000] ..s1   695.050398: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=46
+           <...>-2332  [000] ...1   695.152985: netif_rx: dev=wlan0 skbaddr=00000000 len=200
+           <...>-2332  [000] ..s1   695.153001: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=200
+           <...>-2332  [000] ...1   695.255379: netif_rx: dev=wlan0 skbaddr=00000000 len=198
+           <...>-2332  [000] ..s1   695.255388: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=198
+           <...>-2332  [000] ...1   695.550874: netif_rx: dev=wlan0 skbaddr=00000000 len=576
+           <...>-2332  [000] ..s1   695.550883: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=576
+           <...>-2384  [001] ....   695.556192: net_dev_queue: dev=wlan0 skbaddr=00000000 len=340
+           <...>-2384  [001] ...1   695.556282: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=340 rc=0
+           <...>-2332  [000] ...1   695.562604: netif_rx: dev=wlan0 skbaddr=00000000 len=200
+           <...>-2332  [000] ..s1   695.562615: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=200
+          <idle>-0     [000] .ns1   695.680177: net_dev_queue: dev=wlan0 skbaddr=00000000 len=90
+          <idle>-0     [000] .ns2   695.680225: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=90 rc=0
+           <...>-2332  [000] ...1   695.713565: netif_rx: dev=wlan0 skbaddr=00000000 len=576
+           <...>-2332  [000] ..s1   695.713575: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=576
+           <...>-2578  [001] ..s.   695.950173: net_dev_queue: dev=wlan0 skbaddr=00000000 len=54
+           <...>-421   [003] ..s.   695.950236: net_dev_queue: dev=wlan0 skbaddr=00000000 len=90
+           <...>-421   [003] ..s1   695.950245: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=90 rc=0
+           <...>-2578  [001] ..s1   695.950252: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=54 rc=0
+           <...>-2332  [001] ...1   695.972221: netif_rx: dev=wlan0 skbaddr=00000000 len=200
+           <...>-2332  [001] ..s1   695.972232: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=200
+           <...>-2332  [000] ...1   695.972846: netif_rx: dev=wlan0 skbaddr=00000000 len=134
+           <...>-2332  [000] ..s1   695.972857: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=134
+           <...>-3596  [001] ....   695.972931: net_dev_queue: dev=wlan0 skbaddr=00000000 len=42
+           <...>-2332  [000] ...1   695.972940: netif_rx: dev=wlan0 skbaddr=00000000 len=118
+           <...>-2332  [000] ..s1   695.972942: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=118
+           <...>-3596  [001] .n.1   695.973078: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=42 rc=0
+           <...>-2332  [000] ...1   695.973129: netif_rx: dev=wlan0 skbaddr=00000000 len=118
+           <...>-2332  [000] ..s1   695.973134: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=118
+           <...>-2332  [002] ...1   695.974910: netif_rx: dev=wlan0 skbaddr=00000000 len=200
+           <...>-2332  [002] ..s1   695.974931: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=200
+           <...>-2332  [001] ...1   695.978409: netif_rx: dev=wlan0 skbaddr=00000000 len=46
+           <...>-2332  [001] ..s1   695.978421: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=46
+           <...>-2332  [001] ..s1   695.978489: net_dev_queue: dev=wlan0 skbaddr=00000000 len=78
+           <...>-2332  [001] ..s2   695.978528: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=78 rc=0
+           <...>-2332  [001] ..s1   695.978533: net_dev_queue: dev=wlan0 skbaddr=00000000 len=78
+           <...>-2332  [001] ..s2   695.978538: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=78 rc=0
+           <...>-2332  [001] ...1   695.995650: netif_rx: dev=wlan0 skbaddr=00000000 len=92
+           <...>-2332  [001] ..s1   695.995659: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=92
+           <...>-2332  [001] ...1   696.004401: netif_rx: dev=wlan0 skbaddr=00000000 len=92
+           <...>-2332  [001] ..s1   696.004411: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=92
+           <...>-3600  [002] ....   696.105252: net_dev_queue: dev=wlan0 skbaddr=00000000 len=74
+           <...>-3600  [002] ...1   696.105312: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=74 rc=0
+           <...>-3601  [002] ....   696.106189: net_dev_queue: dev=wlan0 skbaddr=00000000 len=89
+           <...>-3601  [002] ...1   696.106214: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=89 rc=0
+           <...>-2332  [000] ...1   696.131230: netif_rx: dev=wlan0 skbaddr=00000000 len=76
+           <...>-2332  [000] ..s1   696.131240: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=76
+           <...>-2332  [000] ...1   696.131380: netif_rx: dev=wlan0 skbaddr=00000000 len=91
+           <...>-2332  [000] ..s1   696.131384: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=91
+           <...>-3594  [002] ...1   696.147765: netif_rx: dev=wlan0 skbaddr=00000000 len=67
+           <...>-3594  [002] ..s1   696.147775: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=67
+           <...>-3594  [002] ....   696.147940: net_dev_queue: dev=wlan0 skbaddr=00000000 len=81
+           <...>-3594  [002] ...1   696.147990: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=81 rc=0
+           <...>-3594  [002] ...1   696.148204: netif_rx: dev=wlan0 skbaddr=00000000 len=87
+           <...>-3594  [002] ..s1   696.148212: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=87
+           <...>-3594  [002] ....   696.148283: net_dev_queue: dev=wlan0 skbaddr=00000000 len=101
+           <...>-3594  [002] ...1   696.148318: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=101 rc=0
+           <...>-3598  [003] ....   696.153727: net_dev_queue: dev=wlan0 skbaddr=00000000 len=74
+           <...>-3598  [003] ...1   696.153788: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=74 rc=0
+           <...>-3599  [003] ....   696.155815: net_dev_queue: dev=wlan0 skbaddr=00000000 len=74
+           <...>-3599  [003] ...1   696.155858: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=74 rc=0
+           <...>-3606  [001] ....   696.171676: net_dev_queue: dev=wlan0 skbaddr=00000000 len=82
+           <...>-3606  [001] .n.1   696.171736: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=82 rc=0
+           <...>-2332  [001] ...1   696.176983: netif_rx: dev=wlan0 skbaddr=00000000 len=200
+           <...>-2332  [001] ..s1   696.176993: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=200
+           <...>-2332  [000] ...1   696.177908: netif_rx: dev=wlan0 skbaddr=00000000 len=198
+           <...>-2332  [000] ..s1   696.177913: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=198
+           <...>-2332  [001] ...1   696.181143: netif_rx: dev=wlan0 skbaddr=00000000 len=60
+           <...>-2332  [001] ..s1   696.181151: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=60
+           <...>-2332  [001] ..s2   696.181671: net_dev_queue: dev=wlan0 skbaddr=00000000 len=66
+           <...>-2332  [001] ..s3   696.181707: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=66 rc=0
+           <...>-2332  [002] ...1   696.189198: netif_rx: dev=wlan0 skbaddr=00000000 len=132
+           <...>-2332  [002] ..s1   696.189210: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=132
+           <...>-2332  [002] ...1   696.189408: netif_rx: dev=wlan0 skbaddr=00000000 len=60
+           <...>-2332  [002] ..s1   696.189414: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=60
+           <...>-2332  [002] ..s2   696.189611: net_dev_queue: dev=wlan0 skbaddr=00000000 len=66
+           <...>-2332  [002] ..s3   696.189661: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=66 rc=0
+           <...>-3599  [003] ....   696.191350: net_dev_queue: dev=wlan0 skbaddr=00000000 len=293
+           <...>-3599  [003] ...1   696.191373: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=293 rc=0
+           <...>-1690  [003] ....   696.200658: net_dev_queue: dev=wlan0 skbaddr=00000000 len=90
+           <...>-1690  [003] ...1   696.200720: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=90 rc=0
+           <...>-3610  [003] ....   696.221373: net_dev_queue: dev=wlan0 skbaddr=00000000 len=78
+           <...>-3610  [003] ...1   696.221394: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=78 rc=0
+           <...>-3598  [002] ....   696.223352: net_dev_queue: dev=wlan0 skbaddr=00000000 len=583
+           <...>-3598  [002] ...1   696.223367: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=583 rc=0
+          <idle>-0     [001] .ns1   696.230193: net_dev_queue: dev=wlan0 skbaddr=00000000 len=54
+          <idle>-0     [001] .ns2   696.230219: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=54 rc=0
+           <...>-2332  [000] ...1   696.323612: netif_rx: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [000] ..s1   696.323623: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [000] ...1   696.323746: netif_rx: dev=wlan0 skbaddr=00000000 len=198
+           <...>-2332  [000] ..s1   696.323749: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=198
+           <...>-2332  [000] ..s2   696.323935: net_dev_queue: dev=wlan0 skbaddr=00000000 len=66
+           <...>-2332  [000] ..s3   696.323978: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=66 rc=0
+           <...>-2332  [000] ...1   696.324002: netif_rx: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [000] ..s1   696.324005: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [000] ...1   696.324057: netif_rx: dev=wlan0 skbaddr=00000000 len=76
+           <...>-2332  [000] ..s1   696.324060: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=76
+           <...>-3599  [001] ....   696.325166: net_dev_queue: dev=wlan0 skbaddr=00000000 len=66
+           <...>-3599  [001] ...1   696.325235: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=66 rc=0
+           <...>-2332  [000] ...1   696.327297: netif_rx: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [000] ..s1   696.327318: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [000] ..s2   696.327550: net_dev_queue: dev=wlan0 skbaddr=00000000 len=78
+           <...>-2332  [000] ..s3   696.327664: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=78 rc=0
+           <...>-3611  [003] .ns.   696.330262: net_dev_queue: dev=wlan0 skbaddr=00000000 len=90
+           <...>-3611  [003] .ns1   696.330316: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=90 rc=0
+           <...>-2332  [001] ...1   696.355630: netif_rx: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [001] ..s1   696.355641: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [003] ...1   696.359949: netif_rx: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [003] ..s1   696.359959: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [002] ...1   696.362666: netif_rx: dev=wlan0 skbaddr=00000000 len=1452
+           <...>-2332  [002] ..s1   696.362678: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=1452
+           <...>-2332  [002] ..s2   696.362893: net_dev_queue: dev=wlan0 skbaddr=00000000 len=66
+           <...>-2332  [002] ..s3   696.362948: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=66 rc=0
+           <...>-2332  [002] ...1   696.362994: netif_rx: dev=wlan0 skbaddr=00000000 len=1452
+           <...>-2332  [002] ..s1   696.362999: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=1452
+           <...>-2332  [002] ..s2   696.363088: net_dev_queue: dev=wlan0 skbaddr=00000000 len=66
+           <...>-2332  [002] ..s3   696.363097: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=66 rc=0
+           <...>-2332  [002] ...1   696.363122: netif_rx: dev=wlan0 skbaddr=00000000 len=1359
+           <...>-2332  [002] ..s1   696.363126: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=1359
+           <...>-2332  [002] ..s2   696.363182: net_dev_queue: dev=wlan0 skbaddr=00000000 len=66
+           <...>-2332  [002] ..s3   696.363189: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=66 rc=0
+           <...>-3598  [000] ....   696.411737: net_dev_queue: dev=wlan0 skbaddr=00000000 len=130
+           <...>-3598  [000] ...1   696.411779: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=130 rc=0
+           <...>-2332  [000] ...1   696.575011: netif_rx: dev=wlan0 skbaddr=00000000 len=168
+           <...>-2332  [000] ..s1   696.575021: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=168
+           <...>-2332  [000] ...1   696.575183: netif_rx: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [000] ..s1   696.575187: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [000] ..s2   696.575377: net_dev_queue: dev=wlan0 skbaddr=00000000 len=300
+           <...>-2332  [000] ..s3   696.575421: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=300 rc=0
+           <...>-2958  [003] ....   696.580707: net_dev_queue: dev=wlan0 skbaddr=00000000 len=74
+           <...>-2958  [003] ...1   696.580766: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=74 rc=0
+           <...>-2332  [000] ...1   696.597524: netif_rx: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [000] ..s1   696.597535: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [000] ...1   696.597693: netif_rx: dev=wlan0 skbaddr=00000000 len=841
+           <...>-2332  [000] ..s1   696.597697: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=841
+           <...>-2332  [000] ..s2   696.597888: net_dev_queue: dev=wlan0 skbaddr=00000000 len=66
+           <...>-2332  [000] ..s3   696.597939: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=66 rc=0
+           <...>-2332  [002] ...1   696.598613: netif_rx: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [002] ..s1   696.598626: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=52
+           <...>-2332  [002] ...1   696.601819: netif_rx: dev=wlan0 skbaddr=00000000 len=60
+           <...>-2332  [002] ..s1   696.601829: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=60
+           <...>-2332  [002] ..s2   696.602052: net_dev_queue: dev=wlan0 skbaddr=00000000 len=66
+           <...>-2332  [002] ..s3   696.602100: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=66 rc=0
+           <...>-3598  [000] ....   696.605587: net_dev_queue: dev=wlan0 skbaddr=00000000 len=90
+           <...>-3598  [000] ...1   696.605633: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=90 rc=0
+           <...>-3598  [000] ....   696.606253: net_dev_queue: dev=wlan0 skbaddr=00000000 len=66
+           <...>-3598  [000] ...1   696.606291: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=66 rc=0
+           <...>-3594  [003] ...1   696.618303: netif_rx: dev=wlan0 skbaddr=00000000 len=109
+           <...>-3594  [003] ..s1   696.618316: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=109
+           <...>-3594  [003] ....   696.618407: net_dev_queue: dev=wlan0 skbaddr=00000000 len=123
+           <...>-3594  [003] ...1   696.618460: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=123 rc=0
+           <...>-3594  [003] ...1   696.618585: netif_rx: dev=wlan0 skbaddr=00000000 len=129
+           <...>-3594  [003] ..s1   696.618592: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=129
+           <...>-3594  [003] ....   696.618653: net_dev_queue: dev=wlan0 skbaddr=00000000 len=143
+           <...>-3594  [003] ...1   696.618666: net_dev_xmit: dev=wlan0 skbaddr=00000000 len=143 rc=0
+           <...>-2332  [002] ...1   696.634924: netif_rx: dev=wlan0 skbaddr=00000000 len=46
+           <...>-2332  [002] ..s1   696.634936: netif_receive_skb: dev=wlan0 skbaddr=00000000 len=46
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+IpClient logs have moved to dumpsys network_stack
+Dump of WifiConnectivityManager
+WifiConnectivityManager - Log Begin ----
+2025-04-10T11:34:47.417 - ScoredNetworkEvaluator constructed. mNetworkRecommendationsEnabled: false
+2025-04-10T11:34:47.477 - PNO settings: min5GHzRssi -77 min24GHzRssi -80 currentConnectionBonus 16 sameNetworkBonus 24 secureNetworkBonus 80 initialScoreMax 112
+2025-04-10T11:34:47.486 - handleScreenStateChanged: screenOn=true
+2025-04-10T11:34:47.486 - startConnectivityScan: screenOn=true wifiState=unknown scanImmediately=false wifiEnabled=false wifiConnectivityManagerEnabled=false
+2025-04-10T11:34:52.964 - Set WiFi enabled
+2025-04-10T11:34:52.964 - Stopping WifiConnectivityManager
+2025-04-10T11:34:52.965 - handleConnectionStateChanged: state=disconnected
+2025-04-10T11:34:52.965 - scheduleWatchdogTimer
+2025-04-10T11:34:52.966 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=false
+2025-04-10T11:34:53.225 - setTrustedConnectionAllowed: allowed=true
+2025-04-10T11:34:53.225 - Set WiFiConnectivityManager enabled
+2025-04-10T11:34:53.225 - Starting up WifiConnectivityManager
+2025-04-10T11:34:53.228 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+2025-04-10T11:34:54.172 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:34:54.172 - No configured networks.
+2025-04-10T11:34:54.173 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9e / de:47:32:eb:e5:9f / de:47:32:ec:28:ca / de:47:32:eb:e5:1f / 
+2025-04-10T11:34:54.173 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-79 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-90 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-88 / 
+2025-04-10T11:34:54.174 - About to run SavedNetworkEvaluator :
+2025-04-10T11:34:54.174 - did not see any good candidates.
+2025-04-10T11:34:54.175 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:34:54.176 - did not see any matching network suggestions.
+2025-04-10T11:34:54.176 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:34:54.198 - No suitable Passpoint network found
+2025-04-10T11:34:54.198 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:34:54.200 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:34:54.210 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:34:54.211 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:34:54.211 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:34:54.211 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:35:13.233 - periodicScanTimerHandler
+2025-04-10T11:35:16.092 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:35:16.092 - No configured networks.
+2025-04-10T11:35:16.093 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9e / de:47:32:eb:e5:9f / de:47:32:ec:28:ca / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 
+2025-04-10T11:35:16.093 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-80 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-89 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-89 / 
+2025-04-10T11:35:16.093 - About to run SavedNetworkEvaluator :
+2025-04-10T11:35:16.093 - did not see any good candidates.
+2025-04-10T11:35:16.093 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:35:16.094 - did not see any matching network suggestions.
+2025-04-10T11:35:16.094 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:35:16.096 - No suitable Passpoint network found
+2025-04-10T11:35:16.096 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:35:16.097 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:35:16.097 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:35:16.097 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:35:16.097 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:35:16.097 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:35:53.237 - periodicScanTimerHandler
+2025-04-10T11:35:56.115 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:35:56.116 - No configured networks.
+2025-04-10T11:35:56.116 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 
+2025-04-10T11:35:56.116 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-82 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-84 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-89 / 
+2025-04-10T11:35:56.117 - About to run SavedNetworkEvaluator :
+2025-04-10T11:35:56.117 - did not see any good candidates.
+2025-04-10T11:35:56.117 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:35:56.117 - did not see any matching network suggestions.
+2025-04-10T11:35:56.117 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:35:56.121 - No suitable Passpoint network found
+2025-04-10T11:35:56.121 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:35:56.121 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:35:56.121 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:35:56.122 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:35:56.122 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:35:56.122 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:37:13.239 - periodicScanTimerHandler
+2025-04-10T11:37:16.105 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:37:16.105 - No configured networks.
+2025-04-10T11:37:16.106 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / de:47:32:eb:e5:9e / 
+2025-04-10T11:37:16.106 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-81 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-90 / Michael fast :d8:47:32:ec:28:cb(5GHz)-87 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-91 / 
+2025-04-10T11:37:16.107 - About to run SavedNetworkEvaluator :
+2025-04-10T11:37:16.107 - did not see any good candidates.
+2025-04-10T11:37:16.107 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:37:16.108 - did not see any matching network suggestions.
+2025-04-10T11:37:16.108 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:37:16.112 - No suitable Passpoint network found
+2025-04-10T11:37:16.112 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:37:16.112 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:37:16.112 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:37:16.112 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:37:16.113 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:37:16.113 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:39:53.239 - periodicScanTimerHandler
+2025-04-10T11:39:56.107 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:39:56.107 - No configured networks.
+2025-04-10T11:39:56.108 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 40:32:9d:09:8c:81 / de:47:32:eb:e5:1e / 
+2025-04-10T11:39:56.108 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-80 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-84 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-89 / 
+2025-04-10T11:39:56.108 - About to run SavedNetworkEvaluator :
+2025-04-10T11:39:56.109 - did not see any good candidates.
+2025-04-10T11:39:56.109 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:39:56.109 - did not see any matching network suggestions.
+2025-04-10T11:39:56.109 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:39:56.113 - No suitable Passpoint network found
+2025-04-10T11:39:56.113 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:39:56.113 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:39:56.114 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:39:56.114 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:39:56.114 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:39:56.114 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:39:58.520 - handleScreenStateChanged: screenOn=true
+2025-04-10T11:39:58.521 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2025-04-10T11:39:58.521 - Last periodic single scan started 5282ms ago, defer this new scan request.
+2025-04-10T11:39:58.560 - handleScreenStateChanged: screenOn=false
+2025-04-10T11:39:58.561 - startConnectivityScan: screenOn=false wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2025-04-10T11:39:58.562 - No saved network for starting disconnected PNO.
+2025-04-10T11:41:55.208 - handleScreenStateChanged: screenOn=true
+2025-04-10T11:41:55.208 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2025-04-10T11:41:58.082 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:41:58.083 - No configured networks.
+2025-04-10T11:41:58.084 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 40:32:9d:09:8c:81 / de:47:32:eb:e5:1e / 
+2025-04-10T11:41:58.084 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-82 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-86 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-90 / 
+2025-04-10T11:41:58.084 - About to run SavedNetworkEvaluator :
+2025-04-10T11:41:58.084 - did not see any good candidates.
+2025-04-10T11:41:58.085 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:41:58.085 - did not see any matching network suggestions.
+2025-04-10T11:41:58.085 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:41:58.088 - No suitable Passpoint network found
+2025-04-10T11:41:58.088 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:41:58.089 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:41:58.089 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:41:58.089 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:41:58.089 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:41:58.089 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:42:15.208 - periodicScanTimerHandler
+2025-04-10T11:42:18.074 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:42:18.074 - No configured networks.
+2025-04-10T11:42:18.075 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 40:32:9d:09:8c:81 / de:47:32:eb:e5:1e / de:47:32:eb:e5:9e / de:47:32:ec:28:ca / 
+2025-04-10T11:42:18.075 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-84 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-86 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-90 / 
+2025-04-10T11:42:18.075 - About to run SavedNetworkEvaluator :
+2025-04-10T11:42:18.076 - did not see any good candidates.
+2025-04-10T11:42:18.076 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:42:18.077 - did not see any matching network suggestions.
+2025-04-10T11:42:18.077 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:42:18.081 - No suitable Passpoint network found
+2025-04-10T11:42:18.081 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:42:18.081 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:42:18.081 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:42:18.081 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:42:18.082 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:42:18.083 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:42:55.209 - periodicScanTimerHandler
+2025-04-10T11:42:58.073 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:42:58.073 - No configured networks.
+2025-04-10T11:42:58.074 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 40:32:9d:09:8c:81 / de:47:32:eb:e5:9e / de:47:32:ec:28:ca / 
+2025-04-10T11:42:58.074 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-85 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-90 / Michael fast :d8:47:32:ec:28:cb(5GHz)-84 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-90 / 
+2025-04-10T11:42:58.074 - About to run SavedNetworkEvaluator :
+2025-04-10T11:42:58.074 - did not see any good candidates.
+2025-04-10T11:42:58.075 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:42:58.075 - did not see any matching network suggestions.
+2025-04-10T11:42:58.075 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:42:58.078 - No suitable Passpoint network found
+2025-04-10T11:42:58.078 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:42:58.078 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:42:58.078 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:42:58.079 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:42:58.079 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:42:58.079 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:44:15.211 - periodicScanTimerHandler
+2025-04-10T11:44:18.070 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:44:18.070 - No configured networks.
+2025-04-10T11:44:18.071 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / de:47:32:eb:e5:1e / 
+2025-04-10T11:44:18.071 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-84 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-93 / Michael fast :d8:47:32:ec:28:cb(5GHz)-82 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-92 / 
+2025-04-10T11:44:18.072 - About to run SavedNetworkEvaluator :
+2025-04-10T11:44:18.072 - did not see any good candidates.
+2025-04-10T11:44:18.072 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:44:18.073 - did not see any matching network suggestions.
+2025-04-10T11:44:18.073 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:44:18.076 - No suitable Passpoint network found
+2025-04-10T11:44:18.076 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:44:18.076 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:44:18.076 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:44:18.076 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:44:18.077 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:44:18.077 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:45:34.121 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:45:34.122 - No configured networks.
+2025-04-10T11:45:34.123 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / de:47:32:eb:e5:1e / 
+2025-04-10T11:45:34.123 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-89 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-92 / Michael fast :d8:47:32:ec:28:cb(5GHz)-82 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-91 / 
+2025-04-10T11:45:34.123 - About to run SavedNetworkEvaluator :
+2025-04-10T11:45:34.124 - did not see any good candidates.
+2025-04-10T11:45:34.124 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:45:34.125 - did not see any matching network suggestions.
+2025-04-10T11:45:34.125 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:45:34.129 - No suitable Passpoint network found
+2025-04-10T11:45:34.129 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:45:34.129 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:45:34.130 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:45:34.130 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:45:34.130 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:45:34.130 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:45:42.422 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:45:42.422 - No configured networks.
+2025-04-10T11:45:42.423 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / de:47:32:eb:e5:1e / 62:45:b6:61:6a:ad / 
+2025-04-10T11:45:42.423 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-88 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-92 / Michael fast :d8:47:32:ec:28:cb(5GHz)-82 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-92 / 
+2025-04-10T11:45:42.424 - About to run SavedNetworkEvaluator :
+2025-04-10T11:45:42.424 - did not see any good candidates.
+2025-04-10T11:45:42.424 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:45:42.425 - did not see any matching network suggestions.
+2025-04-10T11:45:42.425 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:45:42.430 - No suitable Passpoint network found
+2025-04-10T11:45:42.430 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:45:42.430 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:45:42.431 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:45:42.431 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:45:42.431 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:45:42.431 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:45:47.915 - setUserConnectChoice: netId=0
+2025-04-10T11:45:47.915 - userSelectNetwork: network ID=0
+2025-04-10T11:45:47.916 - prepareForForcedConnection: netId=0
+2025-04-10T11:45:51.085 - trackBssid: enable d8:47:32:eb:e5:9f reason code 0
+2025-04-10T11:45:51.086 - handleConnectionStateChanged: state=transitioning
+2025-04-10T11:45:51.086 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2025-04-10T11:45:53.305 - handleConnectionStateChanged: state=connected
+2025-04-10T11:45:53.306 - startConnectivityScan: screenOn=true wifiState=connected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2025-04-10T11:41:06.418 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:41:06.419 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:41:06.419 - Current network is recently user-selected.
+2025-04-10T11:41:06.419 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:41:07.320 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:41:07.320 - Empty connectivity scan result
+2025-04-10T11:41:19.905 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:41:19.905 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:41:19.906 - Current network is recently user-selected.
+2025-04-10T11:41:19.906 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:41:22.299 - periodicScanTimerHandler
+2025-04-10T11:41:24.845 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:41:24.845 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:41:24.846 - Current network is recently user-selected.
+2025-04-10T11:41:24.846 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:41:29.881 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:41:29.882 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:41:29.882 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:41:39.909 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:41:39.909 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:41:39.910 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:41:49.949 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:41:49.950 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:41:49.950 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:41:59.920 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:41:59.921 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:41:59.921 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:42:02.301 - periodicScanTimerHandler
+2025-04-10T11:42:04.840 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:42:04.841 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:42:04.841 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:42:09.906 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:42:09.906 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:42:09.907 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:42:19.945 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:42:19.946 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:42:19.947 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:42:29.938 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:42:29.938 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:42:29.939 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:42:39.860 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:42:39.860 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:42:39.861 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:42:49.947 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:42:49.948 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:42:49.948 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:42:59.938 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:42:59.938 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:42:59.939 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:43:09.948 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:43:09.949 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:43:09.949 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:43:19.948 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:43:19.949 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:43:19.949 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:43:22.301 - periodicScanTimerHandler
+2025-04-10T11:43:24.848 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:43:24.848 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:43:24.849 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:43:29.998 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:43:29.999 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:43:29.999 - Current connected network already sufficient. Skip network selection.
+2025-04-10T11:43:39.948 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:43:39.948 - Current connected network: "Michael fast " , ID: 0
+2025-04-10T11:43:39.949 - Current connected network already sufficient. Skip network selection.
+WifiConnectivityManager - Log End ----
+WifiOpenNetworkNotifier: 
+mSettingEnabled false
+currentTime: 1744281825021
+mNotificationRepeatTime: 0
+mState: 0
+mBlacklistedSsids: {}
+WifiCarrierNetworkNotifier: 
+mSettingEnabled true
+currentTime: 1744281825021
+mNotificationRepeatTime: 0
+mState: 0
+mBlacklistedSsids: {}
+CarrierNetworkConfig: 
+mCarrierNetworkMap={}
+mIsCarrierImsiEncryptionInfoAvailable=false
+mLastImsiEncryptionInfo=null
+Dump of WakeupController
+USE_PLATFORM_WIFI_WAKE: true
+mWifiWakeupEnabled: true
+isOnboarded: false
+configStore hasBeenRead: true
+mIsActive: false
+mNumScansHandled: 0
+WakeupLock: 
+mNumScans: 0
+mIsInitialized: true
+Locked networks: 0
+Dump of LinkProbeManager
+LinkProbeManager - link probing supported by device: false
+LinkProbeManager - link probing feature flag enabled: false
+LinkProbeManager - mLastLinkProbeTimestampMs: 0
+LinkProbeManager - mLastTxSuccessIncreaseTimestampMs: 0
+LinkProbeManager - mLastTxSuccessCount: 0
+LinkProbeManager - mLastScreenOnTimestampMs: 0
+LinkProbeManager - mTimedQuotaManager: TimedQuotaManager{mQuota=192, mPeriodMillis=86400000, mStartTimeMillis=29897, mLastPeriod=0, mConsumedQuota=0}
+Dump of WifiLastResortWatchdog
+WifiLastResortWatchdog - Log Begin ----
+2025-04-10T11:34:47.476 - updateDeviceConfigFlags: mAbnormalConnectionDurationMs = 30000, mAbnormalConnectionBugreportEnabled = false
+2025-04-10T11:45:53.399 - connectedStateTransition: isEntering = true
+2025-04-10T11:45:53.400 - connectedStateTransition: setWatchdogTriggerEnabled to true
+WifiLastResortWatchdog - Log End ----
+
+WifiScoreCard:
+GuEDGtoDCO2zwooHIn0IBBD4KBomCAERAAAAAACARcAZAAAAAADknEAhAAAAAACARcApAAAAAACA
+RcAiJggBEQAAAAAAEHtAGQAAAAAI4wZBIQAAAAAAEHtAKQAAAAAAEHtAKiYIAREAAAAAAP+0QBkA
+AAAQYI17QSEAAAAAAP+0QCkAAAAAAP+0QCJ9CAMQ+CgaJggBEQAAAAAAgEXAGQAAAAAA5JxAIQAA
+AAAAgEXAKQAAAAAAgEXAIiYIAREAAAAAABB7QBkAAAAACOMGQSEAAAAAABB7QCkAAAAAABB7QCom
+CAERAAAAAADaqUAZAAAAIG3iZEEhAAAAAADaqUApAAAAAADaqUAiVQgBEPgoGiYINhEAAAAAAACj
+wBkAAAAAoOD6QCEAAAAAAIBIwCkAAAAAAABEwCImCDYRAAAAAIDV1kAZAAAAwI5PY0EhAAAAAAAQ
+e0ApAAAAAAAQe0AifQgNEPgoGiYIAREAAAAAAIBFwBkAAAAAAOScQCEAAAAAAIBFwCkAAAAAAIBF
+wCImCAERAAAAAAAQe0AZAAAAAAjjBkEhAAAAAAAQe0ApAAAAAAAQe0AqJggBEQAAAAAAarhAGQAA
+ACBfoIJBIQAAAAAAarhAKQAAAAAAarhAIAAoZA==
+
+WifiMetrics:
+mConnectionEvents:
+startTime=04-10 11:45:47.918, SSID="Michael fast ", BSSID=any, durationMillis=5387, roamType=ROAM_UNRELATED, connectionResult=1, level2FailureCode=NONE, connectivityLevelFailureCode=NONE, signalStrength=0, wifiState=WIFI_DISCONNECTED, screenOn=true, mRouterFingerprint=mConnectionEvent.roamType=0, mChannelInfo=0, mDtim=0, mAuthentication=2, mHidden=false, mRouterTechnology=0, mSupportsIpv6=false, useRandomizedMac=true, connectionNominator=NOMINATOR_MANUAL, networkSelectorExperimentId=42504592, level2FailureReason=FAILURE_REASON_UNKNOWN
+mWifiLogProto.numSavedNetworks=1
+mWifiLogProto.numSavedNetworksWithMacRandomization=3
+mWifiLogProto.numOpenNetworks=0
+mWifiLogProto.numLegacyPersonalNetworks=1
+mWifiLogProto.numLegacyEnterpriseNetworks=0
+mWifiLogProto.numEnhancedOpenNetworks=0
+mWifiLogProto.numWpa3PersonalNetworks=0
+mWifiLogProto.numWpa3EnterpriseNetworks=0
+mWifiLogProto.numHiddenNetworks=0
+mWifiLogProto.numPasspointNetworks=0
+mWifiLogProto.isLocationEnabled=false
+mWifiLogProto.isScanningAlwaysEnabled=false
+mWifiLogProto.numNetworksAddedByUser=0
+mWifiLogProto.numNetworksAddedByApps=1
+mWifiLogProto.numNonEmptyScanResults=30
+mWifiLogProto.numEmptyScanResults=1
+mWifiLogProto.numConnecitvityOneshotScans=13
+mWifiLogProto.numOneshotScans=32
+mWifiLogProto.numOneshotHasDfsChannelScans=32
+mWifiLogProto.numBackgroundScans=0
+mWifiLogProto.numExternalAppOneshotScanRequests=0
+mWifiLogProto.numExternalForegroundAppOneshotScanRequestsThrottled=0
+mWifiLogProto.numExternalBackgroundAppOneshotScanRequestsThrottled=0
+mScanReturnEntries:
+  SCAN_UNKNOWN: 1
+  SCAN_SUCCESS: 31
+  SCAN_FAILURE_INTERRUPTED: 0
+  SCAN_FAILURE_INVALID_CONFIGURATION: 0
+  FAILURE_WIFI_DISABLED: 0
+mSystemStateEntries: <state><screenOn> : <scansInitiated>
+  WIFI_UNKNOWN       ON: 0
+  WIFI_DISABLED      ON: 0
+  WIFI_DISCONNECTED  ON: 12
+  WIFI_ASSOCIATED    ON: 20
+  WIFI_UNKNOWN      OFF: 0
+  WIFI_DISABLED     OFF: 0
+  WIFI_DISCONNECTED OFF: 0
+  WIFI_ASSOCIATED   OFF: 0
+mWifiLogProto.numConnectivityWatchdogPnoGood=0
+mWifiLogProto.numConnectivityWatchdogPnoBad=0
+mWifiLogProto.numConnectivityWatchdogBackgroundGood=0
+mWifiLogProto.numConnectivityWatchdogBackgroundBad=0
+mWifiLogProto.numLastResortWatchdogTriggers=0
+mWifiLogProto.numLastResortWatchdogBadAssociationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadAuthenticationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadDhcpNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadOtherNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogAvailableNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAssociation=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAuthentication=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadDhcp=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadOther=0
+mWifiLogProto.numLastResortWatchdogSuccesses=0
+mWifiLogProto.watchdogTotalConnectionFailureCountAfterTrigger=0
+mWifiLogProto.watchdogTriggerToConnectionSuccessDurationMs=-1
+mWifiLogProto.recordDurationSec=829
+mWifiLogProto.rssiPollCount: {"5240":[{"-49":10},{"-48":7},{"-47":7},{"-46":7},{"-45":1},{"-43":2},{"-42":5},{"-41":14},{"-40":1}]}
+mWifiLogProto.rssiPollDeltaCount: Printing counts for [-127, 127]
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.linkSpeedCounts: 
+433:{54, 2432, 110090} 
+mWifiLogProto.alertReasonCounts=()
+mWifiLogProto.numTotalScanResults=442
+mWifiLogProto.numOpenNetworkScanResults=0
+mWifiLogProto.numLegacyPersonalNetworkScanResults=442
+mWifiLogProto.numLegacyEnterpriseNetworkScanResults=0
+mWifiLogProto.numEnhancedOpenNetworkScanResults=0
+mWifiLogProto.numWpa3PersonalNetworkScanResults=0
+mWifiLogProto.numWpa3EnterpriseNetworkScanResults=0
+mWifiLogProto.numHiddenNetworkScanResults=148
+mWifiLogProto.numHotspot2R1NetworkScanResults=0
+mWifiLogProto.numHotspot2R2NetworkScanResults=0
+mWifiLogProto.numScans=31
+mWifiLogProto.WifiScoreCount: [0, 60]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54 
+mWifiLogProto.WifiUsabilityScoreCount: [0, 100]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.SoftApManagerReturnCodeCounts:
+  SUCCESS: 0
+  FAILED_GENERAL_ERROR: 0
+  FAILED_NO_CHANNEL: 0
+
+mWifiLogProto.numHalCrashes=0
+mWifiLogProto.numWificondCrashes=0
+mWifiLogProto.numSupplicantCrashes=0
+mWifiLogProto.numHostapdCrashes=0
+mWifiLogProto.numSetupClientInterfaceFailureDueToHal=0
+mWifiLogProto.numSetupClientInterfaceFailureDueToWificond=0
+mWifiLogProto.numSetupClientInterfaceFailureDueToSupplicant=0
+mWifiLogProto.numSetupSoftApInterfaceFailureDueToHal=0
+mWifiLogProto.numSetupSoftApInterfaceFailureDueToWificond=0
+mWifiLogProto.numSetupSoftApInterfaceFailureDueToHostapd=0
+mWifiLogProto.numSarSensorRegistrationFailures=0
+StaEventList:
+04-10 11:34:52.965 WIFI_ENABLED
+04-10 11:45:47.916 CONNECT_NETWORK
+04-10 11:45:47.920 MAC_CHANGE, ConfigInfo: allowed_key_management=2 allowed_protocols=3 allowed_auth_algorithms=1 allowed_pairwise_ciphers=14 allowed_group_ciphers=47 hidden_ssid=false is_passpoint=false is_ephemeral=false has_ever_connected=false scan_rssi=-127 scan_freq=-1
+04-10 11:45:48.202 CMD_START_CONNECT, ConfigInfo: allowed_key_management=2 allowed_protocols=3 allowed_auth_algorithms=1 allowed_pairwise_ciphers=14 allowed_group_ciphers=47 hidden_ssid=false is_passpoint=false is_ephemeral=false has_ever_connected=false scan_rssi=-127 scan_freq=-1
+04-10 11:45:51.055 CMD_ASSOCIATED_BSSID, supplicantStateChangeEvents: { DISCONNECTED INTERFACE_DISABLED INACTIVE SCANNING ASSOCIATING ASSOCIATED }
+04-10 11:45:51.192 NETWORK_CONNECTION_EVENT, supplicantStateChangeEvents: { FOUR_WAY_HANDSHAKE GROUP_HANDSHAKE }
+04-10 11:45:53.288 CMD_IP_CONFIGURATION_SUCCESSFUL lastRssi=-43 lastFreq=5240 lastLinkSpeed=433 lastScore=60, supplicantStateChangeEvents: { COMPLETED }
+04-10 11:41:03.159 NETWORK_AGENT_VALID_NETWORK
+mWifiLogProto.numPasspointProviders=0
+mWifiLogProto.numPasspointProviderInstallation=0
+mWifiLogProto.numPasspointProviderInstallSuccess=0
+mWifiLogProto.numPasspointProviderUninstallation=0
+mWifiLogProto.numPasspointProviderUninstallSuccess=0
+mWifiLogProto.numPasspointProvidersSuccessfullyConnected=0
+mWifiLogProto.installedPasspointProfileTypeForR1:{}
+mWifiLogProto.installedPasspointProfileTypeForR2:{}
+mWifiLogProto.passpointProvisionStats.numProvisionSuccess=0
+mWifiLogProto.passpointProvisionStats.provisionFailureCount:{}
+mWifiLogProto.numRadioModeChangeToMcc=0
+mWifiLogProto.numRadioModeChangeToScc=0
+mWifiLogProto.numRadioModeChangeToSbs=0
+mWifiLogProto.numRadioModeChangeToDbs=0
+mWifiLogProto.numSoftApUserBandPreferenceUnsatisfied=0
+mTotalSsidsInScanHistogram:{0=1, 3=2, 4=28}
+mTotalBssidsInScanHistogram:{0=1, 3=1, 6=1, 7=2, 8=7, 9=8, 10=7, 11=4}
+mAvailableOpenSsidsInScanHistogram:{0=31}
+mAvailableOpenBssidsInScanHistogram:{0=31}
+mAvailableSavedSsidsInScanHistogram:{0=12, 1=19}
+mAvailableSavedBssidsInScanHistogram:{0=12, 1=1, 4=18}
+mAvailableOpenOrSavedSsidsInScanHistogram:{0=12, 1=19}
+mAvailableOpenOrSavedBssidsInScanHistogram:{0=12, 1=1, 4=18}
+mAvailableSavedPasspointProviderProfilesInScanHistogram:{0=31}
+mAvailableSavedPasspointProviderBssidsInScanHistogram:{0=31}
+mWifiLogProto.partialAllSingleScanListenerResults=0
+mWifiLogProto.fullBandAllSingleScanListenerResults=31
+mWifiAwareMetrics:
+mLastEnableUsageMs:0
+mLastEnableUsageInThisSampleWindowMs:0
+mAvailableTimeMs:0
+mHistogramAwareAvailableDurationMs:
+mLastEnableAwareMs:0
+mLastEnableAwareInThisSampleWindowMs:0
+mEnabledTimeMs:0
+mHistogramAwareEnabledDurationMs:
+mAttachDataByUid:
+mAttachStatusData:
+mHistogramAttachDuration:
+mMaxPublishInApp:0
+mMaxSubscribeInApp:0
+mMaxDiscoveryInApp:0
+mMaxPublishInSystem:0
+mMaxSubscribeInSystem:0
+mMaxDiscoveryInSystem:0
+mPublishStatusData:
+mSubscribeStatusData:
+mHistogramPublishDuration:
+mHistogramSubscribeDuration:
+mAppsWithDiscoverySessionResourceFailure:
+mMaxPublishWithRangingInApp:0
+mMaxSubscribeWithRangingInApp:0
+mMaxPublishWithRangingInSystem:0
+mMaxSubscribeWithRangingInSystem:0
+mHistogramSubscribeGeofenceMin:
+mHistogramSubscribeGeofenceMax:
+mNumSubscribesWithRanging:0
+mNumMatchesWithRanging:0
+mNumMatchesWithoutRangingForRangingEnabledSubscribes:0
+mMaxNdiInApp:0
+mMaxNdpInApp:0
+mMaxSecureNdpInApp:0
+mMaxNdiInSystem:0
+mMaxNdpInSystem:0
+mMaxSecureNdpInSystem:0
+mMaxNdpPerNdi:0
+mInBandNdpStatusData:
+mOutOfBandNdpStatusData:
+mNdpCreationTimeDuration:
+mNdpCreationTimeMin:-1
+mNdpCreationTimeMax:0
+mNdpCreationTimeSum:0
+mNdpCreationTimeSumSq:0
+mNdpCreationTimeNumSamples:0
+mHistogramNdpDuration:
+mRttMetrics:
+RTT Metrics:
+mNumStartRangingCalls:0
+mOverallStatusHistogram:{}
+AP:numCalls=0, numIndividualCalls=0, perUidInfo={}, numRequestsHistogram={}, requestGapHistogram={}, statusHistogram={}, measuredDistanceHistogram={}
+AWARE:numCalls=0, numIndividualCalls=0, perUidInfo={}, numRequestsHistogram={}, requestGapHistogram={}, statusHistogram={}, measuredDistanceHistogram={}
+mPnoScanMetrics.numPnoScanAttempts=0
+mPnoScanMetrics.numPnoScanFailed=0
+mPnoScanMetrics.numPnoScanStartedOverOffload=0
+mPnoScanMetrics.numPnoScanFailedOverOffload=0
+mPnoScanMetrics.numPnoFoundNetworkEvents=0
+mWifiLinkLayerUsageStats.loggingDurationMs=162007
+mWifiLinkLayerUsageStats.radioOnTimeMs=73981
+mWifiLinkLayerUsageStats.radioTxTimeMs=0
+mWifiLinkLayerUsageStats.radioRxTimeMs=0
+mWifiLinkLayerUsageStats.radioScanTimeMs=48341
+mWifiLinkLayerUsageStats.radioNanScanTimeMs=0
+mWifiLinkLayerUsageStats.radioBackgroundScanTimeMs=0
+mWifiLinkLayerUsageStats.radioRoamScanTimeMs=0
+mWifiLinkLayerUsageStats.radioPnoScanTimeMs=0
+mWifiLinkLayerUsageStats.radioHs20ScanTimeMs=0
+mWifiLogProto.connectToNetworkNotificationCount={}
+mWifiLogProto.connectToNetworkNotificationActionCount={}
+mWifiLogProto.openNetworkRecommenderBlacklistSize=0
+mWifiLogProto.isWifiNetworksAvailableNotificationOn=true
+mWifiLogProto.numOpenNetworkRecommendationUpdates=0
+mWifiLogProto.numOpenNetworkConnectMessageFailedToSend=0
+mWifiLogProto.observedHotspotR1ApInScanHistogram={0=31}
+mWifiLogProto.observedHotspotR2ApInScanHistogram={0=31}
+mWifiLogProto.observedHotspotR1EssInScanHistogram={0=31}
+mWifiLogProto.observedHotspotR2EssInScanHistogram={0=31}
+mWifiLogProto.observedHotspotR1ApsPerEssInScanHistogram={}
+mWifiLogProto.observedHotspotR2ApsPerEssInScanHistogram={}
+mWifiLogProto.observed80211mcSupportingApsInScanHistogram{0=31}
+mSoftApTetheredEvents:
+mSoftApLocalOnlyEvents:
+mWpsMetrics.numWpsAttempts=0
+mWpsMetrics.numWpsSuccess=0
+mWpsMetrics.numWpsStartFailure=0
+mWpsMetrics.numWpsOverlapFailure=0
+mWpsMetrics.numWpsTimeoutFailure=0
+mWpsMetrics.numWpsOtherConnectionFailure=0
+mWpsMetrics.numWpsSupplicantFailure=0
+mWpsMetrics.numWpsCancellation=0
+Wifi power metrics:
+Logging duration (time on battery): 62
+Energy consumed by wifi (mAh): 0.0
+Amount of time wifi is in idle (ms): 0
+Amount of time wifi is in rx (ms): 0
+Amount of time wifi is in tx (ms): 0
+Amount of time kernel is active because of wifi data (ms): 0
+Amount of time wifi is in sleep (ms): 62
+Amount of time wifi is scanning (ms): 0
+Number of packets sent (tx): 0
+Number of bytes sent (tx): 0
+Number of packets received (rx): 0
+Number of bytes sent (rx): 0
+Energy consumed across measured wifi rails (mAh): 0
+Wifi radio usage metrics:
+Logging duration (time on battery): 62
+Amount of time wifi is in scan mode while on battery (ms): 0
+-------WifiWake metrics-------
+mTotalSessions: 0
+mTotalWakeups: 0
+mIgnoredStarts: 0
+mIsInSession: false
+Stored Sessions: 0
+----end of WifiWake metrics----
+mWifiLogProto.isMacRandomizationOn=true
+mWifiLogProto.scoreExperimentId=
+mExperimentValues.wifiIsUnusableLoggingEnabled=true
+mExperimentValues.wifiDataStallMinTxBad=1
+mExperimentValues.wifiDataStallMinTxSuccessWithoutRx=50
+mExperimentValues.linkSpeedCountsLoggingEnabled=true
+mExperimentValues.dataStallDurationMs=1500
+mExperimentValues.dataStallTxTputThrMbps=2
+mExperimentValues.dataStallRxTputThrMbps=2
+mExperimentValues.dataStallTxPerThr=90
+mExperimentValues.dataStallCcaLevelThr=100
+WifiIsUnusableEventList: 
+Hardware Version: 
+mWifiUsabilityStatsEntriesList:
+timestamp_ms=736508,rssi=-41,link_speed_mbps=433,total_tx_success=151,total_tx_retries=0,total_tx_bad=0,total_rx_success=195,total_radio_on_time_ms=59277,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=44339,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=267,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=14,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=739572,rssi=-41,link_speed_mbps=433,total_tx_success=151,total_tx_retries=0,total_tx_bad=0,total_rx_success=206,total_radio_on_time_ms=59567,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=44339,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=296,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=15,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=742621,rssi=-41,link_speed_mbps=433,total_tx_success=151,total_tx_retries=0,total_tx_bad=0,total_rx_success=208,total_radio_on_time_ms=61484,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=46105,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=475,total_radio_on_freq_time_ms=62082,total_beacon_rx=307,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=16,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=745671,rssi=-41,link_speed_mbps=433,total_tx_success=163,total_tx_retries=0,total_tx_bad=0,total_rx_success=218,total_radio_on_time_ms=63635,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=46912,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=328,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=17,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=748736,rssi=-41,link_speed_mbps=433,total_tx_success=165,total_tx_retries=0,total_tx_bad=0,total_rx_success=227,total_radio_on_time_ms=64300,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=46912,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=356,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=18,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=751786,rssi=-41,link_speed_mbps=433,total_tx_success=165,total_tx_retries=0,total_tx_bad=0,total_rx_success=233,total_radio_on_time_ms=65426,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=47852,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=533,total_radio_on_freq_time_ms=81477,total_beacon_rx=377,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=19,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=754837,rssi=-41,link_speed_mbps=433,total_tx_success=165,total_tx_retries=0,total_tx_bad=0,total_rx_success=238,total_radio_on_time_ms=67179,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=49464,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=391,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=20,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=757888,rssi=-41,link_speed_mbps=433,total_tx_success=165,total_tx_retries=0,total_tx_bad=0,total_rx_success=244,total_radio_on_time_ms=69429,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=51513,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=548,total_radio_on_freq_time_ms=85057,total_beacon_rx=401,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=21,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=760927,rssi=-46,link_speed_mbps=433,total_tx_success=179,total_tx_retries=0,total_tx_bad=0,total_rx_success=254,total_radio_on_time_ms=71508,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=52010,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=426,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=22,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=763987,rssi=-46,link_speed_mbps=433,total_tx_success=181,total_tx_retries=0,total_tx_bad=0,total_rx_success=256,total_radio_on_time_ms=74394,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=54464,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=432,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=23,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=767040,rssi=-48,link_speed_mbps=433,total_tx_success=181,total_tx_retries=0,total_tx_bad=0,total_rx_success=264,total_radio_on_time_ms=74618,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=54464,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=462,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=24,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=770105,rssi=-47,link_speed_mbps=433,total_tx_success=181,total_tx_retries=0,total_tx_bad=0,total_rx_success=271,total_radio_on_time_ms=74813,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=54464,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=492,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=25,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=773158,rssi=-46,link_speed_mbps=433,total_tx_success=181,total_tx_retries=0,total_tx_bad=0,total_rx_success=276,total_radio_on_time_ms=77244,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=56756,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=658,total_radio_on_freq_time_ms=108423,total_beacon_rx=498,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=26,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=776212,rssi=-49,link_speed_mbps=433,total_tx_success=192,total_tx_retries=0,total_tx_bad=0,total_rx_success=286,total_radio_on_time_ms=78882,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=57029,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=525,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=27,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=779279,rssi=-49,link_speed_mbps=433,total_tx_success=194,total_tx_retries=0,total_tx_bad=0,total_rx_success=298,total_radio_on_time_ms=79517,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=57029,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=555,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=28,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=782333,rssi=-49,link_speed_mbps=433,total_tx_success=194,total_tx_retries=0,total_tx_bad=0,total_rx_success=298,total_radio_on_time_ms=81070,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=58501,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=752,total_radio_on_freq_time_ms=120500,total_beacon_rx=570,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=29,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=785388,rssi=-47,link_speed_mbps=433,total_tx_success=194,total_tx_retries=0,total_tx_bad=0,total_rx_success=302,total_radio_on_time_ms=82280,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=59590,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=588,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=30,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=788444,rssi=-46,link_speed_mbps=433,total_tx_success=198,total_tx_retries=0,total_tx_bad=0,total_rx_success=315,total_radio_on_time_ms=82692,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=59590,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=618,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=31,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=791484,rssi=-46,link_speed_mbps=433,total_tx_success=198,total_tx_retries=0,total_tx_bad=0,total_rx_success=320,total_radio_on_time_ms=83663,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=60206,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=799,total_radio_on_freq_time_ms=139993,total_beacon_rx=642,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=32,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=794536,rssi=-47,link_speed_mbps=433,total_tx_success=198,total_tx_retries=0,total_tx_bad=0,total_rx_success=323,total_radio_on_time_ms=85603,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=62063,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=653,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=33,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=797594,rssi=-46,link_speed_mbps=433,total_tx_success=198,total_tx_retries=0,total_tx_bad=0,total_rx_success=333,total_radio_on_time_ms=85815,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=62063,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=683,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=34,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=800661,rssi=-47,link_speed_mbps=433,total_tx_success=198,total_tx_retries=0,total_tx_bad=0,total_rx_success=359,total_radio_on_time_ms=86192,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=62063,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=712,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=35,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=803727,rssi=-47,link_speed_mbps=433,total_tx_success=198,total_tx_retries=0,total_tx_bad=0,total_rx_success=363,total_radio_on_time_ms=88891,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=64611,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=718,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=36,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=806795,rssi=-48,link_speed_mbps=433,total_tx_success=198,total_tx_retries=0,total_tx_bad=0,total_rx_success=371,total_radio_on_time_ms=89109,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=64611,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=748,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=37,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=809851,rssi=-49,link_speed_mbps=433,total_tx_success=198,total_tx_retries=0,total_tx_bad=0,total_rx_success=381,total_radio_on_time_ms=89378,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=64611,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=778,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=38,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=812906,rssi=-49,link_speed_mbps=433,total_tx_success=198,total_tx_retries=0,total_tx_bad=0,total_rx_success=384,total_radio_on_time_ms=91502,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=66641,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=921,total_radio_on_freq_time_ms=191700,total_beacon_rx=788,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=39,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=815960,rssi=-48,link_speed_mbps=433,total_tx_success=199,total_tx_retries=0,total_tx_bad=0,total_rx_success=396,total_radio_on_time_ms=92631,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=67157,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=812,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=40,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=819025,rssi=-49,link_speed_mbps=433,total_tx_success=199,total_tx_retries=0,total_tx_bad=0,total_rx_success=406,total_radio_on_time_ms=92891,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=67157,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=842,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=41,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=822080,rssi=-49,link_speed_mbps=433,total_tx_success=199,total_tx_retries=0,total_tx_bad=0,total_rx_success=411,total_radio_on_time_ms=94274,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=68359,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=999,total_radio_on_freq_time_ms=212414,total_beacon_rx=860,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=42,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=825140,rssi=-49,link_speed_mbps=433,total_tx_success=202,total_tx_retries=0,total_tx_bad=0,total_rx_success=418,total_radio_on_time_ms=96536,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=69710,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=876,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=43,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=828206,rssi=-49,link_speed_mbps=433,total_tx_success=202,total_tx_retries=0,total_tx_bad=0,total_rx_success=431,total_radio_on_time_ms=96836,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=69710,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=905,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=44,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=831259,rssi=-48,link_speed_mbps=433,total_tx_success=202,total_tx_retries=0,total_tx_bad=0,total_rx_success=450,total_radio_on_time_ms=97169,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=70090,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=932,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=45,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=834312,rssi=-49,link_speed_mbps=433,total_tx_success=202,total_tx_retries=0,total_tx_bad=0,total_rx_success=454,total_radio_on_time_ms=99838,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=72263,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=311,total_radio_on_freq_time_ms=23518,total_beacon_rx=941,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=46,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=837364,rssi=-48,link_speed_mbps=433,total_tx_success=202,total_tx_retries=0,total_tx_bad=0,total_rx_success=463,total_radio_on_time_ms=101609,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=73785,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=1121,total_radio_on_freq_time_ms=258347,total_beacon_rx=955,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=47,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=840413,rssi=-48,link_speed_mbps=433,total_tx_success=202,total_tx_retries=0,total_tx_bad=0,total_rx_success=479,total_radio_on_time_ms=102837,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=74752,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=339,total_radio_on_freq_time_ms=24851,total_beacon_rx=976,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=48,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=843467,rssi=-48,link_speed_mbps=433,total_tx_success=202,total_tx_retries=0,total_tx_bad=0,total_rx_success=487,total_radio_on_time_ms=105545,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=77300,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=981,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=49,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=846521,rssi=-45,link_speed_mbps=433,total_tx_success=204,total_tx_retries=0,total_tx_bad=0,total_rx_success=497,total_radio_on_time_ms=106151,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=77300,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=1009,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=50,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=849588,rssi=-47,link_speed_mbps=433,total_tx_success=204,total_tx_retries=0,total_tx_bad=0,total_rx_success=509,total_radio_on_time_ms=106410,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=77300,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=1039,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=51,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=852632,rssi=-47,link_speed_mbps=433,total_tx_success=204,total_tx_retries=0,total_tx_bad=0,total_rx_success=515,total_radio_on_time_ms=108328,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=79048,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=1200,total_radio_on_freq_time_ms=286972,total_beacon_rx=1052,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=52,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+timestamp_ms=855692,rssi=-46,link_speed_mbps=433,total_tx_success=204,total_tx_retries=0,total_tx_bad=0,total_rx_success=528,total_radio_on_time_ms=109378,total_radio_tx_time_ms=0,total_radio_rx_time_ms=0,total_scan_time_ms=79849,total_nan_scan_time_ms=0,total_background_scan_time_ms=0,total_roam_scan_time_ms=0,total_pno_scan_time_ms=0,total_hotspot_2_scan_time_ms=0,wifi_score=60,wifi_usability_score=-1,seq_num_to_framework=-1,prediction_horizon_sec=-1,total_cca_busy_freq_time_ms=0,total_radio_on_freq_time_ms=0,total_beacon_rx=1074,probe_status_since_last_update=1,probe_elapsed_time_ms_since_last_update=-1,probe_mcs_rate_since_last_update=-1,rx_link_speed_mbps=-1,seq_num_inside_framework=53,is_same_bssid_and_freq=true,cellular_data_network_type=0,cellular_signal_strength_dbm=2147483647,cellular_signal_strength_db=2147483647,is_same_registered_cell=false,device_mobility_state=0
+mWifiUsabilityStatsList:
+mMobilityStatePnoStatsMap:
+device_mobility_state=0,num_times_entered_state=1,total_duration_ms=0,pno_duration_ms=0
+WifiP2pMetrics:
+mConnectionEvents:
+mGroupEvents:
+mWifiP2pStatsProto.numPersistentGroup=0
+mWifiP2pStatsProto.numTotalPeerScans=0
+mWifiP2pStatsProto.numTotalServiceScans=0
+mDppMetrics:
+---Easy Connect/DPP metrics---
+mWifiDppLogProto.numDppConfiguratorInitiatorRequests=0
+mWifiDppLogProto.numDppEnrolleeInitiatorRequests=0
+mWifiDppLogProto.numDppEnrolleeSuccess=0
+---End of Easy Connect/DPP metrics---
+mWifiConfigStoreReadDurationHistogram:{1=1, 4=1}
+mWifiConfigStoreWriteDurationHistogram:{0=4, 1=1}
+mLinkProbeSuccessRssiCounts:{}
+mLinkProbeFailureRssiCounts:{}
+mLinkProbeSuccessLinkSpeedCounts:{}
+mLinkProbeFailureLinkSpeedCounts:{}
+mLinkProbeSuccessSecondsSinceLastTxSuccessHistogram:{}
+mLinkProbeFailureSecondsSinceLastTxSuccessHistogram:{}
+mLinkProbeSuccessElapsedTimeMsHistogram:{}
+mLinkProbeFailureReasonCounts:{}
+mLinkProbeExperimentProbeCounts:{}
+mNetworkSelectionExperimentPairNumChoicesCounts:{Pair{42598151 42504592}=NetworkSelectionExperimentResults{sameSelectionNumChoicesCounter={0=11}, differentSelectionNumChoicesCounter={}}, Pair{42902385 42504592}=NetworkSelectionExperimentResults{sameSelectionNumChoicesCounter={0=11}, differentSelectionNumChoicesCounter={}}, Pair{0 42504592}=NetworkSelectionExperimentResults{sameSelectionNumChoicesCounter={0=11}, differentSelectionNumChoicesCounter={}}}
+mLinkProbeStaEventCount:0
+mWifiNetworkRequestApiLog:
+num_apps: 0
+num_connect_success: 0
+num_request: 0
+num_user_approval_bypass: 0
+num_user_reject: 0
+
+mWifiNetworkRequestApiMatchSizeHistogram:
+{}
+mWifiNetworkSuggestionApiLog:
+num_connect_failure: 0
+num_connect_success: 0
+num_modification: 0
+
+mWifiNetworkSuggestionApiMatchSizeHistogram:
+{}
+mNetworkIdToNominatorId:
+{0=1}
+mWifiLockStats:
+high_perf_active_time_ms: 0
+low_latency_active_time_ms: 0
+
+mWifiLockHighPerfAcqDurationSecHistogram:
+{}
+mWifiLockLowLatencyAcqDurationSecHistogram:
+{}
+mWifiLockHighPerfActiveSessionDurationSecHistogram:
+{}
+mWifiLockLowLatencyActiveSessionDurationSecHistogram:
+{}
+mWifiToggleStats:
+num_toggle_off_normal: 0
+num_toggle_off_privileged: 0
+num_toggle_on_normal: 0
+num_toggle_on_privileged: 1
+
+mWifiLogProto.numAddOrUpdateNetworkCalls=1
+mWifiLogProto.numEnableNetworkCalls=1
+mWifiLogProto.txLinkSpeedCount2g={}
+mWifiLogProto.txLinkSpeedCount5gLow={433=54}
+mWifiLogProto.txLinkSpeedCount5gMid={}
+mWifiLogProto.txLinkSpeedCount5gHigh={}
+mWifiLogProto.rxLinkSpeedCount2g={}
+mWifiLogProto.rxLinkSpeedCount5gLow={}
+mWifiLogProto.rxLinkSpeedCount5gMid={}
+mWifiLogProto.rxLinkSpeedCount5gHigh={}
+
+Dump of WifiNetworkSuggestionsManager
+WifiNetworkSuggestionsManager - Networks Begin ----
+WifiNetworkSuggestionsManager - Networks End ----
+WifiNetworkSuggestionsManager - Network Suggestions matching connection: null
+
+Dump of WifiBackupRestore
+
+ScoringParams: settings put global wifi_score_params rssi2=-83:-80:-73:-60,rssi5=-80:-77:-70:-57,pps=0:1:100,horizon=15,nud=8,expid=0
+
+WifiScoreReport:
+time,session,netid,rssi,filtered_rssi,rssi_threshold, freq,txLinkSpeed,rxLinkSpeed,tx_good,tx_retry,tx_bad,rx_pps,nudrq,nuds,s1,s2,score
+04-10 11:45:51.222,0,100,-43.0,-43.0,-80.0,5240,433,-1,0.06,0.00,0.00,0.03,0,1,77,87,60
+04-10 11:41:03.344,1,100,-42.0,-42.0,-80.0,5240,433,-1,0.00,0.00,0.00,0.00,0,1,78,88,60
+04-10 11:41:06.406,1,100,-42.0,-42.0,-80.0,5240,433,-1,13.42,0.00,0.00,10.90,0,1,78,88,60
+04-10 11:41:09.464,1,100,-41.0,-41.5,-80.0,5240,433,-1,5.88,0.00,0.00,7.48,0,1,79,88,60
+04-10 11:41:12.521,1,100,-41.0,-41.3,-80.0,5240,433,-1,2.54,0.00,0.00,3.33,0,1,79,89,60
+04-10 11:41:15.579,1,100,-41.0,-41.2,-80.0,5240,433,-1,1.33,0.00,0.00,4.75,0,1,79,89,60
+04-10 11:41:18.619,1,100,-40.0,-40.9,-80.0,5240,433,-1,1.11,0.00,0.00,2.97,0,1,80,89,60
+04-10 11:41:21.679,1,100,-42.0,-41.1,-80.0,5240,433,-1,2.92,0.00,0.00,3.59,0,1,78,89,60
+04-10 11:41:24.725,1,100,-42.0,-41.4,-80.0,5240,433,-1,1.05,0.00,0.00,1.30,0,1,78,88,60
+04-10 11:41:27.760,1,100,-41.0,-41.3,-80.0,5240,433,-1,0.80,0.00,0.00,1.94,0,1,79,89,60
+04-10 11:41:30.819,1,100,-41.0,-41.2,-80.0,5240,433,-1,0.50,0.00,0.00,1.33,0,1,79,89,60
+04-10 11:41:33.879,1,100,-41.0,-41.1,-80.0,5240,433,-1,0.18,0.00,0.00,2.15,0,1,79,89,60
+04-10 11:41:36.942,1,100,-43.0,-41.8,-80.0,5240,433,-1,2.78,0.00,0.00,3.08,0,1,77,88,60
+04-10 11:41:39.984,1,100,-42.0,-41.9,-80.0,5240,433,-1,1.42,0.00,0.00,2.15,0,1,78,87,60
+04-10 11:41:43.047,1,100,-41.0,-41.7,-80.0,5240,433,-1,0.51,0.00,0.00,2.66,0,1,79,88,60
+04-10 11:41:46.110,1,100,-41.0,-41.5,-80.0,5240,433,-1,0.19,0.00,0.00,3.26,0,1,79,89,60
+04-10 11:41:49.147,1,100,-41.0,-41.3,-80.0,5240,433,-1,0.07,0.00,0.00,1.59,0,1,79,89,60
+04-10 11:41:52.209,1,100,-41.0,-41.2,-80.0,5240,433,-1,2.54,0.00,0.00,2.67,0,1,79,89,60
+04-10 11:41:55.274,1,100,-41.0,-41.1,-80.0,5240,433,-1,1.33,0.00,0.00,2.84,0,1,79,89,60
+04-10 11:41:58.313,1,100,-41.0,-41.0,-80.0,5240,433,-1,0.48,0.00,0.00,2.28,0,1,79,89,60
+04-10 11:42:01.375,1,100,-41.0,-41.0,-80.0,5240,433,-1,0.17,0.00,0.00,1.88,0,1,79,89,60
+04-10 11:42:04.416,1,100,-41.0,-40.9,-80.0,5240,433,-1,0.06,0.00,0.00,1.93,0,1,79,89,60
+04-10 11:42:07.460,1,100,-46.0,-42.7,-80.0,5240,433,-1,2.96,0.00,0.00,2.80,0,1,74,86,60
+04-10 11:42:10.514,1,100,-46.0,-44.0,-80.0,5240,433,-1,1.49,0.00,0.00,1.43,0,1,74,83,60
+04-10 11:42:13.580,1,100,-48.0,-45.8,-80.0,5240,433,-1,0.54,0.00,0.00,2.19,0,1,72,80,60
+04-10 11:42:16.643,1,100,-47.0,-46.7,-80.0,5240,433,-1,0.19,0.00,0.00,2.25,0,1,73,79,60
+04-10 11:42:19.684,1,100,-46.0,-47.0,-80.0,5240,433,-1,0.07,0.00,0.00,1.85,0,1,74,79,60
+04-10 11:42:22.750,1,100,-49.0,-48.2,-80.0,5240,433,-1,2.33,0.00,0.00,2.77,0,1,71,78,60
+04-10 11:42:25.817,1,100,-49.0,-49.0,-80.0,5240,433,-1,1.26,0.00,0.00,3.50,0,1,71,77,60
+04-10 11:42:28.859,1,100,-49.0,-49.5,-80.0,5240,433,-1,0.45,0.00,0.00,1.26,0,1,71,77,60
+04-10 11:42:31.926,1,100,-47.0,-49.1,-80.0,5240,433,-1,0.16,0.00,0.00,1.30,0,1,73,78,60
+04-10 11:42:34.970,1,100,-46.0,-48.4,-80.0,5240,433,-1,0.89,0.00,0.00,3.18,0,1,74,80,60
+04-10 11:42:38.010,1,100,-46.0,-47.7,-80.0,5240,433,-1,0.32,0.00,0.00,2.20,0,1,74,82,60
+04-10 11:42:41.075,1,100,-47.0,-47.5,-80.0,5240,433,-1,0.12,0.00,0.00,1.43,0,1,73,83,60
+04-10 11:42:44.134,1,100,-46.0,-46.9,-80.0,5240,433,-1,0.04,0.00,0.00,2.60,0,1,74,83,60
+04-10 11:42:47.200,1,100,-47.0,-46.9,-80.0,5240,433,-1,0.02,0.00,0.00,6.38,0,1,73,83,60
+04-10 11:42:50.266,1,100,-47.0,-46.8,-80.0,5240,433,-1,0.01,0.00,0.00,3.13,0,1,73,83,60
+04-10 11:42:53.323,1,100,-48.0,-47.2,-80.0,5240,433,-1,0.00,0.00,0.00,2.80,0,1,72,83,60
+04-10 11:42:56.390,1,100,-49.0,-47.8,-80.0,5240,433,-1,0.00,0.00,0.00,3.10,0,1,71,82,60
+04-10 11:42:59.432,1,100,-49.0,-48.3,-80.0,5240,433,-1,0.00,0.00,0.00,1.74,0,1,71,81,60
+04-10 11:43:02.498,1,100,-48.0,-48.3,-80.0,5240,433,-1,0.21,0.00,0.00,3.15,0,1,72,81,60
+04-10 11:43:05.564,1,100,-49.0,-48.7,-80.0,5240,433,-1,0.08,0.00,0.00,3.22,0,1,71,80,60
+04-10 11:43:08.613,1,100,-49.0,-48.9,-80.0,5240,433,-1,0.03,0.00,0.00,2.20,0,1,71,80,60
+04-10 11:43:11.678,1,100,-49.0,-49.1,-80.0,5240,433,-1,0.64,0.00,0.00,2.26,0,1,71,80,60
+04-10 11:43:14.745,1,100,-49.0,-49.2,-80.0,5240,433,-1,0.23,0.00,0.00,3.53,0,1,71,80,60
+04-10 11:43:17.786,1,100,-48.0,-48.9,-80.0,5240,433,-1,0.08,0.00,0.00,5.24,0,1,72,81,60
+04-10 11:43:20.850,1,100,-49.0,-49.0,-80.0,5240,433,-1,0.03,0.00,0.00,2.74,0,1,71,81,60
+04-10 11:43:23.892,1,100,-48.0,-48.7,-80.0,5240,433,-1,0.01,0.00,0.00,2.87,0,1,72,81,60
+04-10 11:43:26.951,1,100,-48.0,-48.4,-80.0,5240,433,-1,0.00,0.00,0.00,4.39,0,1,72,82,60
+04-10 11:43:29.993,1,100,-48.0,-48.3,-80.0,5240,433,-1,0.00,0.00,0.00,3.26,0,1,72,82,60
+04-10 11:43:33.060,1,100,-45.0,-47.1,-80.0,5240,433,-1,0.42,0.00,0.00,3.28,0,1,75,83,60
+04-10 11:43:36.116,1,100,-47.0,-46.8,-80.0,5240,433,-1,0.15,0.00,0.00,3.68,0,1,73,83,60
+04-10 11:43:39.164,1,100,-47.0,-46.7,-80.0,5240,433,-1,0.05,0.00,0.00,2.58,0,1,73,83,60
+04-10 11:43:42.229,1,100,-46.0,-46.3,-80.0,5240,433,-1,0.02,0.00,0.00,3.66,0,1,74,84,60
+
+Dump of SarManager
+isSarSupported: false
+isSarVoiceCallSupported: false
+isSarSoftApSupported: false
+isSarSensorSupported: false
+
+

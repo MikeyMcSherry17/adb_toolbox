@@ -1,0 +1,967 @@
+Wi-Fi is enabled
+Verbose logging is off
+Stay-awake conditions: 0
+mInIdleMode false
+mScanPending false
+WifiController:
+ total records=4
+ rec[0]: time=04-10 11:34:48.040 processed=StaDisabledWithScanState org=StaDisabledWithScanState dest=<null> what=155656(0x26008)
+ rec[1]: time=04-10 11:34:48.546 processed=StaDisabledWithScanState org=StaDisabledWithScanState dest=<null> what=155659(0x2600b)
+ rec[2]: time=04-10 11:34:48.546 processed=StaDisabledWithScanState org=StaDisabledWithScanState dest=StaEnabledState what=155656(0x26008)
+ rec[3]: time=04-10 11:34:50.469 processed=DefaultState org=StaEnabledState dest=<null> what=155655(0x26007)
+curState=StaEnabledState
+mPersistWifiState 1
+mAirplaneModeOn false
+mTxPkts 0
+mRxPkts 0
+mDataActivity 0
+mRegisteredCallbacks 1
+
+Locks held:
+Locks acquired: 0 full high perf, 0 full low latency
+Locks released: 0 full high perf, 0 full low latency
+
+Locks held:
+
+mMulticastEnabled 0
+mMulticastDisabled 0
+Multicast Locks held:
+
+Dump of WifiActiveModeWarden
+Current wifi mode: ClientModeActiveState
+NumActiveModeManagers: 1
+--Dump of ClientModeManager--
+current StateMachine mode: StartedState
+mClientInterfaceName: wlan0
+mIfaceIsUp: true
+
+WifiClientModeImpl:
+ total records=29
+ rec[0]: time=04-10 11:34:47.906 processed=DefaultState org=DefaultState dest=<null> what=CMD_INITIALIZE screen=on uid=1000 0 0
+ rec[1]: time=04-10 11:34:49.216 processed=DefaultState org=DefaultState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[2]: time=04-10 11:34:50.513 processed=DefaultState org=DefaultState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[3]: time=04-10 11:34:52.583 processed=DefaultState org=DefaultState dest=DisconnectedState what=CMD_SET_OPERATIONAL_MODE screen=on 0 0
+ rec[4]: time=04-10 11:34:52.972 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[5]: time=04-10 11:34:52.972 processed=ConnectModeState org=DisconnectedState dest=<null> what=CMD_SET_HIGH_PERF_MODE screen=on 0 0
+ rec[6]: time=04-10 11:34:52.977 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[7]: time=04-10 11:34:52.985 processed=ConnectModeState org=DisconnectedState dest=<null> what=CMD_GET_LINK_LAYER_STATS screen=on uid=1000 0 0
+ rec[8]: time=04-10 11:34:53.011 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[9]: time=04-10 11:34:53.013 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_GET_SUPPORTED_FEATURES screen=on uid=1000 0 0
+ rec[10]: time=04-10 11:34:53.018 processed=ConnectModeState org=DisconnectedState dest=<null> what=CMD_GET_LINK_LAYER_STATS screen=on uid=1000 0 0
+ rec[11]: time=04-10 11:34:53.223 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_BOOT_COMPLETED screen=on 0 0
+ rec[12]: time=04-10 11:34:53.223 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_CHANNEL_HALF_CONNECTED screen=on 0 0
+ rec[13]: time=04-10 11:34:53.231 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_GET_CONFIGURED_NETWORKS screen=on uid=1000 1000 1010 num=0
+ rec[14]: time=04-10 11:34:53.671 processed=ConnectModeState org=DisconnectedState dest=<null> what=CMD_RESET_SIM_NETWORKS screen=on 0 0
+ rec[15]: time=04-10 11:34:53.712 processed=ConnectModeState org=DisconnectedState dest=<null> what=CMD_RESET_SIM_NETWORKS screen=on 0 0
+ rec[16]: time=04-10 11:34:55.790 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_USER_UNLOCK screen=on 0 0
+ rec[17]: time=04-10 11:34:55.790 processed=ConnectModeState org=DisconnectedState dest=<null> what=CMD_RESET_SIM_NETWORKS screen=on 0 0
+ rec[18]: time=04-10 11:34:55.796 processed=ConnectModeState org=DisconnectedState dest=<null> what=CMD_RESET_SIM_NETWORKS screen=on 0 0
+ rec[19]: time=04-10 11:37:04.329 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_ONESHOT_RSSI_POLL screen=on 0 0 <unknown ssid> rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 bcn=0 [on:0 tx:0 rx:0 period:524702153] from screen [on:0 period:524702153] score=0
+ rec[20]: time=04-10 11:39:58.522 processed=DisconnectedState org=DisconnectedState dest=<null> what=CMD_SCREEN_STATE_CHANGED screen=on 1 0
+ rec[21]: time=04-10 11:39:58.522 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_ENABLE_RSSI_POLL screen=on 1 0
+ rec[22]: time=04-10 11:39:58.524 processed=ConnectModeState org=DisconnectedState dest=<null> what=CMD_SET_SUSPEND_OPT_ENABLED screen=on 0 0
+ rec[23]: time=04-10 11:39:58.563 processed=DisconnectedState org=DisconnectedState dest=<null> what=CMD_SCREEN_STATE_CHANGED screen=off 0 0
+ rec[24]: time=04-10 11:39:58.563 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_ENABLE_RSSI_POLL screen=off 0 0
+ rec[25]: time=04-10 11:39:58.564 processed=ConnectModeState org=DisconnectedState dest=<null> what=CMD_SET_SUSPEND_OPT_ENABLED screen=off 1 0
+ rec[26]: time=04-10 11:41:55.209 processed=DisconnectedState org=DisconnectedState dest=<null> what=CMD_SCREEN_STATE_CHANGED screen=on 1 0
+ rec[27]: time=04-10 11:41:55.209 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_ENABLE_RSSI_POLL screen=on 1 0
+ rec[28]: time=04-10 11:41:55.214 processed=ConnectModeState org=DisconnectedState dest=<null> what=CMD_SET_SUSPEND_OPT_ENABLED screen=on 0 0
+ rec[29]: time=04-10 11:42:06.791 processed=DefaultState org=DisconnectedState dest=<null> what=CMD_ONESHOT_RSSI_POLL screen=on 0 0 <unknown ssid> rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 bcn=0 [on:13923 tx:0 rx:0 period:302462] from screen [on:0 period:11605] score=0
+curState=DisconnectedState
+SupplicantStateTracker:
+ total records=1
+ rec[0]: time=04-10 11:34:52.973 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+curState=UninitializedState
+mAuthFailureInSupplicantBroadcast false
+mAuthFailureReason 0
+mNetworksDisabledDuringConnect false
+
+mLinkProperties {LinkAddresses: [ ] DnsAddresses: [ ] Domains: null MTU: 0 Routes: [ ]}
+mWifiInfo SSID: <unknown ssid>, BSSID: <none>, MAC: 02:00:00:00:00:00, Supplicant state: DISCONNECTED, Wifi Generation: -1, HE Eight Max VHT Spatial Streams Support: false, Eight Max VHT Spatial streams support: false, RSSI: -127, Link speed: -1Mbps, Tx Link speed: -1Mbps, Rx Link speed: -1Mbps, Frequency: -1MHz, Net ID: -1, Metered hint: false, score: 0
+mDhcpResults null
+mNetworkInfo [type: WIFI[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+mLastSignalLevel -1
+mLastBssid null
+mLastNetworkId -1
+mOperationalMode 1
+mUserWantsSuspendOpt true
+mSuspendOptNeedsDisabled 4
+mRevertCountryCodeOnCellularLoss: false
+mDefaultCountryCode: CN
+mDriverCountryCode: GB
+mTelephonyCountryCode: GB
+mTelephonyCountryTimestamp: 04-10 11:34:54.797
+mDriverCountryTimestamp: 04-10 11:34:54.797
+mReadyTimestamp: 04-10 11:34:52.626
+mReady: true
+{WifiNetworkFactory - mSerialNumber=5, ScoreFilter=60, Filter=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <android.net.MatchAllNetworkSpecifier@0>], requests=7, refCount=0}
+  {NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=0, requested=true}
+  {NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=0, requested=false}
+  {NetworkRequest [ REQUEST id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=0, requested=true}
+  {NetworkRequest [ TRACK_DEFAULT id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 1000] ], score=0, requested=true}
+  {NetworkRequest [ TRACK_DEFAULT id=12, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10034] ], score=0, requested=true}
+  {NetworkRequest [ REQUEST id=18, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 1000] ], score=0, requested=true}
+  {NetworkRequest [ REQUEST id=20, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 10059] ], score=0, requested=true}
+WifiNetworkFactory: mGenericConnectionReqCount 6
+WifiNetworkFactory: mActiveSpecificNetworkRequest null
+WifiNetworkFactory: mUserApprovedAccessPointMap {}
+{UntrustedWifiNetworkFactory - mSerialNumber=6, ScoreFilter=2147483647, Filter=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <android.net.MatchAllNetworkSpecifier@0>], requests=7, refCount=0}
+  {NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=0, requested=true}
+  {NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=0, requested=false}
+  {NetworkRequest [ REQUEST id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=0, requested=true}
+  {NetworkRequest [ TRACK_DEFAULT id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 1000] ], score=0, requested=true}
+  {NetworkRequest [ TRACK_DEFAULT id=12, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10034] ], score=0, requested=true}
+  {NetworkRequest [ REQUEST id=18, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 1000] ], score=0, requested=true}
+  {NetworkRequest [ REQUEST id=20, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 10059] ], score=0, requested=true}
+UntrustedWifiNetworkFactory: mConnectionReqCount 0
+Wlan Wake Reasons:null
+
+Dump of WifiConfigManager
+WifiConfigManager - Log Begin ----
+2025-04-10T11:34:53.213 - clearInternalData: Clearing all internal data
+WifiConfigManager - Log End ----
+WifiConfigManager - Configured networks Begin ----
+WifiConfigManager - Configured networks End ----
+WifiConfigManager - Next network ID to be allocated 0
+WifiConfigManager - Last selected network ID -1
+WifiConfigManager - PNO scan frequency culling enabled = true
+WifiConfigManager - PNO scan recency sorting enabled = true
+Dump of WifiConfigStore
+WifiConfigStore - Store Data Begin ----
+StoreData => Name: NetworkList, File Id: 0, File Name: WifiConfigStore.xml
+StoreData => Name: NetworkList, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: DeletedEphemeralSSIDList, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: MacAddressMap, File Id: 0, File Name: WifiConfigStore.xml
+StoreData => Name: NetworkSuggestionMap, File Id: 2, File Name: WifiConfigStoreNetworkSuggestions.xml
+StoreData => Name: PasspointConfigData, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: PasspointConfigData, File Id: 0, File Name: WifiConfigStore.xml
+StoreData => Name: OpenNetworkNotifierBlacklistConfigData, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: CarrierNetworkNotifierBlacklistConfigData, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: NetworkRequestMap, File Id: 1, File Name: WifiConfigStore.xml
+StoreData => Name: WakeupConfigStoreData, File Id: 1, File Name: WifiConfigStore.xml
+WifiConfigStore - Store Data End ----
+
+Dump of PasspointManager
+PasspointManager - Providers Begin ---
+PasspointManager - Providers End ---
+PasspointManager - Next provider ID to be assigned 0
+Last sweep 0:00:08.717 ago.
+
+Chipset information :-----------------------------------------------
+FW Version is: CNSS-PR-4-0-3-0000289
+Driver Version is: 3.0.11.85.9
+Supported Feature set: -1
+--------------------------------------------------------------------
+Bug dump 0
+system time = 04-10 11:37:04.341
+kernel time = 166.811
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of system
+04-10 11:35:53.237  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD2YFpkmUIihOundkt1HVHKw=
+04-10 11:35:53.238  1136  1563 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f0/HUvFmPb3n44RMO1Qgru5DG34ZALxE05q3/lm98kfyJA85cD3KlCx9JY+ThJ68uomMwJI2Y9MS1nXhQENe/N5iX1KI1jvXnhFmSsEoppKYQ==
+04-10 11:35:53.238  1136  1563 I AlarmManager: saeH6It7rqTJYCgVeHZlaFj7oKqVGk+tp5aN29R5qYta0M+jcJRe+k+fxHG338rPqrTaAY4Dp1PJmjiEhw39o4SigIf5em/teIUrMbfHDxA=
+04-10 11:35:53.238  1136  1563 D AlarmManager: 60A/KKKlBlF/9n5e472fD5YJxCU8mbCTeqfxq9hqP90=
+--------- beginning of main
+04-10 11:35:53.240   422   422 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+04-10 11:35:53.243  1136  1136 D CompatibilityInfo: mCompatibilityFlags - 0
+04-10 11:35:53.243  1136  1136 D CompatibilityInfo: applicationDensity - 320
+04-10 11:35:53.243  1136  1136 D CompatibilityInfo: applicationScale - 1.0
+04-10 11:35:53.244   422   422 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+04-10 11:35:53.258  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f05RQUaP0CKFMjGNVcsg3oPqJMnMmu3r8TfFSmCGfyi8kOpIj0LN0DipGp9YKRUyfR/UGDpM61LuGV3TR59i+R1Xs3HxYEftgRtJMLnFAQm2w==
+04-10 11:35:53.300  1136  1136 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f3If9gE7NrA9/1fg6PrBat7rXF26D4JCL30eF40gI3upzEQcL5ppAiAeLOV3ZqmFgU/4aQFXjgvezEqWS3h85MbIH0gZpa0M1Tes5cMRk0SGQ==
+04-10 11:35:53.301  1136  1136 I AlarmManager: saeH6It7rqTJYCgVeHZlaFj7oKqVGk+tp5aN29R5qYta0M+jcJRe+k+fxHG338rPj/VjtSC6NOqSw2EzF6XH9uBDL7tROHkkYxZ5vZvgPtk=
+04-10 11:35:53.301  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD434MypbpFEpw6AFKdmsXjw=
+04-10 11:35:53.320  1136  3332 W ziparchive: Zip: 5893 extraneous bytes at the end of the central directory
+04-10 11:35:53.501  1136  3332 W ziparchive: Zip: 5209 extraneous bytes at the end of the central directory
+04-10 11:35:53.623  1136  3332 W ziparchive: Zip: 4621 extraneous bytes at the end of the central directory
+04-10 11:35:53.795  1136  3332 I system_server: The ClassLoaderContext is a special shared library.
+04-10 11:35:54.031  1136  3332 I chatty  : uid=1000 system_server identical 3 lines
+04-10 11:35:54.386  1136  3332 I system_server: The ClassLoaderContext is a special shared library.
+04-10 11:35:54.561  1136  3332 I BackgroundDexOptService: Pinning optimized code {}
+04-10 11:35:54.564   422   422 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+04-10 11:35:54.565   422   422 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+04-10 11:35:56.087  1136  1737 D WificondControl: Scan result ready event
+04-10 11:35:56.088  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:35:56.088  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+P7owg2Vg/BNLrEbw/Xk6wU5CoB1RNaGho94xEcD7LExcFHZoVRq/tO0zei2dCVcW1aDUJY/qjcR0RFSpIYxFKlQ==
+04-10 11:35:56.088  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH3sm05SZYA6wHQ9nyDXWK6pLzJkBiVF5nujm01kohCV3qUd/Dc/WVUIyXpTN271m4LyTxMDtHWFCuaOhS2Auojw=
+04-10 11:35:56.116  1136  1563 D WifiNetworkSelector: No configured networks.
+04-10 11:35:56.116  1136  1563 D WifiNetworkSelector: Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 
+04-10 11:35:56.116  1136  1563 D WifiNetworkSelector: Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-82 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-84 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-89 / 
+04-10 11:35:56.117  1136  1563 D WifiNetworkSelector: About to run SavedNetworkEvaluator :
+04-10 11:35:56.117  1136  1563 D WifiNetworkSelector: About to run NetworkSuggestionEvaluator :
+04-10 11:35:56.118  1136  1563 D WifiNetworkSelector: About to run PasspointNetworkEvaluator :
+04-10 11:35:56.121  1136  1563 D WifiNetworkSelector: About to run CarrierNetworkEvaluator :
+04-10 11:35:56.121  1136  1563 D WifiNetworkSelector: About to run ScoredNetworkEvaluator :
+04-10 11:35:56.122  1136  1563 D WifiNetworkSelector: BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+04-10 11:35:56.122  1136  1563 D WifiNetworkSelector: CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+04-10 11:35:56.122  1136  1563 D WifiNetworkSelector: ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+04-10 11:35:58.423  2628  3021 D titan_seccheck: client is dead, pid:3252
+04-10 11:35:59.500  2702  3146 I .dataacqservic: Explicit concurrent copying GC freed 1752(264KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 1006KB/2542KB, paused 144us total 20.091ms
+04-10 11:35:59.999  1136  1548 V AlarmManager: j7wJ40+mi2AcOeYz8Siywqv4Lu3f7kJrcFxfjFkLFceia/FTMiOKc3ZPrlJ8WSaYu3HBEU3BQD+VQlQEtNp+Nw==
+04-10 11:36:00.000  1136  1548 V AlarmManager: K7OggPjqeERSPCs+77hNgHNlDOcQT6PyOt7W2hjPXb8+GhN0ame2CjXG+vI5+/Pzs4LuzXry7mACIdyReTWksQ==
+04-10 11:36:00.000  1136  1548 V AlarmManager: 79xwGzh/Eydgx94mZCecUBm9/slaU3rqDxlH1RBTJaEg55sn8EB3iwZb1ejcbdGQ4wzaG9QmfxMnX7zDPzAY7g==
+04-10 11:36:00.000  1136  1548 V AlarmManager: uywD0+P5zBgjYwVd+GDDiVf05D5268YjXQ+CPo7LBp9KD5Ybr1JW96O3q/rnR4JgkUXptEffbAStLpUomYN/gYtCUy/+Qyx/QPY5LYxPwbw=
+04-10 11:36:00.000  1136  1548 V AlarmManager: ro5+7qDQABhngNONz/BJ1hEhdwDaiu3d6RvbgtPlKBmVKuyEIegKVZqmhrBG7kGL
+04-10 11:36:00.000  1136  1548 V AlarmManager: uRi4p/nPbA6RNLcaJYp21+xNnMZWUWfK3m43gePE2LUIZXQREkTXYtD8wUYB8VhFKA/FtyFY9VZe9Rx75oL3AQ+HpIp/Ev/aX3MqKTtfEPWpNdORBrzfyq3MQKp4RxyVFBuXcNwMhZTEQx0sW+1ROA==
+04-10 11:36:00.000  1136  1548 D AlarmManager: 60A/KKKlBlF/9n5e472fD5YJxCU8mbCTeqfxq9hqP90=
+04-10 11:36:00.001  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+04-10 11:36:00.001  1622  1622 D KeyguardUpdateMonitor: handleTimeUpdate
+04-10 11:36:00.003  1136  1136 I AlarmManager: saeH6It7rqTJYCgVeHZlaEevG8vHPLARkzNMsS7zt7LVjl/JDY7M3T0V+tTDabuP8+6+FG/guF4o8vgM8c+Tw0K9jmKRTpkFZmP0gIRYzUU=
+04-10 11:36:00.003  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD434MypbpFEpw6AFKdmsXjw=
+04-10 11:36:00.019  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:36:00.900  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:36:00.901  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:36:00.903  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 2 present = true
+04-10 11:36:00.903  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:36:00.903  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 2 present = true
+04-10 11:36:00.905  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:36:00.905  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=2
+04-10 11:36:00.921  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:36:05.939  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:36:05.940  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:36:05.941  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 2 present = true
+04-10 11:36:05.941  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:36:05.941  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 2 present = true
+04-10 11:36:05.941  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:36:05.941  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=2
+04-10 11:36:05.949  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:36:09.526   668   668 I vendor.rmt_storage: rmt_storage_connect_cb: clnt_h=0x9 conn_h=0xaca0a020
+04-10 11:36:09.526   668   668 I vendor.rmt_storage: rmt_storage_rw_iovec_cb: /boot/modem_fs2: req_h=0x9 msg_id=3: R/W request received (wr_count 1)
+04-10 11:36:09.526   668   668 I vendor.rmt_storage: wakelock acquired: 1, error no: 42
+04-10 11:36:09.526   668  1106 I vendor.rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: Unblock worker thread (th_id: -1401650640)
+04-10 11:36:09.645   668  1106 I vendor.rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: req_h=0x9 msg_id=3: Bytes written = 1572864, wr_count 1
+04-10 11:36:09.645   668  1106 I vendor.rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: req_h=0x9 msg_id=3: Send response: res=0 err=0, wr_count 1
+04-10 11:36:09.646   668  1106 I vendor.rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: About to block rmt_storage client thread (th_id: -1401650640) wakelock released: 1, error no: 0
+04-10 11:36:09.646   668  1106 I vendor.rmt_storage: 
+04-10 11:36:09.647   668   668 I vendor.rmt_storage: rmt_storage_disconnect_cb: clnt_h=0x9 conn_h=0xaca0a020
+04-10 11:36:16.018  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:36:16.020  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 2 present = true
+04-10 11:36:16.020  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:36:16.020  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 2 present = true
+04-10 11:36:16.020  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:36:16.020  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=2
+04-10 11:36:16.020  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:36:16.040  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:36:41.219  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:36:41.220  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:36:41.221  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 2 present = true
+04-10 11:36:41.221  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:36:41.221  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 2 present = true
+04-10 11:36:41.221  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:36:41.221  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=2
+04-10 11:36:41.238  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:36:56.339  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:36:56.340  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:36:56.341  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 2 present = true
+04-10 11:36:56.341  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:36:56.341  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 2 present = true
+04-10 11:36:56.341  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:36:56.341  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=2
+04-10 11:36:56.360  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:36:59.524  2702  3146 I .dataacqservic: Explicit concurrent copying GC freed 2141(443KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 1010KB/2546KB, paused 140us total 19.455ms
+04-10 11:36:59.999  1136  1548 V AlarmManager: j7wJ40+mi2AcOeYz8Siywqv4Lu3f7kJrcFxfjFkLFcfywkJkBLXli+hTy+c6vw9FcdSHgvPTYhJ8m4eCYEERKQ==
+04-10 11:37:00.000  1136  1548 V AlarmManager: K7OggPjqeERSPCs+77hNgHhk5YmhcgmcWLbBb7//0Ghn/5L+mbciOZW3eJiQZ2haT3nRDJESKr8DNCtvUMIzXg==
+04-10 11:37:00.000  1136  1548 V AlarmManager: 79xwGzh/Eydgx94mZCecUMvxjmjkL7Wa+AFKFMIVdksrSpL/cIv/V9n7Cod8gfucfsBapp5QdRIhlKjA2H7LqA==
+04-10 11:37:00.000  1136  1548 V AlarmManager: uywD0+P5zBgjYwVd+GDDiVf05D5268YjXQ+CPo7LBp9KD5Ybr1JW96O3q/rnR4JgkUXptEffbAStLpUomYN/gYtCUy/+Qyx/QPY5LYxPwbw=
+04-10 11:37:00.000  1136  1548 V AlarmManager: ro5+7qDQABhngNONz/BJ1hEhdwDaiu3d6RvbgtPlKBmVKuyEIegKVZqmhrBG7kGL
+04-10 11:37:00.000  1136  1548 V AlarmManager: uRi4p/nPbA6RNLcaJYp21+xNnMZWUWfK3m43gePE2LX5Z4sRCFoLGbzfGpxjvjdKKmLNs15RFh0n7dAqv52ZAVeHSB20tkVKAL0ATR298NTp33SJeZocBh39QCUOXwapCvpZWfQvqvY3iWeXzoMtDQ==
+04-10 11:37:00.001  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+04-10 11:37:00.002  1622  1622 D KeyguardUpdateMonitor: handleTimeUpdate
+04-10 11:37:00.002  1136  1548 D AlarmManager: 60A/KKKlBlF/9n5e472fD5YJxCU8mbCTeqfxq9hqP90=
+04-10 11:37:00.004  1136  1136 I AlarmManager: saeH6It7rqTJYCgVeHZlaEevG8vHPLARkzNMsS7zt7LVjl/JDY7M3T0V+tTDabuP8+6+FG/guF4o8vgM8c+Tw0K9jmKRTpkFZmP0gIRYzUU=
+04-10 11:37:00.004  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD434MypbpFEpw6AFKdmsXjw=
+04-10 11:37:00.021  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:37:04.209   458   458 D msck_server: verifyData(605): verifyData
+04-10 11:37:04.209   458   458 D msck_server: send_cmd(192): cmd (103), req_len(1088), rsp_len(2112)
+04-10 11:37:04.218   458   472 D msck_server: listenerRun(52): listenerRecv : event->evtId=0, event->buf_len=32
+04-10 11:37:04.221   459   459 I android.hardware.timedaemon@1.0-service: getTime
+04-10 11:37:04.221   459   459 D android.hardware.timedaemon@1.0-service: curren time = 1744281424
+04-10 11:37:04.221   459   459 D android.hardware.timedaemon@1.0-service: sertc offset = 394685359006
+04-10 11:37:04.221   459   459 D android.hardware.timedaemon@1.0-service: mts_new offset = 394685359006
+04-10 11:37:04.221   459   459 D android.hardware.timedaemon@1.0-service: Final Time = 1744281424000
+04-10 11:37:04.225   458   472 D msck_server: listenerRun(52): listenerRecv : event->evtId=1, event->buf_len=5
+04-10 11:37:04.226   458   458 D msck_server: send_cmd(211): status=0, len=4, total=4
+04-10 11:37:04.226   639   639 D msck_server: checkApk(169): iType 2, info size 4
+04-10 11:37:04.226   458   458 D msck_server: onCheckApk(707): return 0
+04-10 11:37:04.338   617   617 E WifiHAL : wifi_get_wake_reason_stats: Wake lock logging feature not supported 0
+04-10 11:37:04.340  1136  1762 E WifiVendorHal: getWlanWakeReasonCount(l.2103) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+04-10 11:37:04.341  1136  1762 W WifiDiags: CaptureBugReport 7
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Bug dump 1
+system time = 04-10 11:42:06.803
+kernel time = 469.273
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of main
+04-10 11:40:43.139  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:40:43.139  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:40:43.139  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:40:43.139  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:40:43.139  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:40:43.158  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:40:59.803  2702  3146 I .dataacqservic: Explicit concurrent copying GC freed 1525(274KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 1007KB/2543KB, paused 139us total 16.232ms
+--------- beginning of system
+04-10 11:40:59.999  1136  1548 V AlarmManager: j7wJ40+mi2AcOeYz8Siywqv4Lu3f7kJrcFxfjFkLFcekPsTdiE7UX+fZIwx2KucJNt8IDjz/7x64Zd/8bIGq9w==
+04-10 11:40:59.999  1136  1548 V AlarmManager: K7OggPjqeERSPCs+77hNgI7AkFASe9nO8YzTff8lF2Avl7dx8NnyM7LOGtvUeQwckbsC7BNKekrDUjgBQsOOpg==
+04-10 11:41:08.338  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:41:08.340  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:08.340  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:41:08.340  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:08.340  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:41:08.340  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:41:08.341  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:41:08.361  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:13.378  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:41:13.379  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:13.379  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:41:13.379  1622  1622 I chatty  : uid=10034(com.android.systemui) expire 1 line
+04-10 11:41:13.379  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:13.379  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:41:13.379  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:41:13.398  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:55.116  1136  1552 I PowerManagerService: vgjl3UtXPoZHfqAcXS0AUW4MbHAOuc3n0eOC5ph3YoL7eZujbRJh4MX82JJecPEpsQxi6R6UslawfXHmcRqBOBezNclz3aqRxwu+8fVIdIN9sg27a1M/q9/LZmdbIDQMC7ag8hm/OjsTt/+h1LXVqA==
+04-10 11:41:55.117  1136  1136 W UsageStatsService: jNfMiVVuqTfm7CTK+cf1dbHs70/vo8Gcv6isU6Yz1NSbjVpkhH/7uWRtiJdpjceJtNNUUVaZ1IQQcHgi3unqHA==
+04-10 11:41:55.120  1136  1286 I DisplayPowerController: Zp8dQ6rOvFQN0uIiKYoxEZuYI04sF4eqrApouOxgkpdec61VNNIBM3T1XKafCNZ+t0wMBWwwb5mQZ1J6ATqH5g==
+04-10 11:41:55.121  1136  1286 D ActivityTaskManager: O0xpT+7NloG4Z/OMOC9jQRcU/CtJjmU65LRY6YNUH4uvv0Zt0+nn8C426YqTM9ue
+04-10 11:41:55.134  1622  2103 D KeyguardViewMediator: notifyScreenOn
+04-10 11:41:55.134  1136  1270 E KernelCpuSpeedReader: eiCF8pX+2u9jXxOtCQPqJlSMRXKLDxbN5emebYuQ/hCpJU5Zc8bJeuJtTnF5J0NKRCuUMlbnjWJVS4bq5GEOneqmkL89qszvv2dJwm3FzTpwt+etVEgR28Y6RkLEfci2vW4fZE3w6X4dhadl+7caedvRrjpfKy9NnlZqVLrC4Qb0p+Z87y1fVEAf2luxfra/
+04-10 11:41:55.134  1622  1622 D KeyguardViewMediator: handleNotifyScreenTurningOn
+04-10 11:41:55.147  1136  1286 V DisplayPowerController: 5e07HcZ/tE6X/MbgC0/2L7AyTa5PzxI5oHM0W07C4EYzhB+N32swIjpGh7gemiI/8ogsLSNWEMV4QnKJTzgr8R5JudSou57f9RUPW6tES3U=
+04-10 11:41:55.149  1622  2103 D KeyguardViewMediator: onStartedWakingUp, seq = 2
+04-10 11:41:55.149  1622  2103 D KeyguardViewMediator: notifyStartedWakingUp
+04-10 11:41:55.150  1622  1622 D KeyguardViewMediator: handleNotifyWakingUp
+04-10 11:41:55.150  1622  1622 V KeyguardStatusView: Schedule setEnableMarquee: Enable
+04-10 11:41:55.151  1136  1136 V AlarmManager: 79xwGzh/Eydgx94mZCecUPsI9fe5jD58ZQqvR549kciI9uwz+JyLBnAyTxHTJGqpvvgb4A+F6YRwzuRpFTI0xA==
+04-10 11:41:55.151  1136  1136 V AlarmManager: uywD0+P5zBgjYwVd+GDDiVf05D5268YjXQ+CPo7LBp9KD5Ybr1JW96O3q/rnR4JgkUXptEffbAStLpUomYN/gYtCUy/+Qyx/QPY5LYxPwbw=
+04-10 11:41:55.151  1136  1136 V AlarmManager: ro5+7qDQABhngNONz/BJ1hEhdwDaiu3d6RvbgtPlKBmVKuyEIegKVZqmhrBG7kGL
+04-10 11:41:55.151  1136  1136 V AlarmManager: uRi4p/nPbA6RNLcaJYp21+xNnMZWUWfK3m43gePE2LWu2NDolHPZ5jTHMutOQnjcrAS7sos1zGFD69ZT/uu/xFSuE21y7pviXom4PIhAaSjFkHpSmxlgC3ez62i1zSkycieJclGH9c2r8ZNTxuhncw==
+04-10 11:41:55.152   614   614 I QTI PowerHAL: Got set_interactive hint
+04-10 11:41:55.152   614   614 I QTI PowerHAL: Got set_interactive hint on= 1, count= 3
+04-10 11:41:55.152   614   614 E QTI PowerHAL: Error opening /sys/kernel/hbtp/display_pwr: No such file or directory
+04-10 11:41:55.153   630   630 D SurfaceFlinger: Setting power mode 2 on display 0
+04-10 11:41:55.153   422   422 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+04-10 11:41:55.154   609   823 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+04-10 11:41:55.154  1136  1652 E ANDR-PERF-JNI: UXEngine Trigger - Returning null
+04-10 11:41:55.161  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD5YJxCU8mbCTeqfxq9hqP90=
+04-10 11:41:55.163  1136  1136 I AlarmManager: saeH6It7rqTJYCgVeHZlaEevG8vHPLARkzNMsS7zt7LVjl/JDY7M3T0V+tTDabuP8+6+FG/guF4o8vgM8c+Tw0K9jmKRTpkFZmP0gIRYzUU=
+04-10 11:41:55.163  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD434MypbpFEpw6AFKdmsXjw=
+04-10 11:41:55.172  2605  2605 D NfcService: MSG_APPLY_SCREEN_STATE 8
+04-10 11:41:55.186  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+04-10 11:41:55.186  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+04-10 11:41:55.191   819  2268 I !MCSER! : TRANSACT | receive transaction code :300
+04-10 11:41:55.191   819  2268 I !MCSER! : ================ON FOREGROUND CHANGED =================
+04-10 11:41:55.192  2831  2854 I MC HELPER: onTransact code:24
+04-10 11:41:55.192  1136  1226 I DisplayManagerService: Y2D0ExhXIHRVjvrhWlw5ZCqO94JNJJ4nW2ThMgPy6ZPVn8YLvHjnrleaGOLk4KQxajR0FjFP28mO+KV21mN7Ig==
+04-10 11:41:55.194   601  1080 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+04-10 11:41:55.194   601  1080 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+04-10 11:41:55.194   601  1080 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+04-10 11:41:55.206  1136  1136 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:55.206  1136  1136 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+Phh+3x2uYjRikIFgLr3sfH2mCZ7jWt8Wvb+c8b78qYa4FOKCPrfaMAb8G/1IoXaa9phIqKPN55p68PIjNYD4mWA==
+04-10 11:41:55.206  1136  1136 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH9Xqw9+HkAxkMO6Q/jPbGMdHeJM6ejN4eH9K/rATPZD7reRbcAdXm73DjqcVYPQo8yRAGvBkORAahH1FEpYuotQ=
+04-10 11:41:55.207  2831  2854 D MC HELPER: pid: 1972 pkgName: com.android.launcher3  Label: Quickstep
+04-10 11:41:55.208  1136  1563 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f0Z30OIDrVT0Fm6PUS6IhgFtxUp71WiNXC6qoGBkAi0m37yFH0mgLRG7fEPPbemQmi/iJFCA9rJCm6+5cMbficAUfGf3gZDbYa20SG1LiYVhQ==
+04-10 11:41:55.231  1622  1622 D KeyguardUpdateMonitor: handleTimeUpdate
+04-10 11:41:55.232  1622  1622 D KeyguardUpdateMonitor: handleTimeUpdate
+04-10 11:41:55.233  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:55.235  1136  1565 V AlarmManager: uRi4p/nPbA6RNLcaJYp217vEruEyxxO/lCy+HxhS7f1xbtRtq+C/osQPBtPGOLKKlwseXW24dc5a7HGiJ8WyA6y+Pcgy0BWVBfwtKj9CECIy/ZomivzSfw29/ZG0ewO/h9NuLCgr/KK90Q0xa0QJmQ==
+04-10 11:41:55.239  1136  1286 I DisplayPowerController: 0/c2/fNnia6XWTm3mli4+nfzWkRJL7L20PDDVEBEnmYmiYYJrMDD+klJKkx/0/1+
+04-10 11:41:55.240  1136  1565 V AlarmManager: WKkvTwufn9e5nebK/w+ibyrJLJdwLTvrpqczzW1aZJVFH5JbzME7XXfKlBLBQqcwO5DNn2Q6QjZXPGF+rtgJLDqLYDr1KMtwILwjmYfh58aSXqy790hsjmTF6d3fseNlOybFEirxOLTy+jHZIul/kA==
+04-10 11:41:55.240  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFHy9ODsLPQIhap41k9f95J57GMgpXifvUEfrJcT69sKYyxvNz1ugIwsLGTLnMYtqHCLwOOk3Xq3ugRyUsvZTYLy4=
+04-10 11:41:55.261  2605  2605 D NfcService: MSG_APPLY_SCREEN_STATE 8
+04-10 11:41:55.681   630   630 D SurfaceFlinger: Finished setting power mode 2 on display 0
+04-10 11:41:55.681  1136  1594 D SurfaceControl: Excessive delay in setPowerMode()
+04-10 11:41:55.682  1136  1286 W PowerManagerService: CPG8xObU/ihBTuCR3idtzft5gCPZCJZgzxXACcPfLTQ=
+04-10 11:41:55.685  1622  3354 D KeyguardViewMediator: notifyScreenTurnedOn
+04-10 11:41:55.686  1622  1622 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+04-10 11:41:57.152  1622  1622 V KeyguardStatusView: Enable transport text marquee
+04-10 11:41:58.068  1136  2578 D WificondControl: Scan result ready event
+04-10 11:41:58.068  1136  1565 V AlarmManager: gE67t5rgupZsbz+O/1/YliWEsWbZnMmDqxK3fmOfgObUK1M89I95DlmbXQFUc7aU
+04-10 11:41:58.069  1136  1565 V AlarmManager: D+l45DDlYj+HAmwobJxMWVHXcbUL4qy1Xjtu4W5JeAX5E5uf4RufChZEDBm2nr+PtDD1Fv3erGbO4ms8HkUUOHQTp1fzVyVNpz/9se6uDYjsfN+gVi8mxCHUWGb4W5hZtZYpvb5Ffe2s+xGjp8WysA==
+04-10 11:41:58.069  1136  1565 V AlarmManager: Mj2jDl1Qu0QTQ/b6VWtFH3lQqAqHb6oZ0q8ct6xob2nrLcETFS8jKIcAeNY43l3XRmPa9J3D4+i8QTMTrqqJOhjxxUgkn8MAFbwDLPnilw0=
+04-10 11:41:58.083  1136  1563 D WifiNetworkSelector: No configured networks.
+04-10 11:41:58.084  1136  1563 D WifiNetworkSelector: Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 40:32:9d:09:8c:81 / de:47:32:eb:e5:1e / 
+04-10 11:41:58.084  1136  1563 D WifiNetworkSelector: Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-82 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-86 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-90 / 
+04-10 11:41:58.084  1136  1563 D WifiNetworkSelector: About to run SavedNetworkEvaluator :
+04-10 11:41:58.085  1136  1563 D WifiNetworkSelector: About to run NetworkSuggestionEvaluator :
+04-10 11:41:58.085  1136  1563 D WifiNetworkSelector: About to run PasspointNetworkEvaluator :
+04-10 11:41:58.089  1136  1563 D WifiNetworkSelector: About to run CarrierNetworkEvaluator :
+04-10 11:41:58.089  1136  1563 D WifiNetworkSelector: About to run ScoredNetworkEvaluator :
+04-10 11:41:58.089  1136  1563 D WifiNetworkSelector: BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+04-10 11:41:58.089  1136  1563 D WifiNetworkSelector: CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+04-10 11:41:58.090  1136  1563 D WifiNetworkSelector: ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+04-10 11:41:58.738  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:41:58.738  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:41:58.738  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:41:58.740  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:58.740  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:41:58.740  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:41:58.740  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:41:58.751  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:41:59.836  2702  3146 I .dataacqservic: Explicit concurrent copying GC freed 1433(272KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 1007KB/2543KB, paused 138us total 19.663ms
+04-10 11:42:00.000  1136  1548 V AlarmManager: j7wJ40+mi2AcOeYz8Siywqv4Lu3f7kJrcFxfjFkLFceAUjDKzqq3X3tNMGN8rKXgzUw8aFQv9ffCtLPtJjSQ+g==
+04-10 11:42:00.001  1136  1548 V AlarmManager: K7OggPjqeERSPCs+77hNgI4vI25g3ugHictmPegT5dMsXtu3LQkWfEYRHm5H4x77iercQBDmQ/xkS7lA2xhkvA==
+04-10 11:42:00.001  1136  1548 V AlarmManager: 79xwGzh/Eydgx94mZCecUKiFlSLoDtJ5hg5xIY98lhRyZw76O9OblVmWVUTzt0exLiKp/zfuJMHa5NuYNZXGWw==
+04-10 11:42:00.001  1136  1548 V AlarmManager: uywD0+P5zBgjYwVd+GDDiVf05D5268YjXQ+CPo7LBp9KD5Ybr1JW96O3q/rnR4JgkUXptEffbAStLpUomYN/gYtCUy/+Qyx/QPY5LYxPwbw=
+04-10 11:42:00.001  1136  1548 V AlarmManager: ro5+7qDQABhngNONz/BJ1hEhdwDaiu3d6RvbgtPlKBmVKuyEIegKVZqmhrBG7kGL
+04-10 11:42:00.001  1136  1548 V AlarmManager: uRi4p/nPbA6RNLcaJYp21+xNnMZWUWfK3m43gePE2LXt1cZmBjFs5g/tFn+HUoD0N96lj1a0Ixeqn0uWdkNoO9B7AiDoC3MLdIh5V8Spr54NftimdtpBxpf2ay/sWUkRRrF28nsboz00Z1YzP1IG+A==
+04-10 11:42:00.001  1136  1548 D AlarmManager: 60A/KKKlBlF/9n5e472fD5YJxCU8mbCTeqfxq9hqP90=
+04-10 11:42:00.003  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+04-10 11:42:00.003  1622  1622 D KeyguardUpdateMonitor: handleTimeUpdate
+04-10 11:42:00.004  1136  1136 I AlarmManager: saeH6It7rqTJYCgVeHZlaEevG8vHPLARkzNMsS7zt7LVjl/JDY7M3T0V+tTDabuP8+6+FG/guF4o8vgM8c+Tw0K9jmKRTpkFZmP0gIRYzUU=
+04-10 11:42:00.004  1136  1136 D AlarmManager: 60A/KKKlBlF/9n5e472fD434MypbpFEpw6AFKdmsXjw=
+04-10 11:42:00.022  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:42:03.778  1622  1622 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-10 11:42:03.779  1836  1836 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+04-10 11:42:03.780  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:42:03.780  1622  1622 I chatty  : uid=10034(com.android.systemui) identical 1 line
+04-10 11:42:03.780  1622  1622 I BatteryMeterView: onBatteryStatusChanged status = 5 present = true
+04-10 11:42:03.780  1622  1622 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-10 11:42:03.781  1622  1622 I KeyguardIndication: batteryHealth:2 batteryPresent=true status=5
+04-10 11:42:03.799  1622  1622 E QSAnimator: tileView is null cast
+04-10 11:42:06.801   617   617 E WifiHAL : wifi_get_wake_reason_stats: Wake lock logging feature not supported 0
+04-10 11:42:06.802  1136  2578 E WifiVendorHal: getWlanWakeReasonCount(l.2103) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+04-10 11:42:06.803  1136  2578 W WifiDiags: CaptureBugReport 7
+
+--------------------------------------------------------------------
+Last Flush Time: {}
+--------------------------------------------------------------------
+No fates fetched for "Last failed connection fates"
+HAL provided zero fates for "Latest fates"
+No last mile log for "Last failed last-mile log"
+-------------------------- Latest last-mile log ---------------------------
+# tracer: nop
+#
+# entries-in-buffer/entries-written: 0/0   #P:4
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+IpClient logs have moved to dumpsys network_stack
+Dump of WifiConnectivityManager
+WifiConnectivityManager - Log Begin ----
+2025-04-10T11:34:47.417 - ScoredNetworkEvaluator constructed. mNetworkRecommendationsEnabled: false
+2025-04-10T11:34:47.477 - PNO settings: min5GHzRssi -77 min24GHzRssi -80 currentConnectionBonus 16 sameNetworkBonus 24 secureNetworkBonus 80 initialScoreMax 112
+2025-04-10T11:34:47.486 - handleScreenStateChanged: screenOn=true
+2025-04-10T11:34:47.486 - startConnectivityScan: screenOn=true wifiState=unknown scanImmediately=false wifiEnabled=false wifiConnectivityManagerEnabled=false
+2025-04-10T11:34:52.964 - Set WiFi enabled
+2025-04-10T11:34:52.964 - Stopping WifiConnectivityManager
+2025-04-10T11:34:52.965 - handleConnectionStateChanged: state=disconnected
+2025-04-10T11:34:52.965 - scheduleWatchdogTimer
+2025-04-10T11:34:52.966 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=false
+2025-04-10T11:34:53.225 - setTrustedConnectionAllowed: allowed=true
+2025-04-10T11:34:53.225 - Set WiFiConnectivityManager enabled
+2025-04-10T11:34:53.225 - Starting up WifiConnectivityManager
+2025-04-10T11:34:53.228 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+2025-04-10T11:34:54.172 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:34:54.172 - No configured networks.
+2025-04-10T11:34:54.173 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9e / de:47:32:eb:e5:9f / de:47:32:ec:28:ca / de:47:32:eb:e5:1f / 
+2025-04-10T11:34:54.173 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-79 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-90 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-88 / 
+2025-04-10T11:34:54.174 - About to run SavedNetworkEvaluator :
+2025-04-10T11:34:54.174 - did not see any good candidates.
+2025-04-10T11:34:54.175 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:34:54.176 - did not see any matching network suggestions.
+2025-04-10T11:34:54.176 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:34:54.198 - No suitable Passpoint network found
+2025-04-10T11:34:54.198 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:34:54.200 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:34:54.210 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:34:54.211 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:34:54.211 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:34:54.211 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:35:13.233 - periodicScanTimerHandler
+2025-04-10T11:35:16.092 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:35:16.092 - No configured networks.
+2025-04-10T11:35:16.093 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9e / de:47:32:eb:e5:9f / de:47:32:ec:28:ca / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 
+2025-04-10T11:35:16.093 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-80 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-89 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-89 / 
+2025-04-10T11:35:16.093 - About to run SavedNetworkEvaluator :
+2025-04-10T11:35:16.093 - did not see any good candidates.
+2025-04-10T11:35:16.093 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:35:16.094 - did not see any matching network suggestions.
+2025-04-10T11:35:16.094 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:35:16.096 - No suitable Passpoint network found
+2025-04-10T11:35:16.096 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:35:16.097 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:35:16.097 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:35:16.097 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:35:16.097 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:35:16.097 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:35:53.237 - periodicScanTimerHandler
+2025-04-10T11:35:56.115 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:35:56.116 - No configured networks.
+2025-04-10T11:35:56.116 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 
+2025-04-10T11:35:56.116 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-82 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-84 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-89 / 
+2025-04-10T11:35:56.117 - About to run SavedNetworkEvaluator :
+2025-04-10T11:35:56.117 - did not see any good candidates.
+2025-04-10T11:35:56.117 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:35:56.117 - did not see any matching network suggestions.
+2025-04-10T11:35:56.117 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:35:56.121 - No suitable Passpoint network found
+2025-04-10T11:35:56.121 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:35:56.121 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:35:56.121 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:35:56.122 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:35:56.122 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:35:56.122 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:37:13.239 - periodicScanTimerHandler
+2025-04-10T11:37:16.105 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:37:16.105 - No configured networks.
+2025-04-10T11:37:16.106 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / de:47:32:eb:e5:9e / 
+2025-04-10T11:37:16.106 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-81 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-90 / Michael fast :d8:47:32:ec:28:cb(5GHz)-87 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-91 / 
+2025-04-10T11:37:16.107 - About to run SavedNetworkEvaluator :
+2025-04-10T11:37:16.107 - did not see any good candidates.
+2025-04-10T11:37:16.107 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:37:16.108 - did not see any matching network suggestions.
+2025-04-10T11:37:16.108 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:37:16.112 - No suitable Passpoint network found
+2025-04-10T11:37:16.112 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:37:16.112 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:37:16.112 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:37:16.112 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:37:16.113 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:37:16.113 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:39:53.239 - periodicScanTimerHandler
+2025-04-10T11:39:56.107 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:39:56.107 - No configured networks.
+2025-04-10T11:39:56.108 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 40:32:9d:09:8c:81 / de:47:32:eb:e5:1e / 
+2025-04-10T11:39:56.108 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-80 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-84 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-89 / 
+2025-04-10T11:39:56.108 - About to run SavedNetworkEvaluator :
+2025-04-10T11:39:56.109 - did not see any good candidates.
+2025-04-10T11:39:56.109 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:39:56.109 - did not see any matching network suggestions.
+2025-04-10T11:39:56.109 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:39:56.113 - No suitable Passpoint network found
+2025-04-10T11:39:56.113 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:39:56.113 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:39:56.114 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:39:56.114 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:39:56.114 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:39:56.114 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+2025-04-10T11:39:58.520 - handleScreenStateChanged: screenOn=true
+2025-04-10T11:39:58.521 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2025-04-10T11:39:58.521 - Last periodic single scan started 5282ms ago, defer this new scan request.
+2025-04-10T11:39:58.560 - handleScreenStateChanged: screenOn=false
+2025-04-10T11:39:58.561 - startConnectivityScan: screenOn=false wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2025-04-10T11:39:58.562 - No saved network for starting disconnected PNO.
+2025-04-10T11:41:55.208 - handleScreenStateChanged: screenOn=true
+2025-04-10T11:41:55.208 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2025-04-10T11:41:58.082 - AllSingleScanListener onResults: start network selection
+2025-04-10T11:41:58.083 - No configured networks.
+2025-04-10T11:41:58.084 - Networks filtered out due to invalid SSID: de:47:32:eb:e5:9f / de:47:32:eb:e5:1f / de:47:32:ec:28:cb / 40:32:9d:09:8c:81 / de:47:32:eb:e5:1e / 
+2025-04-10T11:41:58.084 - Networks filtered out due to low signal strength: Michael fast :d8:47:32:eb:e5:1f(5GHz)-82 / VM73610605.0G:48:d3:43:0c:58:2f(5GHz)-89 / Michael fast :d8:47:32:ec:28:cb(5GHz)-86 / VM 2.4:6a:d3:43:0c:58:2f(5GHz)-90 / 
+2025-04-10T11:41:58.084 - About to run SavedNetworkEvaluator :
+2025-04-10T11:41:58.084 - did not see any good candidates.
+2025-04-10T11:41:58.085 - About to run NetworkSuggestionEvaluator :
+2025-04-10T11:41:58.085 - did not see any matching network suggestions.
+2025-04-10T11:41:58.085 - About to run PasspointNetworkEvaluator :
+2025-04-10T11:41:58.088 - No suitable Passpoint network found
+2025-04-10T11:41:58.088 - About to run CarrierNetworkEvaluator :
+2025-04-10T11:41:58.089 - About to run ScoredNetworkEvaluator :
+2025-04-10T11:41:58.089 - Skipping evaluateNetworks; Network recommendations disabled.
+2025-04-10T11:41:58.089 - BubbleFunScorer_v1 would choose -1 score -Infinity+/-Infinity expid 42598151
+2025-04-10T11:41:58.089 - CompatibilityScorer chooses -1 score -Infinity+/-Infinity expid 42504592
+2025-04-10T11:41:58.089 - ScoreCardBasedScorer would choose -1 score -Infinity+/-Infinity expid 42902385
+WifiConnectivityManager - Log End ----
+WifiOpenNetworkNotifier: 
+mSettingEnabled false
+currentTime: 1744281726883
+mNotificationRepeatTime: 0
+mState: 0
+mBlacklistedSsids: {}
+WifiCarrierNetworkNotifier: 
+mSettingEnabled true
+currentTime: 1744281726883
+mNotificationRepeatTime: 0
+mState: 0
+mBlacklistedSsids: {}
+CarrierNetworkConfig: 
+mCarrierNetworkMap={}
+mIsCarrierImsiEncryptionInfoAvailable=false
+mLastImsiEncryptionInfo=null
+Dump of WakeupController
+USE_PLATFORM_WIFI_WAKE: true
+mWifiWakeupEnabled: true
+isOnboarded: false
+configStore hasBeenRead: true
+mIsActive: false
+mNumScansHandled: 0
+WakeupLock: 
+mNumScans: 0
+mIsInitialized: true
+Locked networks: 0
+Dump of LinkProbeManager
+LinkProbeManager - link probing supported by device: false
+LinkProbeManager - link probing feature flag enabled: false
+LinkProbeManager - mLastLinkProbeTimestampMs: 0
+LinkProbeManager - mLastTxSuccessIncreaseTimestampMs: 0
+LinkProbeManager - mLastTxSuccessCount: 0
+LinkProbeManager - mLastScreenOnTimestampMs: 0
+LinkProbeManager - mTimedQuotaManager: TimedQuotaManager{mQuota=192, mPeriodMillis=86400000, mStartTimeMillis=29897, mLastPeriod=0, mConsumedQuota=0}
+Dump of WifiLastResortWatchdog
+WifiLastResortWatchdog - Log Begin ----
+2025-04-10T11:34:47.476 - updateDeviceConfigFlags: mAbnormalConnectionDurationMs = 30000, mAbnormalConnectionBugreportEnabled = false
+WifiLastResortWatchdog - Log End ----
+
+WifiScoreCard:
+
+WifiMetrics:
+mConnectionEvents:
+mWifiLogProto.numSavedNetworks=0
+mWifiLogProto.numSavedNetworksWithMacRandomization=0
+mWifiLogProto.numOpenNetworks=0
+mWifiLogProto.numLegacyPersonalNetworks=0
+mWifiLogProto.numLegacyEnterpriseNetworks=0
+mWifiLogProto.numEnhancedOpenNetworks=0
+mWifiLogProto.numWpa3PersonalNetworks=0
+mWifiLogProto.numWpa3EnterpriseNetworks=0
+mWifiLogProto.numHiddenNetworks=0
+mWifiLogProto.numPasspointNetworks=0
+mWifiLogProto.isLocationEnabled=false
+mWifiLogProto.isScanningAlwaysEnabled=false
+mWifiLogProto.numNetworksAddedByUser=0
+mWifiLogProto.numNetworksAddedByApps=0
+mWifiLogProto.numNonEmptyScanResults=6
+mWifiLogProto.numEmptyScanResults=0
+mWifiLogProto.numConnecitvityOneshotScans=6
+mWifiLogProto.numOneshotScans=6
+mWifiLogProto.numOneshotHasDfsChannelScans=6
+mWifiLogProto.numBackgroundScans=0
+mWifiLogProto.numExternalAppOneshotScanRequests=0
+mWifiLogProto.numExternalForegroundAppOneshotScanRequestsThrottled=0
+mWifiLogProto.numExternalBackgroundAppOneshotScanRequestsThrottled=0
+mScanReturnEntries:
+  SCAN_UNKNOWN: 0
+  SCAN_SUCCESS: 6
+  SCAN_FAILURE_INTERRUPTED: 0
+  SCAN_FAILURE_INVALID_CONFIGURATION: 0
+  FAILURE_WIFI_DISABLED: 0
+mSystemStateEntries: <state><screenOn> : <scansInitiated>
+  WIFI_UNKNOWN       ON: 0
+  WIFI_DISABLED      ON: 0
+  WIFI_DISCONNECTED  ON: 6
+  WIFI_ASSOCIATED    ON: 0
+  WIFI_UNKNOWN      OFF: 0
+  WIFI_DISABLED     OFF: 0
+  WIFI_DISCONNECTED OFF: 0
+  WIFI_ASSOCIATED   OFF: 0
+mWifiLogProto.numConnectivityWatchdogPnoGood=0
+mWifiLogProto.numConnectivityWatchdogPnoBad=0
+mWifiLogProto.numConnectivityWatchdogBackgroundGood=0
+mWifiLogProto.numConnectivityWatchdogBackgroundBad=0
+mWifiLogProto.numLastResortWatchdogTriggers=0
+mWifiLogProto.numLastResortWatchdogBadAssociationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadAuthenticationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadDhcpNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadOtherNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogAvailableNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAssociation=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAuthentication=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadDhcp=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadOther=0
+mWifiLogProto.numLastResortWatchdogSuccesses=0
+mWifiLogProto.watchdogTotalConnectionFailureCountAfterTrigger=0
+mWifiLogProto.watchdogTriggerToConnectionSuccessDurationMs=-1
+mWifiLogProto.recordDurationSec=440
+mWifiLogProto.rssiPollCount: {}
+mWifiLogProto.rssiPollDeltaCount: Printing counts for [-127, 127]
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.linkSpeedCounts: 
+mWifiLogProto.alertReasonCounts=()
+mWifiLogProto.numTotalScanResults=82
+mWifiLogProto.numOpenNetworkScanResults=0
+mWifiLogProto.numLegacyPersonalNetworkScanResults=82
+mWifiLogProto.numLegacyEnterpriseNetworkScanResults=0
+mWifiLogProto.numEnhancedOpenNetworkScanResults=0
+mWifiLogProto.numWpa3PersonalNetworkScanResults=0
+mWifiLogProto.numWpa3EnterpriseNetworkScanResults=0
+mWifiLogProto.numHiddenNetworkScanResults=26
+mWifiLogProto.numHotspot2R1NetworkScanResults=0
+mWifiLogProto.numHotspot2R2NetworkScanResults=0
+mWifiLogProto.numScans=6
+mWifiLogProto.WifiScoreCount: [0, 60]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.WifiUsabilityScoreCount: [0, 100]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.SoftApManagerReturnCodeCounts:
+  SUCCESS: 0
+  FAILED_GENERAL_ERROR: 0
+  FAILED_NO_CHANNEL: 0
+
+mWifiLogProto.numHalCrashes=0
+mWifiLogProto.numWificondCrashes=0
+mWifiLogProto.numSupplicantCrashes=0
+mWifiLogProto.numHostapdCrashes=0
+mWifiLogProto.numSetupClientInterfaceFailureDueToHal=0
+mWifiLogProto.numSetupClientInterfaceFailureDueToWificond=0
+mWifiLogProto.numSetupClientInterfaceFailureDueToSupplicant=0
+mWifiLogProto.numSetupSoftApInterfaceFailureDueToHal=0
+mWifiLogProto.numSetupSoftApInterfaceFailureDueToWificond=0
+mWifiLogProto.numSetupSoftApInterfaceFailureDueToHostapd=0
+mWifiLogProto.numSarSensorRegistrationFailures=0
+StaEventList:
+04-10 11:34:52.965 WIFI_ENABLED
+mWifiLogProto.numPasspointProviders=0
+mWifiLogProto.numPasspointProviderInstallation=0
+mWifiLogProto.numPasspointProviderInstallSuccess=0
+mWifiLogProto.numPasspointProviderUninstallation=0
+mWifiLogProto.numPasspointProviderUninstallSuccess=0
+mWifiLogProto.numPasspointProvidersSuccessfullyConnected=0
+mWifiLogProto.installedPasspointProfileTypeForR1:{}
+mWifiLogProto.installedPasspointProfileTypeForR2:{}
+mWifiLogProto.passpointProvisionStats.numProvisionSuccess=0
+mWifiLogProto.passpointProvisionStats.provisionFailureCount:{}
+mWifiLogProto.numRadioModeChangeToMcc=0
+mWifiLogProto.numRadioModeChangeToScc=0
+mWifiLogProto.numRadioModeChangeToSbs=0
+mWifiLogProto.numRadioModeChangeToDbs=0
+mWifiLogProto.numSoftApUserBandPreferenceUnsatisfied=0
+mTotalSsidsInScanHistogram:{3=1, 4=5}
+mTotalBssidsInScanHistogram:{6=1, 7=1, 8=2, 9=2}
+mAvailableOpenSsidsInScanHistogram:{0=6}
+mAvailableOpenBssidsInScanHistogram:{0=6}
+mAvailableSavedSsidsInScanHistogram:{0=6}
+mAvailableSavedBssidsInScanHistogram:{0=6}
+mAvailableOpenOrSavedSsidsInScanHistogram:{0=6}
+mAvailableOpenOrSavedBssidsInScanHistogram:{0=6}
+mAvailableSavedPasspointProviderProfilesInScanHistogram:{0=6}
+mAvailableSavedPasspointProviderBssidsInScanHistogram:{0=6}
+mWifiLogProto.partialAllSingleScanListenerResults=0
+mWifiLogProto.fullBandAllSingleScanListenerResults=6
+mWifiAwareMetrics:
+mLastEnableUsageMs:0
+mLastEnableUsageInThisSampleWindowMs:0
+mAvailableTimeMs:0
+mHistogramAwareAvailableDurationMs:
+mLastEnableAwareMs:0
+mLastEnableAwareInThisSampleWindowMs:0
+mEnabledTimeMs:0
+mHistogramAwareEnabledDurationMs:
+mAttachDataByUid:
+mAttachStatusData:
+mHistogramAttachDuration:
+mMaxPublishInApp:0
+mMaxSubscribeInApp:0
+mMaxDiscoveryInApp:0
+mMaxPublishInSystem:0
+mMaxSubscribeInSystem:0
+mMaxDiscoveryInSystem:0
+mPublishStatusData:
+mSubscribeStatusData:
+mHistogramPublishDuration:
+mHistogramSubscribeDuration:
+mAppsWithDiscoverySessionResourceFailure:
+mMaxPublishWithRangingInApp:0
+mMaxSubscribeWithRangingInApp:0
+mMaxPublishWithRangingInSystem:0
+mMaxSubscribeWithRangingInSystem:0
+mHistogramSubscribeGeofenceMin:
+mHistogramSubscribeGeofenceMax:
+mNumSubscribesWithRanging:0
+mNumMatchesWithRanging:0
+mNumMatchesWithoutRangingForRangingEnabledSubscribes:0
+mMaxNdiInApp:0
+mMaxNdpInApp:0
+mMaxSecureNdpInApp:0
+mMaxNdiInSystem:0
+mMaxNdpInSystem:0
+mMaxSecureNdpInSystem:0
+mMaxNdpPerNdi:0
+mInBandNdpStatusData:
+mOutOfBandNdpStatusData:
+mNdpCreationTimeDuration:
+mNdpCreationTimeMin:-1
+mNdpCreationTimeMax:0
+mNdpCreationTimeSum:0
+mNdpCreationTimeSumSq:0
+mNdpCreationTimeNumSamples:0
+mHistogramNdpDuration:
+mRttMetrics:
+RTT Metrics:
+mNumStartRangingCalls:0
+mOverallStatusHistogram:{}
+AP:numCalls=0, numIndividualCalls=0, perUidInfo={}, numRequestsHistogram={}, requestGapHistogram={}, statusHistogram={}, measuredDistanceHistogram={}
+AWARE:numCalls=0, numIndividualCalls=0, perUidInfo={}, numRequestsHistogram={}, requestGapHistogram={}, statusHistogram={}, measuredDistanceHistogram={}
+mPnoScanMetrics.numPnoScanAttempts=0
+mPnoScanMetrics.numPnoScanFailed=0
+mPnoScanMetrics.numPnoScanStartedOverOffload=0
+mPnoScanMetrics.numPnoScanFailedOverOffload=0
+mPnoScanMetrics.numPnoFoundNetworkEvents=0
+mWifiLinkLayerUsageStats.loggingDurationMs=0
+mWifiLinkLayerUsageStats.radioOnTimeMs=0
+mWifiLinkLayerUsageStats.radioTxTimeMs=0
+mWifiLinkLayerUsageStats.radioRxTimeMs=0
+mWifiLinkLayerUsageStats.radioScanTimeMs=0
+mWifiLinkLayerUsageStats.radioNanScanTimeMs=0
+mWifiLinkLayerUsageStats.radioBackgroundScanTimeMs=0
+mWifiLinkLayerUsageStats.radioRoamScanTimeMs=0
+mWifiLinkLayerUsageStats.radioPnoScanTimeMs=0
+mWifiLinkLayerUsageStats.radioHs20ScanTimeMs=0
+mWifiLogProto.connectToNetworkNotificationCount={}
+mWifiLogProto.connectToNetworkNotificationActionCount={}
+mWifiLogProto.openNetworkRecommenderBlacklistSize=0
+mWifiLogProto.isWifiNetworksAvailableNotificationOn=true
+mWifiLogProto.numOpenNetworkRecommendationUpdates=0
+mWifiLogProto.numOpenNetworkConnectMessageFailedToSend=0
+mWifiLogProto.observedHotspotR1ApInScanHistogram={0=6}
+mWifiLogProto.observedHotspotR2ApInScanHistogram={0=6}
+mWifiLogProto.observedHotspotR1EssInScanHistogram={0=6}
+mWifiLogProto.observedHotspotR2EssInScanHistogram={0=6}
+mWifiLogProto.observedHotspotR1ApsPerEssInScanHistogram={}
+mWifiLogProto.observedHotspotR2ApsPerEssInScanHistogram={}
+mWifiLogProto.observed80211mcSupportingApsInScanHistogram{0=6}
+mSoftApTetheredEvents:
+mSoftApLocalOnlyEvents:
+mWpsMetrics.numWpsAttempts=0
+mWpsMetrics.numWpsSuccess=0
+mWpsMetrics.numWpsStartFailure=0
+mWpsMetrics.numWpsOverlapFailure=0
+mWpsMetrics.numWpsTimeoutFailure=0
+mWpsMetrics.numWpsOtherConnectionFailure=0
+mWpsMetrics.numWpsSupplicantFailure=0
+mWpsMetrics.numWpsCancellation=0
+Wifi power metrics:
+Logging duration (time on battery): 62
+Energy consumed by wifi (mAh): 0.0
+Amount of time wifi is in idle (ms): 0
+Amount of time wifi is in rx (ms): 0
+Amount of time wifi is in tx (ms): 0
+Amount of time kernel is active because of wifi data (ms): 0
+Amount of time wifi is in sleep (ms): 62
+Amount of time wifi is scanning (ms): 0
+Number of packets sent (tx): 0
+Number of bytes sent (tx): 0
+Number of packets received (rx): 0
+Number of bytes sent (rx): 0
+Energy consumed across measured wifi rails (mAh): 0
+Wifi radio usage metrics:
+Logging duration (time on battery): 62
+Amount of time wifi is in scan mode while on battery (ms): 0
+-------WifiWake metrics-------
+mTotalSessions: 0
+mTotalWakeups: 0
+mIgnoredStarts: 0
+mIsInSession: false
+Stored Sessions: 0
+----end of WifiWake metrics----
+mWifiLogProto.isMacRandomizationOn=true
+mWifiLogProto.scoreExperimentId=
+mExperimentValues.wifiIsUnusableLoggingEnabled=true
+mExperimentValues.wifiDataStallMinTxBad=1
+mExperimentValues.wifiDataStallMinTxSuccessWithoutRx=50
+mExperimentValues.linkSpeedCountsLoggingEnabled=true
+mExperimentValues.dataStallDurationMs=1500
+mExperimentValues.dataStallTxTputThrMbps=2
+mExperimentValues.dataStallRxTputThrMbps=2
+mExperimentValues.dataStallTxPerThr=90
+mExperimentValues.dataStallCcaLevelThr=100
+WifiIsUnusableEventList: 
+Hardware Version: 
+mWifiUsabilityStatsEntriesList:
+mWifiUsabilityStatsList:
+mMobilityStatePnoStatsMap:
+device_mobility_state=0,num_times_entered_state=1,total_duration_ms=0,pno_duration_ms=0
+WifiP2pMetrics:
+mConnectionEvents:
+mGroupEvents:
+mWifiP2pStatsProto.numPersistentGroup=0
+mWifiP2pStatsProto.numTotalPeerScans=0
+mWifiP2pStatsProto.numTotalServiceScans=0
+mDppMetrics:
+---Easy Connect/DPP metrics---
+mWifiDppLogProto.numDppConfiguratorInitiatorRequests=0
+mWifiDppLogProto.numDppEnrolleeInitiatorRequests=0
+mWifiDppLogProto.numDppEnrolleeSuccess=0
+---End of Easy Connect/DPP metrics---
+mWifiConfigStoreReadDurationHistogram:{1=1, 4=1}
+mWifiConfigStoreWriteDurationHistogram:{1=1}
+mLinkProbeSuccessRssiCounts:{}
+mLinkProbeFailureRssiCounts:{}
+mLinkProbeSuccessLinkSpeedCounts:{}
+mLinkProbeFailureLinkSpeedCounts:{}
+mLinkProbeSuccessSecondsSinceLastTxSuccessHistogram:{}
+mLinkProbeFailureSecondsSinceLastTxSuccessHistogram:{}
+mLinkProbeSuccessElapsedTimeMsHistogram:{}
+mLinkProbeFailureReasonCounts:{}
+mLinkProbeExperimentProbeCounts:{}
+mNetworkSelectionExperimentPairNumChoicesCounts:{Pair{42598151 42504592}=NetworkSelectionExperimentResults{sameSelectionNumChoicesCounter={0=6}, differentSelectionNumChoicesCounter={}}, Pair{42902385 42504592}=NetworkSelectionExperimentResults{sameSelectionNumChoicesCounter={0=6}, differentSelectionNumChoicesCounter={}}, Pair{0 42504592}=NetworkSelectionExperimentResults{sameSelectionNumChoicesCounter={0=6}, differentSelectionNumChoicesCounter={}}}
+mLinkProbeStaEventCount:0
+mWifiNetworkRequestApiLog:
+num_apps: 0
+num_connect_success: 0
+num_request: 0
+num_user_approval_bypass: 0
+num_user_reject: 0
+
+mWifiNetworkRequestApiMatchSizeHistogram:
+{}
+mWifiNetworkSuggestionApiLog:
+num_connect_failure: 0
+num_connect_success: 0
+num_modification: 0
+
+mWifiNetworkSuggestionApiMatchSizeHistogram:
+{}
+mNetworkIdToNominatorId:
+{}
+mWifiLockStats:
+high_perf_active_time_ms: 0
+low_latency_active_time_ms: 0
+
+mWifiLockHighPerfAcqDurationSecHistogram:
+{}
+mWifiLockLowLatencyAcqDurationSecHistogram:
+{}
+mWifiLockHighPerfActiveSessionDurationSecHistogram:
+{}
+mWifiLockLowLatencyActiveSessionDurationSecHistogram:
+{}
+mWifiToggleStats:
+num_toggle_off_normal: 0
+num_toggle_off_privileged: 0
+num_toggle_on_normal: 0
+num_toggle_on_privileged: 1
+
+mWifiLogProto.numAddOrUpdateNetworkCalls=0
+mWifiLogProto.numEnableNetworkCalls=0
+mWifiLogProto.txLinkSpeedCount2g={}
+mWifiLogProto.txLinkSpeedCount5gLow={}
+mWifiLogProto.txLinkSpeedCount5gMid={}
+mWifiLogProto.txLinkSpeedCount5gHigh={}
+mWifiLogProto.rxLinkSpeedCount2g={}
+mWifiLogProto.rxLinkSpeedCount5gLow={}
+mWifiLogProto.rxLinkSpeedCount5gMid={}
+mWifiLogProto.rxLinkSpeedCount5gHigh={}
+
+Dump of WifiNetworkSuggestionsManager
+WifiNetworkSuggestionsManager - Networks Begin ----
+WifiNetworkSuggestionsManager - Networks End ----
+WifiNetworkSuggestionsManager - Network Suggestions matching connection: null
+
+Dump of WifiBackupRestore
+
+ScoringParams: settings put global wifi_score_params rssi2=-83:-80:-73:-60,rssi5=-80:-77:-70:-57,pps=0:1:100,horizon=15,nud=8,expid=0
+
+WifiScoreReport:
+time,session,netid,rssi,filtered_rssi,rssi_threshold, freq,txLinkSpeed,rxLinkSpeed,tx_good,tx_retry,tx_bad,rx_pps,nudrq,nuds,s1,s2,score
+
+Dump of SarManager
+isSarSupported: false
+isSarVoiceCallSupported: false
+isSarSoftApSupported: false
+isSarSensorSupported: false
+
+

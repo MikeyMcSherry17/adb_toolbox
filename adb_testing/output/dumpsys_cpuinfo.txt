@@ -1,0 +1,144 @@
+Load: 3.14 / 2.68 / 1.33
+CPU usage from 460460ms to 161790ms ago (2025-04-10 11:34:54.512 to 2025-04-10 11:39:53.164):
+  2.1% 1136/system_server: 1.3% user + 0.7% kernel / faults: 20663 minor 170 major
+  0.9% 630/surfaceflinger: 0.5% user + 0.3% kernel / faults: 208 minor
+  0.6% 380/ueventd: 0.5% user + 0% kernel / faults: 244 minor
+  0.5% 1972/com.android.launcher3: 0.4% user + 0.1% kernel / faults: 12144 minor 1 major
+  0.5% 2175/scanserver: 0% user + 0.5% kernel
+  0.4% 609/android.hardware.graphics.composer@2.1-service: 0.2% user + 0.1% kernel / faults: 3104 minor
+  0.2% 1622/com.android.systemui: 0.1% user + 0% kernel / faults: 1937 minor 1 major
+  0.2% 46/kworker/u8:1: 0% user + 0.2% kernel
+  0.1% 532/zygote: 0% user + 0.1% kernel / faults: 4351 minor
+  0.1% 1836/com.android.phone: 0.1% user + 0% kernel / faults: 2577 minor 20 major
+  0.1% 1867/com.android.settings: 0.1% user + 0% kernel / faults: 767 minor
+  0.1% 5/kworker/u8:0: 0% user + 0.1% kernel
+  0.1% 625/kworker/u8:6: 0% user + 0.1% kernel
+  0.1% 283/mmc-cmdqd/0: 0% user + 0.1% kernel
+  0.1% 420/logd: 0.1% user + 0% kernel / faults: 118 minor
+  0.1% 200/kgsl_worker_thr: 0% user + 0.1% kernel
+  0.1% 6/ksoftirqd/0: 0% user + 0.1% kernel
+  0% 18/ksoftirqd/1: 0% user + 0% kernel
+  0% 685/mdss_fb0: 0% user + 0% kernel
+  0% 610/android.hardware.health@2.0-service: 0% user + 0% kernel / faults: 1370 minor
+  0% 820/signserver: 0% user + 0% kernel
+  0% 640/kworker/u8:8: 0% user + 0% kernel
+  0% 792/installd: 0% user + 0% kernel / faults: 207 minor
+  0% 422/hwservicemanager: 0% user + 0% kernel / faults: 1497 minor
+  0% 3/kworker/0:0: 0% user + 0% kernel / faults: 13 minor
+  0% 2416/adbd: 0% user + 0% kernel / faults: 1804 minor 13 major
+  0% 629/lmkd: 0% user + 0% kernel
+  0% 573/kworker/0:3: 0% user + 0% kernel / faults: 12 minor
+  0% 613/android.hardware.memtrack@1.0-service: 0% user + 0% kernel / faults: 980 minor
+  0% 26/ksoftirqd/2: 0% user + 0% kernel
+  0% 421/servicemanager: 0% user + 0% kernel / faults: 84 minor
+  0% 7/rcu_preempt: 0% user + 0% kernel
+  0% 1039/qcrild: 0% user + 0% kernel / faults: 164 minor
+  0% 626/ashmemd: 0% user + 0% kernel / faults: 405 minor
+  0% 10/rcuop/0: 0% user + 0% kernel
+  0% 2330/VosMCThread: 0% user + 0% kernel
+  0% 458/android.hardware.msck@1.0-service: 0% user + 0% kernel / faults: 28 minor
+  0% 1055/qcrild: 0% user + 0% kernel / faults: 87 minor
+  0% 19/kworker/1:0: 0% user + 0% kernel
+  0% 619/vendor.qti.hardware.perf@2.0-service: 0% user + 0% kernel / faults: 623 minor 4 major
+  0% 800/media.extractor: 0% user + 0% kernel / faults: 463 minor
+  0% 1600/kworker/1:3: 0% user + 0% kernel
+  0% 2432/sugov:0: 0% user + 0% kernel
+  0% 29/rcuop/2: 0% user + 0% kernel
+  0% 289/kworker/2:1: 0% user + 0% kernel
+  0% 808/mediaserver: 0% user + 0% kernel / faults: 175 minor
+  0% 2050/android.ext.services: 0% user + 0% kernel / faults: 1223 minor
+  0% 1/init: 0% user + 0% kernel / faults: 178 minor
+  0% 290/irq/38-spdm_bw_: 0% user + 0% kernel
+  0% 464/jbd2/mmcblk0p59: 0% user + 0% kernel
+  0% 627/audioserver: 0% user + 0% kernel / faults: 3 minor
+  0% 668/rmt_storage: 0% user + 0% kernel / faults: 3 minor
+  0% 812/wificond: 0% user + 0% kernel / faults: 224 minor
+  0% 1695/com.smartpos.btbaseservice: 0% user + 0% kernel / faults: 1270 minor
+  0% 34/ksoftirqd/3: 0% user + 0% kernel
+  0% 377/kworker/2:2: 0% user + 0% kernel
+  0% 456/android.hardware.customconfigs@1.0-service: 0% user + 0% kernel / faults: 64 minor
+  0% 2093/com.android.inputmethod.latin: 0% user + 0% kernel / faults: 339 minor
+  0% 2318/titan.android.systemfunction: 0% user + 0% kernel / faults: 497 minor 1 major
+  0% 2331/VosTXThread: 0% user + 0% kernel
+  0% 21/rcuop/1: 0% user + 0% kernel
+  0% 37/rcuop/3: 0% user + 0% kernel
+  0% 41/kworker/3:1: 0% user + 0% kernel
+  0% 574/kworker/0:4: 0% user + 0% kernel
+  0% 617/android.hardware.wifi@1.0-service: 0% user + 0% kernel / faults: 611 minor
+  0% 641/se_server: 0% user + 0% kernel
+  0% 645/epp_server: 0% user + 0% kernel / faults: 12 minor
+  0% 794/keystore: 0% user + 0% kernel / faults: 335 minor
+  0% 1806/com.march.btlocalserversocket: 0% user + 0% kernel / faults: 753 minor 1 major
+  0% 424/android.hardware.keymaster@4.0-service-qti: 0% user + 0% kernel / faults: 16 minor
+  0% 427/vold: 0% user + 0% kernel / faults: 8 minor
+  0% 444/qseecomd: 0% user + 0% kernel / faults: 80 minor
+  0% 531/netd: 0% user + 0% kernel / faults: 2 minor
+  0% 603/android.system.suspend@1.0-service: 0% user + 0% kernel / faults: 3 minor
+  0% 646/pinpad_server: 0% user + 0% kernel
+  0% 745/thermal-engine: 0% user + 0% kernel
+  0% 810/perfservice: 0% user + 0% kernel / faults: 19 minor
+  0% 818/printerserver: 0% user + 0% kernel / faults: 184 minor
+  0% 2356/wpa_supplicant: 0% user + 0% kernel / faults: 117 minor
+  0% 27/kworker/2:0: 0% user + 0% kernel
+  0% 58/system: 0% user + 0% kernel
+  0% 297/kworker/1:2: 0% user + 0% kernel
+  0% 312/kworker/0:1H: 0% user + 0% kernel
+  0% 493/loop6: 0% user + 0% kernel
+  0% 515/customconfigsd: 0% user + 0% kernel / faults: 76 minor
+  0% 541/kworker/u9:5: 0% user + 0% kernel
+  0% 578/kworker/u8:5: 0% user + 0% kernel
+  0% 607/android.hardware.gnss@2.0-service-qti: 0% user + 0% kernel / faults: 34 minor
+  0% 608/android.hardware.graphics.allocator@2.0-service: 0% user + 0% kernel / faults: 63 minor
+  0% 612/android.hardware.light@2.0-service: 0% user + 0% kernel / faults: 1 minor
+  0% 639/msck_server: 0% user + 0% kernel / faults: 9 minor
+  0% 664/usbh_init: 0% user + 0% kernel
+  0% 700/sensors.qti: 0% user + 0% kernel / faults: 5 minor
+  0% 744/time_daemon: 0% user + 0% kernel
+  0% 761/cameraserver: 0% user + 0% kernel / faults: 63 minor
+  0% 801/media.metrics: 0% user + 0% kernel / faults: 18 minor
+  0% 811/storaged: 0% user + 0% kernel / faults: 241 minor
+  0% 813/famserver: 0% user + 0% kernel / faults: 5 minor
+  0% 817/rfcardhwserver: 0% user + 0% kernel / faults: 5 minor
+  0% 819/masterControl_PIE: 0% user + 0% kernel / faults: 156 minor
+  0% 840/netmgrd: 0% user + 0% kernel / faults: 72 minor
+  0% 849/cnss-daemon: 0% user + 0% kernel
+  0% 865/android.epay.hidlrouter@1.0-product-service: 0% user + 0% kernel / faults: 2 minor
+  0% 876/netguard_server: 0% user + 0% kernel / faults: 214 minor
+  0% 889/android.epay.hidlrouter@1.0-vendor-service: 0% user + 0% kernel / faults: 8 minor
+  0% 1091/kworker/3:3: 0% user + 0% kernel
+  0% 2179/luker.android.perm.checker: 0% user + 0% kernel / faults: 206 minor
+  0% 2218/com.qualcomm.qcrilmsgtunnel: 0% user + 0% kernel / faults: 192 minor
+  0% 2260/luker.android.trs: 0% user + 0% kernel / faults: 181 minor
+  0% 2332/VosRXThread: 0% user + 0% kernel
+  0% 2352/wlan_logging_th: 0% user + 0% kernel
+  0% 2425/irq/89-408000.q: 0% user + 0% kernel
+ +0% 2542/com.smartpos.dataacq.checkin: 0% user + 0% kernel
+ +0% 2572/com.landicorp.pinpad.pinentry.server: 0% user + 0% kernel
+ +0% 2605/com.android.nfc: 0% user + 0% kernel
+ +0% 2628/titan.android.perm.checker: 0% user + 0% kernel
+ +0% 2653/titan.android.scandecoder: 0% user + 0% kernel
+ +0% 2679/com.smartpos.android.netguard: 0% user + 0% kernel
+ +0% 2702/com.smartpos.dataacqservice: 0% user + 0% kernel
+ +0% 2730/com.android.printspooler: 0% user + 0% kernel
+ +0% 2742/com.qualcomm.location.XT: 0% user + 0% kernel
+ +0% 2769/com.android.managedprovisioning: 0% user + 0% kernel
+ +0% 2784/android.process.media: 0% user + 0% kernel
+ +0% 2831/com.smartpos.android.mch: 0% user + 0% kernel
+ +0% 2861/com.android.keychain: 0% user + 0% kernel
+ +0% 2867/android.process.acore: 0% user + 0% kernel
+ +0% 2881/com.android.carrierconfig: 0% user + 0% kernel
+ +0% 2923/com.android.packageinstaller: 0% user + 0% kernel
+ +0% 2967/com.android.permissioncontroller: 0% user + 0% kernel
+ +0% 3001/com.gpush.service: 0% user + 0% kernel
+ +0% 3027/com.manu.android.remotelogservice: 0% user + 0% kernel
+ +0% 3049/com.manu.firmmanager: 0% user + 0% kernel
+ +0% 3069/com.android.localtransport: 0% user + 0% kernel
+ +0% 3109/com.qualcomm.telephony: 0% user + 0% kernel
+ +0% 3147/com.smartpos.updatemanagerservice: 0% user + 0% kernel
+ +0% 3175/com.usdk.apiservice: 0% user + 0% kernel
+ +0% 3201/com.android.bluetooth: 0% user + 0% kernel
+ +0% 3226/org.codeaurora.snapcam: 0% user + 0% kernel
+ +0% 3301/com.smartpos.udiskinstaller: 0% user + 0% kernel
+ +0% 3329/kworker/3:4: 0% user + 0% kernel
+ +0% 3331/kworker/1:4: 0% user + 0% kernel
+4% TOTAL: 1.7% user + 1.3% kernel + 0% iowait + 0.8% irq + 0% softirq
